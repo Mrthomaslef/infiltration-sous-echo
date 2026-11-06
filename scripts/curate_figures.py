@@ -78,7 +78,7 @@ CUR = {
   G("gc20_p30_f0", "Coupe axiale antérieure du coude : tendon distal du biceps (T BIC), épanchement péritendineux (LIQ) et artère brachiale (ART) à éviter avant ponction.")],
  "poignet-de-quervain": [
   S(38,"017","De Quervain : poignet en flexion ulnaire, repérage axial, voie d'abord longitudinale (ou axiale)."),
-  G("gc25_p51_f0", "Infiltration d'une ténosynovite de De Quervain, technique du gel pad (étoile) : aiguille (flèches creuses) dans le rétinaculum épaissi et la gaine du 1er compartiment (coupes axiales ; a : Doppler).", v1=True),
+  G("gc25_p51_f0", "Infiltration d'une ténosynovite de De Quervain, technique du gel pad (étoile) : aiguille (flèches creuses) dans le rétinaculum épaissi et la gaine du 1er compartiment, en préservant la branche superficielle du nerf radial (têtes de flèche) (coupes axiales ; a : Doppler).", v1=True),
   G("gc22_p60_f0", "Fig. 8 : Abord dans le grand axe des tendons. a – bord ulnaire de la main posé sur un tube de gel ; b – coupe axiale : pas de cloison entre court extenseur (CE) et long abducteur (LA), rétinaculum épaissi hyperhémique ; c – trajet de l'aiguille au contact des tendons et du rétinaculum ; d – diffusion du produit dans la gaine (**)."),
   G("gc22_p60_f1", "Fig. 9 : Abord axial transverse (recommandé dans le type II avec cloison). a – position (simulation) ; b-c – trajet idéal (pointillés) traversant la cloison sans traverser les tendons (LA, CE) ; le gel pad (GP) évite la branche sensitive du nerf radial (flèche)."),
   G("gc25_p52_f0", "Type II avec septum : a – gaine du court extenseur inflammatoire (Doppler) et long abducteur normal ; b – mise en place sélective de l'aiguille dans la gaine atteinte.", v1=True)],
@@ -98,7 +98,7 @@ CUR = {
  "main-rhizarthrose-pisotriquetrale": [
   S(38,"062","Rhizarthrose, voie d'abord palmaire : repérage « axe commissure ou M2 »."),
   G("gc22_p59_f0", "Fig. 7 : Rhizarthrose. a – voie d'abord sagittale oblique ascendante simulée sur la radiographie ; b-c – avec le gel pad (GP), l'aiguille entre dans l'articulation entre les ostéophytes du trapèze (Tz) et de M1 ; distension synoviale (**) à l'injection de xylocaïne."),
-  G("gc25_p53_f2", "Rhizarthrose, abord palmaire en coupe sagittale : a – progression de l'aiguille (flèche creuse) ; b – aiguille dans l'interligne trapèze (T) – M1 ; c – injection.", v1=True),
+  G("gc25_p53_f2", "Rhizarthrose, abord palmaire en coupe sagittale : a – progression de l'aiguille (flèche creuse) ; b – aiguille dans l'interligne trapèze (T) – M1 ; c – injection intra-articulaire : contenu échogène, mouvements browniens (flèche).", v1=True),
   S(38,"066","Coupe sagittale à la base de l'éminence thénar, dans l'axe du 2e rayon."),
   S(38,"068","Critère de réussite : distension synoviale, mouvements browniens."),
   G("gc25_p55_f1", "Kyste piso-triquétral (coupes axiales) : a – kyste (flèche) au contact du nerf ulnaire (tête de flèche) ; b – affaissement du kyste au cathlon (flèche creuse) en évitant le nerf ulnaire.", v1=True)],
@@ -120,9 +120,9 @@ CUR = {
   G("gc26_p22_f0", "Fig. 10 : Coupe axiale — trajectoire de l'aiguille lors de l'infiltration de la bourse ilio-psoas, au contact d'un débord antérieur de cupule (flèches).", v1=True),
   G("gc21_p56_f0", "Fig. 12 : Double conflit PTH – ilio-psoas (cotyle saillant et vis intrapsoïque) : bilan radiographique et TDM (A-D), repérage échographique (E) et infiltration échoguidée au contact de la vis, sous les vaisseaux iliaques (F).")],
  "hanche-moyen-gluteal": [
-  G("gc16_p14_f0", "Fig. 3A : Ponction-infiltration péri-trochantérienne par voie latérale : position de la sonde et trajet de l'aiguille vers une bursite superficielle."),
+  G("gc16_p14_f1", "Fig. 3B : Ponction-infiltration péri-trochantérienne par voie latérale : position de la sonde et trajet de l'aiguille vers une bursite superficielle."),
   G("gc16_p14_f2", "Fig. 3C : Coupe écho coronale : aiguille (têtes de flèche) dans la bursite (flèche), en superficie du moyen glutéal et du grand trochanter (TROCH)."),
-  G("gc16_p14_f1", "Fig. 3B : Variante pour une bursite profonde (sous le moyen glutéal) : trajet de l'aiguille."),
+  G("gc16_p14_f0", "Fig. 3A : Variante pour une bursite profonde (sous le tendon du moyen glutéal) : trajet de l'aiguille."),
   G("gc21_p57_f0", "Fig. 14 : Moyen glutéal : rupture de la lame latérale (A, B) ; bursopathie trochantérienne superficielle en coupe axiale avec trajet de ponction-infiltration (C, D).")],
  "bassin-piriforme-alcock-pubalgie": [],
  "rachis-hydrodissection-lombaire-esp": [
@@ -153,9 +153,9 @@ CUR = {
   G("gc20_p42_f1"),
   G("gc30_p123_f0", "Fig. 8 : Injection de PRP intratendineuse dans le tendon d'Achille (approche latérale vers médiale, coupe transversale) ; position de la sonde.", v1=True)],
  "pied-aponevrosite-plantaire": [
+  G("gc16_p16_f0", v1=True),
   G("gc33_p83_f0", "Fig. 11 : Infiltration (ici PRP, après bloc tibial) de l'aponévrose plantaire, abord sagittal : positionnement de la sonde et de l'aiguille.", v1=True),
-  G("gc33_p83_f1", "Fig. 12 : Coupe sagittale correspondante, sans (a) et avec (b) annotations : aiguille au contact de l'aponévrose, calcanéus.", v1=True),
-  G("gc16_p16_f0", v1=True)],
+  G("gc33_p83_f1", "Fig. 12 : Coupe sagittale correspondante, sans (a) et avec (b) annotations : aiguille au contact de l'aponévrose, calcanéus.", v1=True)],
  "pied-nevrome-morton": [
   S(117,"121","Nerfs interdigitaux : position de la sonde sur l'espace inter-métatarsien et coupe correspondante."),
   S(117,"125","Infiltration du pseudo-névrome de Morton : aiguille (trait blanc) au contact du névrome (bleu), nerf interdigital (jaune)."),
@@ -202,6 +202,12 @@ def tidy(t):
         t = t[:cut + 1] if cut > 40 else t.rstrip(" ,;:") + "…"
     return t
 
+# Recadrages d'anonymisation (bandeaux IRM, visage) — coordonnées dans l'image source
+CROP = {
+    "gc25_p52_f1": (60, 40, 760, 505),   # bandeaux IRM (nom/âge patient, machine)
+    "gc23_p53_f0": (0, 0, 495, 449),     # visage du patient
+}
+
 def materialize(item):
     src = item["src"]
     if src.startswith("s"):
@@ -214,6 +220,7 @@ def materialize(item):
         base = F1 if item.get("v1") and os.path.exists(f"{F1}/{src}.jpg") else F2
         if not os.path.exists(f"{base}/{src}.jpg"): base = F1
         im = Image.open(f"{base}/{src}.jpg").convert("RGB")
+        if src in CROP: im = im.crop(CROP[src])
         legend = item["legend"] or LEG.get(src + ".jpg", "")
         out = f"assets/figs/{src}.jpg"
     im.thumbnail((1400, 1400))

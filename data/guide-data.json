@@ -524,7 +524,7 @@
       ],
       "legends": [
         "De Quervain : poignet en flexion ulnaire, repérage axial, voie d'abord longitudinale (ou axiale).",
-        "Infiltration d'une ténosynovite de De Quervain, technique du gel pad (étoile) : aiguille (flèches creuses) dans le rétinaculum épaissi et la gaine du 1er compartiment (coupes axiales ; a : Doppler).",
+        "Infiltration d'une ténosynovite de De Quervain, technique du gel pad (étoile) : aiguille (flèches creuses) dans le rétinaculum épaissi et la gaine du 1er compartiment, en préservant la branche superficielle du nerf radial (têtes de flèche) (coupes axiales ; a : Doppler).",
         "Fig. 8 : Abord dans le grand axe des tendons. a – bord ulnaire de la main posé sur un tube de gel ; b – coupe axiale : pas de cloison entre court extenseur (CE) et long abducteur (LA), rétinaculum épaissi hyperhémique ; c – trajet de l'aiguille au contact des tendons et du rétinaculum ; d – diffusion du produit dans la gaine (**).",
         "Fig. 9 : Abord axial transverse (recommandé dans le type II avec cloison). a – position (simulation) ; b-c – trajet idéal (pointillés) traversant la cloison sans traverser les tendons (LA, CE) ; le gel pad (GP) évite la branche sensitive du nerf radial (flèche).",
         "Type II avec septum : a – gaine du court extenseur inflammatoire (Doppler) et long abducteur normal ; b – mise en place sélective de l'aiguille dans la gaine atteinte."
@@ -693,7 +693,7 @@
       "legends": [
         "Rhizarthrose, voie d'abord palmaire : repérage « axe commissure ou M2 ».",
         "Fig. 7 : Rhizarthrose. a – voie d'abord sagittale oblique ascendante simulée sur la radiographie ; b-c – avec le gel pad (GP), l'aiguille entre dans l'articulation entre les ostéophytes du trapèze (Tz) et de M1 ; distension synoviale (**) à l'injection de xylocaïne.",
-        "Rhizarthrose, abord palmaire en coupe sagittale : a – progression de l'aiguille (flèche creuse) ; b – aiguille dans l'interligne trapèze (T) – M1 ; c – injection.",
+        "Rhizarthrose, abord palmaire en coupe sagittale : a – progression de l'aiguille (flèche creuse) ; b – aiguille dans l'interligne trapèze (T) – M1 ; c – injection intra-articulaire : contenu échogène, mouvements browniens (flèche).",
         "Coupe sagittale à la base de l'éminence thénar, dans l'axe du 2e rayon.",
         "Critère de réussite : distension synoviale, mouvements browniens.",
         "Kyste piso-triquétral (coupes axiales) : a – kyste (flèche) au contact du nerf ulnaire (tête de flèche) ; b – affaissement du kyste au cathlon (flèche creuse) en évitant le nerf ulnaire."
@@ -894,13 +894,13 @@
       "technique": "Abord latéral DANS LE PLAN avec aiguille 21G longue (50 mm) ou spinale 22G selon l'épaisseur adipeuse. Cibler électivement la bourse collectée ou l'espace de glissement superficiel entre le fascia lata et la facette tendineuse atteinte.",
       "pointsCles": "Adapter la voie d'abord (antéro-latérale pour la bourse du petit glutéal, postéro-latérale pour la bourse profonde du moyen glutéal) selon le schéma des facettes trochantériennes (Fig. 3 Dr H. Guérini).",
       "heroSlides": [
-        "assets/figs/gc16_p14_f0.jpg",
+        "assets/figs/gc16_p14_f1.jpg",
         "assets/figs/gc16_p14_f2.jpg"
       ],
       "allSlides": [
-        "assets/figs/gc16_p14_f0.jpg",
-        "assets/figs/gc16_p14_f2.jpg",
         "assets/figs/gc16_p14_f1.jpg",
+        "assets/figs/gc16_p14_f2.jpg",
+        "assets/figs/gc16_p14_f0.jpg",
         "assets/figs/gc21_p57_f0.jpg"
       ],
       "videos": [
@@ -913,9 +913,9 @@
       ],
       "pdfs": [],
       "legends": [
-        "Fig. 3 : A : Ponction-infiltration péri-trochantérienne par voie latérale : position de la sonde et trajet de l'aiguille vers une bursite superficielle.",
+        "Fig. 3 : B : Ponction-infiltration péri-trochantérienne par voie latérale : position de la sonde et trajet de l'aiguille vers une bursite superficielle.",
         "Fig. 3 : C : Coupe écho coronale : aiguille (têtes de flèche) dans la bursite (flèche), en superficie du moyen glutéal et du grand trochanter (TROCH).",
-        "Fig. 3 : B : Variante pour une bursite profonde (sous le moyen glutéal) : trajet de l'aiguille.",
+        "Fig. 3 : A : Variante pour une bursite profonde (sous le tendon du moyen glutéal) : trajet de l'aiguille.",
         "Fig. 14 : Moyen glutéal : rupture de la lame latérale (A, B) ; bursopathie trochantérienne superficielle en coupe axiale avec trajet de ponction-infiltration (C, D)."
       ]
     },
@@ -1234,13 +1234,13 @@
       "technique": "Voie d'abord MÉDIALE DANS LE PLAN (évitant de piquer à travers la peau épaisse et hyperalgique de la plante du pied !). Anesthésie locale traçante avec aiguille 21G (verte) jusqu'à la face superficielle de l'aponévrose plantaire, puis dépôt d'1 ampoule d'Altim® juste en superficie de l'aponévrose (ou PRP intra-fissuraire en cas de fissure chronique).",
       "pointsCles": "Ne jamais injecter de corticoïde en plein corps de la corde centrale de l'aponévrose plantaire (risque de rupture aiguë de l'aponévrose plantaire avec affaissement de l'arche médiale).",
       "heroSlides": [
-        "assets/figs/gc33_p83_f0.jpg",
-        "assets/figs/gc33_p83_f1.jpg"
+        "assets/figs/gc16_p16_f0.jpg",
+        "assets/figs/gc33_p83_f0.jpg"
       ],
       "allSlides": [
+        "assets/figs/gc16_p16_f0.jpg",
         "assets/figs/gc33_p83_f0.jpg",
-        "assets/figs/gc33_p83_f1.jpg",
-        "assets/figs/gc16_p16_f0.jpg"
+        "assets/figs/gc33_p83_f1.jpg"
       ],
       "videos": [],
       "pdfs": [
@@ -1250,9 +1250,9 @@
         }
       ],
       "legends": [
+        "Fig. 6 : Infiltration d’une aponévrosite plantaire : a) simulation de la voie d’abord médiale (sans les mesures d’asepsies habituellement utilisées). b) Explication de la voie d’abord (flèche longue) et de la coupe de référence passant par l’insertion de l’aponévrose plantaire centrale (flèche courte) c) Ponction sous échoscopie selon la coupe frontale correspondant à l’IRM montrant parfaitement le trajet de l’aiguille en superficie de l’aponévrose plantaire (flèche) où sera déposé le dérivé cortisoné.",
         "Fig. 11 : Infiltration (ici PRP, après bloc tibial) de l'aponévrose plantaire, abord sagittal : positionnement de la sonde et de l'aiguille.",
-        "Fig. 12 : Coupe sagittale correspondante, sans (a) et avec (b) annotations : aiguille au contact de l'aponévrose, calcanéus.",
-        "Fig. 6 : Infiltration d’une aponévrosite plantaire : a) simulation de la voie d’abord médiale (sans les mesures d’asepsies habituellement utilisées). b) Explication de la voie d’abord (flèche longue) et de la coupe de référence passant par l’insertion de l’aponévrose plantaire centrale (flèche courte) c) Ponction sous échoscopie selon la coupe frontale correspondant à l’IRM montrant parfaitement le trajet de l’aiguille en superficie de l’aponévrose plantaire (flèche) où sera déposé le dérivé cortisoné."
+        "Fig. 12 : Coupe sagittale correspondante, sans (a) et avec (b) annotations : aiguille au contact de l'aponévrose, calcanéus."
       ]
     },
     {
