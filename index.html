@@ -1079,7 +1079,7 @@
                         Infiltrations sous Écho
                         <span class="sims-badge">SIMS</span>
                     </div>
-                    <div class="brand-subtitle">37 gestes écho-guidés · 295 Planches · 33 Gel Contact · Vidéos SIMS</div>
+                    <div class="brand-subtitle">34 gestes par région · Positionnement sonde & Coupe écho cible</div>
                 </div>
             </div>
 
@@ -1089,7 +1089,7 @@
                         <circle cx="11" cy="11" r="8"></circle>
                         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
-                    <input type="search" id="searchInput" class="search-input" placeholder="Rechercher : BSAD, De Quervain, canal carpien, psoas, bloc tibial, PRP…" autocomplete="off">
+                    <input type="search" id="searchInput" class="search-input" placeholder="Rechercher une infiltration : BSAD, De Quervain, canal carpien, psoas, genou, Morton…" autocomplete="off">
                     <button id="searchClear" class="search-clear" title="Effacer">✕</button>
                 </div>
 
@@ -1110,37 +1110,18 @@
 
     <!-- Main Content -->
     <main class="main-container">
-        <!-- Quick Clinical Safety Memo -->
-        <section class="clinical-memo" aria-label="Mémo sécurité">
-            <div class="memo-items">
-                <span class="memo-tag">🛡️ <strong>Asepsie :</strong> Détersion 4 temps + housse de sonde stérile + gel stérile unidose</span>
-                <span class="memo-tag">💉 <strong>Superficiel & Gaines :</strong> Hydrocortancyl® / Altim® (éviter corticoïdes fluorés atrophiants)</span>
-                <span class="memo-tag">⚡ <strong>Sécurité :</strong> Repérage Doppler systématique · Jamais d'injection intra-tendineuse ou intra-neurale</span>
-            </div>
-            <div class="memo-actions">
-                <a href="https://www.sims-asso.org/uploads/consentement/infiltration_articulaire.pdf" target="_blank" rel="noopener" class="btn-action">
-                    📄 Consentement SIMS
-                </a>
-                <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/10/1.pdf" target="_blank" rel="noopener" class="btn-action">
-                    📘 Gel Contact N°16 (Écho Interv.)
-                </a>
-                <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/44/1.pdf" target="_blank" rel="noopener" class="btn-action">
-                    📘 Gel Contact N°33 (Déc. 2025)
-                </a>
-            </div>
-        </section>
-
-        <!-- Dynamic Procedures & Gel Contact Container -->
+        <!-- Dynamic Procedures Container (Starts directly with infiltrations by region) -->
         <div id="proceduresRoot"></div>
     </main>
 
     <!-- Footer -->
     <footer class="app-footer">
         <div>
-            <strong>Guide d'Infiltration sous Échographie</strong> — Intégrale des ressources de l'espace membre SIMS (<em>Collection complète des 33 numéros de Gel Contact 1997–2025, Ateliers d'Échographie, Journées d'Imagerie Interventionnelle, Comment je fais ?</em>).
+            <strong>Guide d'Infiltration sous Échographie</strong> — Contenu issu de l'espace membre SIMS (<em>Gel Contact N°1 à N°33, Ateliers d'Échographie, Journées d'Imagerie Interventionnelle</em>).
         </div>
-        <div>
-            Usage médical · Tapp Store
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+            <a href="https://www.sims-asso.org/uploads/consentement/infiltration_articulaire.pdf" target="_blank" rel="noopener" class="btn-action">📄 Consentement SIMS</a>
+            <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/10/1.pdf" target="_blank" rel="noopener" class="btn-action">📘 Gel Contact N°16 (Écho Interv.)</a>
         </div>
     </footer>
 
@@ -1156,18 +1137,17 @@
     </div>
 
     <!-- Offline Embedded Data -->
-    <script src="data/embedded_data.js?v=2"></script>
+    <script src="data/embedded_data.js?v=3"></script>
     <script>
         (function () {
             const DEFAULT_CATEGORIES = [
-                { id: 'generalites', label: 'Généralités & PRP', icon: '🛡️' },
-                { id: 'epaule', label: 'Épaule & Ceinture Scapulaire', icon: '🦾' },
+                { id: 'epaule', label: 'Épaule', icon: '🦾' },
                 { id: 'coude-poignet-main', label: 'Coude · Poignet · Main', icon: '✋' },
                 { id: 'hanche-bassin', label: 'Hanche · Bassin · Rachis', icon: '🦴' },
                 { id: 'genou', label: 'Genou', icon: '🦵' },
                 { id: 'cheville-pied', label: 'Cheville & Pied', icon: '🦶' },
                 { id: 'parties-molles', label: 'Parties Molles & Biopsies', icon: '🎯' },
-                { id: 'gel-contact', label: 'Revue Gel Contact (N°1–N°33)', icon: '📘' }
+                { id: 'gel-contact', label: 'Revue Gel Contact (N°1–33)', icon: '📘' }
             ];
 
             const rawData = window.GUIDE_DATA || {};
@@ -1288,8 +1268,13 @@
 
             function matchesGelContact(issue, q) {
                 if (videosOnly) return false;
-                if (activeCategory !== 'all' && activeCategory !== 'gel-contact') return false;
-                if (!q) return true;
+                if (activeCategory === 'gel-contact') {
+                    if (!q) return true;
+                } else if (activeCategory === 'all') {
+                    if (!q) return false;
+                } else {
+                    return false;
+                }
                 const haystack = norm([
                     'gel contact',
                     'numero ' + issue.number,
@@ -1402,10 +1387,13 @@
                     <div class="hero-strip ${hero.length === 1 ? 'single-img' : ''}">
                         ${hero.map((src, idx) => {
                             const allIdx = Math.max(0, (proc.allSlides || []).indexOf(src));
+                            const badgeText = hero.length > 1
+                                ? (idx === 0 ? '1. Position sonde / Coupe' : '2. Image écho cible')
+                                : 'Sonde & Image écho cible';
                             return `
-                                <div class="slide-thumb" data-open-slides="${proc.id}" data-slide-idx="${allIdx}" title="Agrandir la planche">
-                                    <img src="${src}" alt="${proc.title} — planche ${idx + 1}" loading="lazy">
-                                    <span class="slide-zoom-pill">🔍 ${idx + 1}/${totalSlides}</span>
+                                <div class="slide-thumb" data-open-slides="${proc.id}" data-slide-idx="${allIdx}" title="Agrandir : ${badgeText}">
+                                    <img src="${src}" alt="${proc.title} — ${badgeText}" loading="lazy">
+                                    <span class="slide-zoom-pill">🔍 ${badgeText} (${idx + 1}/${totalSlides})</span>
                                 </div>
                             `;
                         }).join('')}
@@ -1420,7 +1408,7 @@
 
                 const slidesBtn = totalSlides > 0 ? `
                     <button class="btn-action btn-slides" data-open-slides="${proc.id}" data-slide-idx="0">
-                        🖼️ Planches (${totalSlides})
+                        🖼️ Sonde & Écho (${totalSlides})
                     </button>
                 ` : '';
 
@@ -1711,7 +1699,7 @@
             });
 
             // Auto-check version.json on visibilitychange
-            const CURRENT_VERSION = '2026.11.06.2';
+            const CURRENT_VERSION = '2026.11.06.3';
             async function checkVersion() {
                 try {
                     const res = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
