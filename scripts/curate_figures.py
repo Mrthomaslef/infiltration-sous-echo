@@ -153,7 +153,7 @@ CUR = {
   G("gc20_p42_f1"),
   G("gc30_p123_f0", "Fig. 8 : Injection de PRP intratendineuse dans le tendon d'Achille (approche latérale vers médiale, coupe transversale) ; position de la sonde.", v1=True)],
  "pied-aponevrosite-plantaire": [
-  G("gc16_p16_f0", v1=True),
+  G("gc16_p16_f0", "Fig. 6 : Infiltration d'une aponévrosite plantaire, voie médiale. a – simulation de la voie d'abord médiale (sans les mesures d'asepsie habituelles) ; b – voie d'abord (flèche longue) et coupe de référence passant par l'insertion de l'aponévrose plantaire centrale (flèche courte) ; c – ponction sous échoscopie en coupe frontale : aiguille en superficie de l'aponévrose (flèche), où sera déposé le dérivé cortisoné.", v1=True),
   G("gc33_p83_f0", "Fig. 11 : Infiltration (ici PRP, après bloc tibial) de l'aponévrose plantaire, abord sagittal : positionnement de la sonde et de l'aiguille.", v1=True),
   G("gc33_p83_f1", "Fig. 12 : Coupe sagittale correspondante, sans (a) et avec (b) annotations : aiguille au contact de l'aponévrose, calcanéus.", v1=True)],
  "pied-nevrome-morton": [
@@ -207,7 +207,7 @@ def tidy(t):
 
 # Recadrages d'anonymisation (bandeaux IRM, visage) — coordonnées dans l'image source
 CROP = {
-    "gc25_p52_f1": (60, 40, 760, 505),   # bandeaux IRM (nom/âge patient, machine)
+    "gc25_p52_f1": (60, 40, 745, 505),   # bandeaux IRM (nom/âge patient, machine)
     "gc23_p53_f0": (0, 0, 495, 449),     # visage du patient
 }
 
