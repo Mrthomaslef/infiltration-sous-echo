@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Guide d'Infiltration sous Échographie — SIMS</title>
-    <meta name="description" content="Guide pratique et visuel d'infiltrations ostéo-articulaires sous contrôle échographique — Société d'Imagerie Musculo-Squelettique (SIMS).">
+    <meta name="description" content="Guide pratique et visuel d'infiltrations ostéo-articulaires sous contrôle échographique — 37 gestes écho-guidés, vidéos & intégrale des 33 revues Gel Contact SIMS.">
     <meta name="theme-color" content="#0D9488">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -22,7 +22,7 @@
             --bg-canvas: #F8FAFC;
             --bg-surface: #FFFFFF;
             --bg-elevated: #F1F5F9;
-            --bg-glass: rgba(255, 255, 255, 0.92);
+            --bg-glass: rgba(255, 255, 255, 0.94);
             --text-primary: #0F172A;
             --text-secondary: #334155;
             --text-muted: #64748B;
@@ -55,7 +55,7 @@
             --bg-canvas: #070B12;
             --bg-surface: #0F1623;
             --bg-elevated: #182234;
-            --bg-glass: rgba(15, 22, 35, 0.92);
+            --bg-glass: rgba(15, 22, 35, 0.94);
             --text-primary: #F8FAFC;
             --text-secondary: #CBD5E1;
             --text-muted: #64748B;
@@ -101,7 +101,7 @@
             overscroll-behavior-y: contain;
         }
 
-        button, a, input, [role="button"], .cat-pill, .quick-chip, .slide-thumb, .btn-action {
+        button, a, input, [role="button"], .cat-pill, .slide-thumb, .btn-action {
             touch-action: manipulation;
         }
 
@@ -440,13 +440,14 @@
             display: flex;
             align-items: center;
             gap: 8px;
+            flex-wrap: wrap;
         }
 
         /* ==========================================================================
            PROCEDURE SECTIONS & CARDS
            ========================================================================== */
         .region-section {
-            margin-bottom: 28px;
+            margin-bottom: 30px;
         }
 
         .region-header {
@@ -527,8 +528,9 @@
             font-family: var(--font-mono);
             font-size: 0.78rem;
             font-weight: 700;
-            min-width: 30px;
+            min-width: 32px;
             height: 26px;
+            padding: 0 6px;
             border-radius: 6px;
             background: var(--accent-subtle);
             color: var(--accent-primary);
@@ -539,18 +541,28 @@
             margin-top: 1px;
         }
 
+        .proc-subregion {
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 600;
+            color: var(--accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin-bottom: 2px;
+        }
+
         .proc-title {
             font-family: var(--font-display);
-            font-size: 1.02rem;
+            font-size: 1.01rem;
             font-weight: 700;
             color: var(--text-primary);
             line-height: 1.3;
         }
 
         .proc-subtitle {
-            font-size: 0.77rem;
+            font-size: 0.75rem;
             color: var(--text-muted);
-            margin-top: 2px;
+            margin-top: 3px;
         }
 
         /* Hero Visual Strip inside Card */
@@ -592,7 +604,7 @@
             position: absolute;
             bottom: 6px;
             right: 6px;
-            background: rgba(15, 23, 42, 0.78);
+            background: rgba(15, 23, 42, 0.82);
             color: #F8FAFC;
             font-family: var(--font-mono);
             font-size: 0.65rem;
@@ -614,8 +626,9 @@
 
         .clinical-row {
             font-size: 0.84rem;
-            line-height: 1.48;
+            line-height: 1.5;
             color: var(--text-secondary);
+            white-space: pre-line;
         }
 
         .clinical-label {
@@ -628,12 +641,12 @@
             display: flex;
             align-items: center;
             gap: 5px;
-            margin-bottom: 2px;
+            margin-bottom: 3px;
         }
 
         .clinical-row.needle-box {
             background: var(--bg-elevated);
-            padding: 8px 10px;
+            padding: 9px 11px;
             border-radius: var(--radius-sm);
             border-left: 3px solid var(--accent-primary);
             color: var(--text-primary);
@@ -646,7 +659,7 @@
         .clinical-row.alert-box {
             background: var(--status-warning-bg);
             border: 1px solid var(--status-warning-border);
-            padding: 8px 10px;
+            padding: 9px 11px;
             border-radius: var(--radius-sm);
             color: var(--text-primary);
             font-size: 0.81rem;
@@ -655,7 +668,7 @@
             color: var(--status-warning);
         }
 
-        /* Card Footer — Actions (Videos, Slides, Consent) */
+        /* Card Footer — Actions (Videos, Slides, PDFs) */
         .card-footer {
             padding: 10px 14px;
             border-top: 1px solid var(--border-subtle);
@@ -663,18 +676,18 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 8px;
+            gap: 6px;
             flex-wrap: wrap;
         }
 
         .btn-action {
             display: inline-flex;
             align-items: center;
-            gap: 6px;
-            padding: 7px 11px;
+            gap: 5px;
+            padding: 6px 10px;
             border-radius: var(--radius-sm);
             font-family: var(--font-sans);
-            font-size: 0.78rem;
+            font-size: 0.76rem;
             font-weight: 600;
             cursor: pointer;
             border: 1px solid var(--border-subtle);
@@ -705,6 +718,101 @@
         }
         .btn-action.btn-slides:hover {
             border-color: var(--accent-blue);
+        }
+
+        /* ==========================================================================
+           GEL CONTACT ARCHIVE CARDS (N°1 to N°33)
+           ========================================================================== */
+        .gc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 14px;
+        }
+
+        .gc-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-card);
+            display: flex;
+            gap: 12px;
+            padding: 12px;
+            align-items: flex-start;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+        .gc-card:hover {
+            border-color: var(--accent-primary);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .gc-cover {
+            width: 82px;
+            height: 112px;
+            border-radius: 6px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: #090D16;
+            border: 1px solid var(--border-subtle);
+            cursor: pointer;
+            position: relative;
+        }
+        .gc-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gc-info {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .gc-badge-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .gc-num {
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 5px;
+            background: var(--accent-subtle);
+            color: var(--accent-primary);
+        }
+
+        .gc-date {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        .gc-theme {
+            font-family: var(--font-display);
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.28;
+        }
+
+        .gc-highlights {
+            font-size: 0.77rem;
+            color: var(--text-secondary);
+            line-height: 1.42;
+        }
+
+        .gc-actions {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 4px;
         }
 
         /* ==========================================================================
@@ -971,7 +1079,7 @@
                         Infiltrations sous Écho
                         <span class="sims-badge">SIMS</span>
                     </div>
-                    <div class="brand-subtitle">35 gestes écho-guidés · Planches & Vidéos SIMS</div>
+                    <div class="brand-subtitle">37 gestes écho-guidés · 295 Planches · 33 Gel Contact · Vidéos SIMS</div>
                 </div>
             </div>
 
@@ -981,7 +1089,7 @@
                         <circle cx="11" cy="11" r="8"></circle>
                         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
-                    <input type="search" id="searchInput" class="search-input" placeholder="Rechercher : BSAD, De Quervain, canal carpien, psoas, Morton…" autocomplete="off">
+                    <input type="search" id="searchInput" class="search-input" placeholder="Rechercher : BSAD, De Quervain, canal carpien, psoas, bloc tibial, PRP…" autocomplete="off">
                     <button id="searchClear" class="search-clear" title="Effacer">✕</button>
                 </div>
 
@@ -1005,28 +1113,31 @@
         <!-- Quick Clinical Safety Memo -->
         <section class="clinical-memo" aria-label="Mémo sécurité">
             <div class="memo-items">
-                <span class="memo-tag">🛡️ <strong>Asepsie :</strong> Bétadine alcoolique 5 temps + protège-sonde stérile + gel stérile</span>
-                <span class="memo-tag">💉 <strong>Tendons & superficiel :</strong> Hydrocortancyl / Célestène (jamais de retard en superficiel)</span>
-                <span class="memo-tag">⚡ <strong>Nerfs :</strong> Jamais d'injection intraneurale (arrêt si paresthésie)</span>
+                <span class="memo-tag">🛡️ <strong>Asepsie :</strong> Détersion 4 temps + housse de sonde stérile + gel stérile unidose</span>
+                <span class="memo-tag">💉 <strong>Superficiel & Gaines :</strong> Hydrocortancyl® / Altim® (éviter corticoïdes fluorés atrophiants)</span>
+                <span class="memo-tag">⚡ <strong>Sécurité :</strong> Repérage Doppler systématique · Jamais d'injection intra-tendineuse ou intra-neurale</span>
             </div>
             <div class="memo-actions">
-                <a href="https://www.sims-asso.org/uploads/consentement/infiltration_echo_guidee.pdf" target="_blank" rel="noopener" class="btn-action">
-                    📄 Fiche Consentement SIMS
+                <a href="https://www.sims-asso.org/uploads/consentement/infiltration_articulaire.pdf" target="_blank" rel="noopener" class="btn-action">
+                    📄 Consentement SIMS
                 </a>
-                <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/20180528095838_gc_10.pdf" target="_blank" rel="noopener" class="btn-action">
-                    📘 Gel Contact N°16 (PDF)
+                <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/10/1.pdf" target="_blank" rel="noopener" class="btn-action">
+                    📘 Gel Contact N°16 (Écho Interv.)
+                </a>
+                <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/44/1.pdf" target="_blank" rel="noopener" class="btn-action">
+                    📘 Gel Contact N°33 (Déc. 2025)
                 </a>
             </div>
         </section>
 
-        <!-- Dynamic Procedures Container -->
+        <!-- Dynamic Procedures & Gel Contact Container -->
         <div id="proceduresRoot"></div>
     </main>
 
     <!-- Footer -->
     <footer class="app-footer">
         <div>
-            <strong>Guide d'Infiltration sous Échographie</strong> — Contenu scientifique issu de l'espace membre SIMS (<em>Gel Contact N°14 & N°16, Ateliers d'Échographie, Journées d'Imagerie Interventionnelle, Comment je fais ?</em>).
+            <strong>Guide d'Infiltration sous Échographie</strong> — Intégrale des ressources de l'espace membre SIMS (<em>Collection complète des 33 numéros de Gel Contact 1997–2025, Ateliers d'Échographie, Journées d'Imagerie Interventionnelle, Comment je fais ?</em>).
         </div>
         <div>
             Usage médical · Tapp Store
@@ -1045,10 +1156,31 @@
     </div>
 
     <!-- Offline Embedded Data -->
-    <script src="data/embedded_data.js"></script>
+    <script src="data/embedded_data.js?v=2"></script>
     <script>
         (function () {
-            const DATA = window.GUIDE_DATA || { categories: [], procedures: [] };
+            const DEFAULT_CATEGORIES = [
+                { id: 'generalites', label: 'Généralités & PRP', icon: '🛡️' },
+                { id: 'epaule', label: 'Épaule & Ceinture Scapulaire', icon: '🦾' },
+                { id: 'coude-poignet-main', label: 'Coude · Poignet · Main', icon: '✋' },
+                { id: 'hanche-bassin', label: 'Hanche · Bassin · Rachis', icon: '🦴' },
+                { id: 'genou', label: 'Genou', icon: '🦵' },
+                { id: 'cheville-pied', label: 'Cheville & Pied', icon: '🦶' },
+                { id: 'parties-molles', label: 'Parties Molles & Biopsies', icon: '🎯' },
+                { id: 'gel-contact', label: 'Revue Gel Contact (N°1–N°33)', icon: '📘' }
+            ];
+
+            const rawData = window.GUIDE_DATA || {};
+            const PROCEDURES = Array.isArray(rawData.procedures)
+                ? rawData.procedures
+                : (Array.isArray(window.ECHO_GUIDE_DATA) ? window.ECHO_GUIDE_DATA : []);
+            const CATEGORIES = Array.isArray(rawData.categories) && rawData.categories.length > 0
+                ? rawData.categories
+                : DEFAULT_CATEGORIES;
+            const GEL_CONTACT_ISSUES = Array.isArray(rawData.gelContactIssues)
+                ? rawData.gelContactIssues
+                : [];
+
             let activeCategory = 'all';
             let searchQuery = '';
             let videosOnly = false;
@@ -1098,7 +1230,7 @@
 
             // 3. Render Category Pills
             function renderCategories() {
-                const totalCount = DATA.procedures.length;
+                const totalCount = PROCEDURES.length;
                 let html = `
                     <button class="cat-pill ${activeCategory === 'all' ? 'active' : ''}" data-cat="all">
                         <span>📋 Tout</span>
@@ -1106,8 +1238,10 @@
                     </button>
                 `;
 
-                DATA.categories.forEach(cat => {
-                    const count = DATA.procedures.filter(p => p.category === cat.id).length;
+                CATEGORIES.forEach(cat => {
+                    const count = cat.id === 'gel-contact'
+                        ? GEL_CONTACT_ISSUES.length
+                        : PROCEDURES.filter(p => p.category === cat.id).length;
                     const isActive = activeCategory === cat.id ? 'active' : '';
                     html += `
                         <button class="cat-pill ${isActive}" data-cat="${cat.id}">
@@ -1122,48 +1256,72 @@
                     btn.addEventListener('click', () => {
                         activeCategory = btn.getAttribute('data-cat');
                         renderCategories();
-                        renderProcedures();
+                        renderContent();
                     });
                 });
             }
 
-            // 4. Filter & Render Procedures
+            // 4. Filter & Render Procedures + Gel Contact Issues
             function matchesProcedure(proc, q) {
                 if (activeCategory !== 'all' && proc.category !== activeCategory) return false;
                 if (videosOnly && (!proc.videos || proc.videos.length === 0)) return false;
                 if (!q) return true;
                 const haystack = norm([
                     proc.number,
+                    proc.subregion,
                     proc.title,
+                    proc.authors,
                     proc.subtitle,
                     proc.indication,
+                    proc.installation,
                     proc.probe,
                     proc.position,
+                    proc.technique,
                     proc.approach,
                     proc.needle,
                     proc.product,
+                    proc.pointsCles,
                     proc.precautions
                 ].join(' '));
                 return q.split(/\s+/).every(token => haystack.includes(token));
             }
 
-            function renderProcedures() {
-                const q = norm(searchQuery.trim());
-                const filtered = DATA.procedures.filter(p => matchesProcedure(p, q));
+            function matchesGelContact(issue, q) {
+                if (videosOnly) return false;
+                if (activeCategory !== 'all' && activeCategory !== 'gel-contact') return false;
+                if (!q) return true;
+                const haystack = norm([
+                    'gel contact',
+                    'numero ' + issue.number,
+                    'n°' + issue.number,
+                    issue.date,
+                    issue.theme,
+                    issue.highlights
+                ].join(' '));
+                return q.split(/\s+/).every(token => haystack.includes(token));
+            }
 
-                if (filtered.length === 0) {
+            function renderContent() {
+                const q = norm(searchQuery.trim());
+                const filteredProcs = PROCEDURES.filter(p => matchesProcedure(p, q));
+                const filteredGC = GEL_CONTACT_ISSUES.filter(g => matchesGelContact(g, q));
+
+                if (filteredProcs.length === 0 && filteredGC.length === 0) {
                     proceduresRoot.innerHTML = `
                         <div class="empty-state">
-                            <p style="font-size:1.05rem;font-weight:600;margin-bottom:6px;">Aucun geste trouvé pour « ${searchQuery} »</p>
-                            <p style="font-size:0.85rem;">Essayez un autre mot-clé (ex. BSAD, gléno-humérale, canal carpien, psoas, Baker, Morton).</p>
+                            <p style="font-size:1.05rem;font-weight:600;margin-bottom:6px;">Aucun résultat pour « ${searchQuery} »</p>
+                            <p style="font-size:0.85rem;">Essayez un autre mot-clé (ex. BSAD, gléno-humérale, canal carpien, psoas, Baker, Morton, bloc tibial, PRP, Gel Contact).</p>
                         </div>
                     `;
                     return;
                 }
 
                 let html = '';
-                DATA.categories.forEach(cat => {
-                    const catProcs = filtered.filter(p => p.category === cat.id);
+
+                // Render anatomical procedure categories
+                CATEGORIES.forEach(cat => {
+                    if (cat.id === 'gel-contact') return;
+                    const catProcs = filteredProcs.filter(p => p.category === cat.id);
                     if (catProcs.length === 0) return;
 
                     html += `
@@ -1182,6 +1340,24 @@
                     `;
                 });
 
+                // Render Gel Contact Archive Section
+                if (filteredGC.length > 0) {
+                    html += `
+                        <section class="region-section" id="sec-gel-contact">
+                            <div class="region-header">
+                                <h2 class="region-title">
+                                    <span>📘</span>
+                                    <span>Intégrale de la Revue « Gel Contact » SIMS (N°1 à N°33 · 1997–2025)</span>
+                                </h2>
+                                <span class="region-badge">${filteredGC.length} numéro${filteredGC.length > 1 ? 's' : ''}</span>
+                            </div>
+                            <div class="gc-grid">
+                                ${filteredGC.map(issue => renderGelContactCard(issue)).join('')}
+                            </div>
+                        </section>
+                    `;
+                }
+
                 proceduresRoot.innerHTML = html;
 
                 // Attach slide & video handlers
@@ -1190,6 +1366,13 @@
                         const procId = el.getAttribute('data-open-slides');
                         const startIdx = parseInt(el.getAttribute('data-slide-idx') || '0', 10);
                         openSlidesModal(procId, startIdx);
+                    });
+                });
+
+                proceduresRoot.querySelectorAll('[data-open-gc-slides]').forEach(el => {
+                    el.addEventListener('click', () => {
+                        const gcNum = parseInt(el.getAttribute('data-open-gc-slides'), 10);
+                        openGelContactSlidesModal(gcNum);
                     });
                 });
 
@@ -1208,6 +1391,13 @@
                 const totalSlides = (proc.allSlides || []).length;
                 const totalVideos = (proc.videos || []).length;
 
+                const installationText = proc.installation
+                    || [proc.probe ? `Sonde : ${proc.probe}` : '', proc.position ? `Position : ${proc.position}` : ''].filter(Boolean).join('\n');
+                const techniqueText = proc.technique
+                    || [proc.approach || '', proc.needle ? `Aiguille : ${proc.needle}` : '', proc.product ? `Produit : ${proc.product}` : ''].filter(Boolean).join(' · ');
+                const pointsClesText = proc.pointsCles || proc.precautions || '';
+                const subtitleText = proc.authors || proc.subtitle || '';
+
                 const heroHtml = hero.length > 0 ? `
                     <div class="hero-strip ${hero.length === 1 ? 'single-img' : ''}">
                         ${hero.map((src, idx) => {
@@ -1224,7 +1414,7 @@
 
                 const videoBtn = totalVideos > 0 ? `
                     <button class="btn-action btn-video" data-open-videos="${proc.id}">
-                        🎬 Vidéo${totalVideos > 1 ? 's' : ''} SIMS (${totalVideos})
+                        🎬 Vidéo${totalVideos > 1 ? 's' : ''} (${totalVideos})
                     </button>
                 ` : '';
 
@@ -1234,11 +1424,12 @@
                     </button>
                 ` : '';
 
-                const pdfBtn = proc.consentPdf ? `
-                    <a href="${proc.consentPdf}" target="_blank" rel="noopener" class="btn-action" title="Fiche PDF SIMS">
-                        📄 PDF
+                const pdfList = Array.isArray(proc.pdfs) ? proc.pdfs : (proc.consentPdf ? [{ label: 'PDF SIMS', url: proc.consentPdf }] : []);
+                const pdfBtns = pdfList.map(pdf => `
+                    <a href="${pdf.url}" target="_blank" rel="noopener" class="btn-action" title="${pdf.label}">
+                        📄 ${pdf.label.length > 28 ? pdf.label.slice(0, 26) + '…' : pdf.label}
                     </a>
-                ` : '';
+                `).join('');
 
                 return `
                     <article class="proc-card" id="card-${proc.id}">
@@ -1246,8 +1437,9 @@
                             <div class="card-title-group">
                                 <span class="proc-num">${proc.number}</span>
                                 <div>
+                                    ${proc.subregion ? `<div class="proc-subregion">${proc.subregion}</div>` : ''}
                                     <h3 class="proc-title">${proc.title}</h3>
-                                    <div class="proc-subtitle">${proc.subtitle || ''}</div>
+                                    ${subtitleText ? `<div class="proc-subtitle">👨‍⚕️ ${subtitleText}</div>` : ''}
                                 </div>
                             </div>
                         </div>
@@ -1261,18 +1453,18 @@
                             </div>
 
                             <div class="clinical-row">
-                                <div class="clinical-label">🛋️ Installation & Sonde</div>
-                                <div><strong>Sonde :</strong> ${proc.probe}<br><strong>Position :</strong> ${proc.position}</div>
+                                <div class="clinical-label">🛋️ Installation & Repères Écho</div>
+                                <div>${installationText}</div>
                             </div>
 
                             <div class="clinical-row needle-box">
-                                <div class="clinical-label">💉 Voie d'abord, Aiguille & Produit</div>
-                                <div>${proc.approach}<br><strong>Aiguille :</strong> ${proc.needle} · <strong>Produit :</strong> ${proc.product}</div>
+                                <div class="clinical-label">💉 Voie d'abord, Aiguille & Technique</div>
+                                <div>${techniqueText}</div>
                             </div>
 
                             <div class="clinical-row alert-box">
                                 <div class="clinical-label">⚠️ Points clés & Sécurité</div>
-                                <div>${proc.precautions}</div>
+                                <div>${pointsClesText}</div>
                             </div>
                         </div>
 
@@ -1280,8 +1472,37 @@
                             <div style="display:flex;gap:6px;flex-wrap:wrap;">
                                 ${videoBtn}
                                 ${slidesBtn}
+                                ${pdfBtns}
                             </div>
-                            ${pdfBtn}
+                        </div>
+                    </article>
+                `;
+            }
+
+            function renderGelContactCard(issue) {
+                const slidesCount = (issue.interventionalSlides || []).length;
+                return `
+                    <article class="gc-card" id="gc-${issue.number}">
+                        <div class="gc-cover" data-open-gc-slides="${issue.number}" title="Voir les planches extraites">
+                            <img src="${issue.cover}" alt="Gel Contact N°${issue.number}" loading="lazy">
+                        </div>
+                        <div class="gc-info">
+                            <div class="gc-badge-row">
+                                <span class="gc-num">GEL CONTACT N°${String(issue.number).padStart(2, '0')}</span>
+                                <span class="gc-date">${issue.date} · ${issue.pages} pages</span>
+                            </div>
+                            <h3 class="gc-theme">${issue.theme}</h3>
+                            <p class="gc-highlights">${issue.highlights}</p>
+                            <div class="gc-actions">
+                                ${slidesCount > 1 ? `
+                                    <button class="btn-action btn-slides" data-open-gc-slides="${issue.number}">
+                                        🖼️ Planches (${slidesCount})
+                                    </button>
+                                ` : ''}
+                                <a href="${issue.pdfUrl}" target="_blank" rel="noopener" class="btn-action">
+                                    📘 Ouvrir le PDF complet
+                                </a>
+                            </div>
                         </div>
                     </article>
                 `;
@@ -1292,12 +1513,23 @@
             let currentSlideIndex = 0;
 
             function openSlidesModal(procId, startIdx) {
-                const proc = DATA.procedures.find(p => p.id === procId);
+                const proc = PROCEDURES.find(p => p.id === procId);
                 if (!proc || !proc.allSlides || proc.allSlides.length === 0) return;
 
                 currentSlideList = proc.allSlides;
                 currentSlideIndex = Math.min(Math.max(0, startIdx), currentSlideList.length - 1);
-                modalTitle.textContent = `${proc.number}. ${proc.title} — Planches Écho & Anatomie SIMS`;
+                modalTitle.textContent = `${proc.number}. ${proc.title} — Planches Écho & Gel Contact SIMS`;
+                renderSlideModalContent();
+                modalBackdrop.classList.add('open');
+            }
+
+            function openGelContactSlidesModal(gcNum) {
+                const issue = GEL_CONTACT_ISSUES.find(i => i.number === gcNum);
+                if (!issue || !issue.interventionalSlides || issue.interventionalSlides.length === 0) return;
+
+                currentSlideList = issue.interventionalSlides;
+                currentSlideIndex = 0;
+                modalTitle.textContent = `Gel Contact N°${issue.number} (${issue.date}) — ${issue.theme}`;
                 renderSlideModalContent();
                 modalBackdrop.classList.add('open');
             }
@@ -1349,11 +1581,12 @@
 
             // 6. Video Modal (Direct SIMS MP4 & YouTube)
             function openVideosModal(procId, videoIdx) {
-                const proc = DATA.procedures.find(p => p.id === procId);
+                const proc = PROCEDURES.find(p => p.id === procId);
                 if (!proc || !proc.videos || proc.videos.length === 0) return;
 
                 const idx = Math.min(Math.max(0, videoIdx), proc.videos.length - 1);
                 const vid = proc.videos[idx];
+                const authorName = vid.speaker || vid.author || 'SIMS';
                 modalTitle.textContent = `🎬 ${proc.number}. ${proc.title} — Vidéos SIMS`;
 
                 const tabsHtml = proc.videos.length > 1 ? `
@@ -1382,7 +1615,7 @@
                     <div class="video-meta-bar">
                         <div>
                             <strong>${vid.title}</strong><br>
-                            <span>👨‍⚕️ ${vid.author || 'SIMS'} · 📚 ${vid.source || 'Espace Membre SIMS'}</span>
+                            <span>👨‍⚕️ ${authorName} · 📚 Espace Membre SIMS</span>
                         </div>
                         <a href="${vid.url}" target="_blank" rel="noopener" class="btn-action">
                             ↗ Ouvrir le flux direct
@@ -1421,24 +1654,24 @@
             searchInput.addEventListener('input', (e) => {
                 searchQuery = e.target.value;
                 searchClear.classList.toggle('visible', searchQuery.length > 0);
-                renderProcedures();
+                renderContent();
             });
 
             searchClear.addEventListener('click', () => {
                 searchInput.value = '';
                 searchQuery = '';
                 searchClear.classList.remove('visible');
-                renderProcedures();
+                renderContent();
                 searchInput.focus();
             });
 
             btnVideosOnly.addEventListener('click', () => {
                 videosOnly = !videosOnly;
                 btnVideosOnly.classList.toggle('active-filter', videosOnly);
-                renderProcedures();
+                renderContent();
             });
 
-            // 8. Pull-to-Refresh (Touch + Desktop Top Drag) & Auto-Version Check
+            // 8. Pull-to-Refresh (Touch) & Auto-Version Check
             const ptrIndicator = document.getElementById('ptrIndicator');
             const ptrText = document.getElementById('ptrText');
             let startY = 0;
@@ -1478,7 +1711,7 @@
             });
 
             // Auto-check version.json on visibilitychange
-            const CURRENT_VERSION = '2026.11.06.1';
+            const CURRENT_VERSION = '2026.11.06.2';
             async function checkVersion() {
                 try {
                     const res = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
@@ -1495,7 +1728,7 @@
 
             // Initial Render
             renderCategories();
-            renderProcedures();
+            renderContent();
         })();
     </script>
 </body>
