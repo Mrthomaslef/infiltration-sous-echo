@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Guide d'Infiltration sous Échographie — SIMS</title>
+    <meta name="description" content="Guide pratique et visuel d'infiltrations ostéo-articulaires sous contrôle échographique — Société d'Imagerie Musculo-Squelettique (SIMS).">
+    <meta name="theme-color" content="#0D9488">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
+    <link rel="apple-touch-icon" href="icon.svg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ==========================================================================
+           DESIGN TOKENS — ÉCHO·SIMS (Papier Clinique & Console Échographique)
+           ========================================================================== */
+        :root {
+            --bg-canvas: #F8FAFC;
+            --bg-surface: #FFFFFF;
+            --bg-elevated: #F1F5F9;
+            --bg-glass: rgba(255, 255, 255, 0.92);
+            --text-primary: #0F172A;
+            --text-secondary: #334155;
+            --text-muted: #64748B;
+            --border-subtle: #E2E8F0;
+            --border-focus: #0D9488;
+            --accent-primary: #0D9488;
+            --accent-hover: #0F766E;
+            --accent-subtle: #CCFBF1;
+            --accent-blue: #0284C7;
+            --accent-blue-subtle: #E0F2FE;
+            --status-danger: #DC2626;
+            --status-danger-bg: #FEF2F2;
+            --status-danger-border: #FECACA;
+            --status-warning: #D97706;
+            --status-warning-bg: #FFFBEB;
+            --status-warning-border: #FDE68A;
+            --status-success: #059669;
+            --status-success-bg: #ECFDF5;
+            --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+            --shadow-hover: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+            --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+        }
+
+        [data-theme="dark"] {
+            --bg-canvas: #070B12;
+            --bg-surface: #0F1623;
+            --bg-elevated: #182234;
+            --bg-glass: rgba(15, 22, 35, 0.92);
+            --text-primary: #F8FAFC;
+            --text-secondary: #CBD5E1;
+            --text-muted: #64748B;
+            --border-subtle: #1E293B;
+            --border-focus: #2DD4BF;
+            --accent-primary: #14B8A6;
+            --accent-hover: #2DD4BF;
+            --accent-subtle: rgba(20, 184, 166, 0.16);
+            --accent-blue: #38BDF8;
+            --accent-blue-subtle: rgba(56, 189, 248, 0.15);
+            --status-danger: #F87171;
+            --status-danger-bg: rgba(239, 68, 68, 0.12);
+            --status-danger-border: rgba(239, 68, 68, 0.3);
+            --status-warning: #FBBF24;
+            --status-warning-bg: rgba(245, 158, 11, 0.12);
+            --status-warning-border: rgba(245, 158, 11, 0.3);
+            --status-success: #34D399;
+            --status-success-bg: rgba(16, 185, 129, 0.12);
+            --shadow-card: 0 2px 6px rgba(0, 0, 0, 0.35);
+            --shadow-hover: 0 12px 28px -5px rgba(0, 0, 0, 0.55);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-canvas);
+            color: var(--text-primary);
+            line-height: 1.55;
+            -webkit-font-smoothing: antialiased;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            overflow-x: hidden;
+            overscroll-behavior-y: contain;
+        }
+
+        button, a, input, [role="button"], .cat-pill, .quick-chip, .slide-thumb, .btn-action {
+            touch-action: manipulation;
+        }
+
+        /* ==========================================================================
+           PULL TO REFRESH
+           ========================================================================== */
+        .ptr-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            overflow: hidden;
+            z-index: 9999;
+            background: var(--bg-surface);
+            color: var(--accent-primary);
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            font-weight: 600;
+            border-bottom: 1px solid transparent;
+            transition: height 0.2s ease, opacity 0.2s ease;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .ptr-indicator.visible {
+            opacity: 1;
+            border-bottom-color: var(--border-subtle);
+        }
+        .ptr-spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border-subtle);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+        }
+        .ptr-indicator.refreshing .ptr-spinner {
+            animation: ptr-spin 0.65s linear infinite;
+        }
+        @keyframes ptr-spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* ==========================================================================
+           TOPBAR & NAVIGATION
+           ========================================================================== */
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--bg-glass);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .topbar-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .brand-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 0;
+        }
+
+        .tapp-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 10px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-elevated);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            font-weight: 600;
+            border: 1px solid var(--border-subtle);
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+        .tapp-back:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .app-logo {
+            width: 34px;
+            height: 34px;
+            border-radius: 9px;
+            flex-shrink: 0;
+            box-shadow: var(--shadow-card);
+        }
+
+        .brand-titles {
+            min-width: 0;
+        }
+
+        .brand-title {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .sims-badge {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 99px;
+            background: var(--accent-subtle);
+            color: var(--accent-primary);
+            letter-spacing: 0.04em;
+        }
+
+        .brand-subtitle {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Search + Actions */
+        .controls-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex: 1;
+            justify-content: flex-end;
+            min-width: 240px;
+        }
+
+        .search-box {
+            position: relative;
+            flex: 1;
+            max-width: 420px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 11px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 34px 8px 34px;
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            color: var(--text-primary);
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            outline: none;
+            transition: all 0.15s ease;
+        }
+
+        .search-input:focus {
+            background: var(--bg-surface);
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px var(--accent-subtle);
+        }
+
+        .search-clear {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 4px;
+            display: none;
+            font-size: 0.9rem;
+            line-height: 1;
+        }
+        .search-clear.visible {
+            display: block;
+        }
+
+        .btn-top {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 11px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface);
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+        .btn-top:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+        .btn-top.active-filter {
+            background: var(--accent-primary);
+            color: #FFFFFF;
+            border-color: var(--accent-primary);
+        }
+
+        /* ==========================================================================
+           CATEGORY FILTER BAR
+           ========================================================================== */
+        .cat-bar {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 16px 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        .cat-bar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .cat-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface);
+            color: var(--text-secondary);
+            font-family: var(--font-sans);
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s ease;
+        }
+        .cat-pill:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+        .cat-pill.active {
+            background: var(--accent-primary);
+            color: #FFFFFF;
+            border-color: var(--accent-primary);
+            box-shadow: 0 2px 8px rgba(13, 148, 136, 0.28);
+        }
+        .cat-count {
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            opacity: 0.85;
+            padding: 1px 5px;
+            border-radius: 99px;
+            background: rgba(128, 128, 128, 0.15);
+        }
+        .cat-pill.active .cat-count {
+            background: rgba(255, 255, 255, 0.22);
+            color: #FFFFFF;
+        }
+
+        /* ==========================================================================
+           SUMMARY BANNER / QUICK PROTOCOL MEMO
+           ========================================================================== */
+        .main-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        .clinical-memo {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: var(--radius-md);
+            padding: 12px 16px;
+            margin-bottom: 18px;
+            box-shadow: var(--shadow-card);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .memo-items {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .memo-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .memo-tag strong {
+            font-family: var(--font-mono);
+            color: var(--text-primary);
+            font-size: 0.76rem;
+        }
+
+        .memo-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* ==========================================================================
+           PROCEDURE SECTIONS & CARDS
+           ========================================================================== */
+        .region-section {
+            margin-bottom: 28px;
+        }
+
+        .region-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border-subtle);
+        }
+
+        .region-title {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .region-badge {
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 99px;
+            background: var(--bg-elevated);
+            color: var(--text-muted);
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 16px;
+        }
+
+        @media (max-width: 640px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .proc-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-card);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+        }
+
+        .proc-card:hover {
+            box-shadow: var(--shadow-hover);
+            border-color: var(--accent-primary);
+        }
+
+        /* Card Header */
+        .card-header {
+            padding: 14px 16px 12px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .card-title-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            min-width: 0;
+        }
+
+        .proc-num {
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            font-weight: 700;
+            min-width: 30px;
+            height: 26px;
+            border-radius: 6px;
+            background: var(--accent-subtle);
+            color: var(--accent-primary);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .proc-title {
+            font-family: var(--font-display);
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        .proc-subtitle {
+            font-size: 0.77rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* Hero Visual Strip inside Card */
+        .hero-strip {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 6px;
+            padding: 10px 14px;
+            background: var(--bg-elevated);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .hero-strip.single-img {
+            grid-template-columns: 1fr;
+        }
+
+        .slide-thumb {
+            position: relative;
+            aspect-ratio: 4 / 3;
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+            background: #090D16;
+            border: 1px solid var(--border-subtle);
+            cursor: pointer;
+        }
+
+        .slide-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+            transition: transform 0.2s ease;
+        }
+
+        .slide-thumb:hover img {
+            transform: scale(1.03);
+        }
+
+        .slide-zoom-pill {
+            position: absolute;
+            bottom: 6px;
+            right: 6px;
+            background: rgba(15, 23, 42, 0.78);
+            color: #F8FAFC;
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+            backdrop-filter: blur(4px);
+            pointer-events: none;
+        }
+
+        /* Clinical 4-Point Body */
+        .card-body {
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+        }
+
+        .clinical-row {
+            font-size: 0.84rem;
+            line-height: 1.48;
+            color: var(--text-secondary);
+        }
+
+        .clinical-label {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 2px;
+        }
+
+        .clinical-row.needle-box {
+            background: var(--bg-elevated);
+            padding: 8px 10px;
+            border-radius: var(--radius-sm);
+            border-left: 3px solid var(--accent-primary);
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        .clinical-row.needle-box .clinical-label {
+            color: var(--accent-primary);
+        }
+
+        .clinical-row.alert-box {
+            background: var(--status-warning-bg);
+            border: 1px solid var(--status-warning-border);
+            padding: 8px 10px;
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.81rem;
+        }
+        .clinical-row.alert-box .clinical-label {
+            color: var(--status-warning);
+        }
+
+        /* Card Footer — Actions (Videos, Slides, Consent) */
+        .card-footer {
+            padding: 10px 14px;
+            border-top: 1px solid var(--border-subtle);
+            background: var(--bg-canvas);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 7px 11px;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-sans);
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface);
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        .btn-action:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .btn-action.btn-video {
+            background: var(--accent-primary);
+            color: #FFFFFF;
+            border-color: var(--accent-primary);
+        }
+        .btn-action.btn-video:hover {
+            background: var(--accent-hover);
+            color: #FFFFFF;
+        }
+
+        .btn-action.btn-slides {
+            background: var(--accent-blue-subtle);
+            color: var(--accent-blue);
+            border-color: transparent;
+        }
+        .btn-action.btn-slides:hover {
+            border-color: var(--accent-blue);
+        }
+
+        /* ==========================================================================
+           MODAL — LIGHTBOX PLANCHES & LECTEUR VIDÉO SIMS
+           ========================================================================== */
+        .modal-backdrop {
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: rgba(7, 11, 18, 0.88);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+        .modal-backdrop.open {
+            display: flex;
+        }
+
+        .modal-dialog {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            width: 100%;
+            max-width: 1040px;
+            max-height: 92vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.65);
+        }
+
+        .modal-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .modal-title {
+            font-family: var(--font-display);
+            font-size: 0.98rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .modal-close {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            width: 34px;
+            height: 34px;
+            border-radius: var(--radius-sm);
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .modal-close:hover {
+            border-color: var(--status-danger);
+            color: var(--status-danger);
+        }
+
+        .modal-body {
+            padding: 16px;
+            overflow-y: auto;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        /* Slide Viewer inside Modal */
+        .lightbox-stage {
+            position: relative;
+            background: #05080F;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 320px;
+            max-height: 68vh;
+            overflow: hidden;
+        }
+
+        .lightbox-stage img {
+            max-width: 100%;
+            max-height: 68vh;
+            object-fit: contain;
+            display: block;
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 42px;
+            height: 42px;
+            border-radius: 99px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #FFFFFF;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .lightbox-nav:hover {
+            background: var(--accent-primary);
+        }
+        .lightbox-nav.prev { left: 12px; }
+        .lightbox-nav.next { right: 12px; }
+
+        .lightbox-counter {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(15, 23, 42, 0.82);
+            color: #F8FAFC;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 99px;
+        }
+
+        .thumbs-strip {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+
+        .thumb-mini {
+            width: 76px;
+            height: 56px;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 2px solid transparent;
+            cursor: pointer;
+            flex-shrink: 0;
+            background: #090D16;
+            opacity: 0.6;
+            transition: all 0.15s ease;
+        }
+        .thumb-mini.active {
+            border-color: var(--accent-primary);
+            opacity: 1;
+        }
+        .thumb-mini img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Video Selector & Player inside Modal */
+        .video-selector {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .video-tab {
+            padding: 8px 12px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-elevated);
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: left;
+        }
+        .video-tab.active {
+            background: var(--accent-primary);
+            color: #FFFFFF;
+            border-color: var(--accent-primary);
+        }
+
+        .video-frame-wrap {
+            background: #000000;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            aspect-ratio: 16 / 9;
+            width: 100%;
+            position: relative;
+        }
+
+        .video-frame-wrap video,
+        .video-frame-wrap iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+
+        .video-meta-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            padding: 8px 12px;
+            background: var(--bg-elevated);
+            border-radius: var(--radius-sm);
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 48px 20px;
+            background: var(--bg-surface);
+            border-radius: var(--radius-lg);
+            border: 1px dashed var(--border-subtle);
+            color: var(--text-muted);
+        }
+
+        /* Footer */
+        .app-footer {
+            max-width: 1280px;
+            margin: 32px auto 24px;
+            padding: 16px;
+            border-top: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 0.76rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+    <!-- Pull-to-Refresh Indicator -->
+    <div id="ptrIndicator" class="ptr-indicator">
+        <div class="ptr-spinner"></div>
+        <span id="ptrText">Tirer pour actualiser…</span>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="topbar">
+        <div class="topbar-inner">
+            <div class="brand-group">
+                <a href="https://mrthomaslef.github.io/allinone/" class="tapp-back" title="Retour au Tapp Store">
+                    ← Tapp Store
+                </a>
+                <img src="icon.svg" alt="Écho SIMS" class="app-logo">
+                <div class="brand-titles">
+                    <div class="brand-title">
+                        Infiltrations sous Écho
+                        <span class="sims-badge">SIMS</span>
+                    </div>
+                    <div class="brand-subtitle">35 gestes écho-guidés · Planches & Vidéos SIMS</div>
+                </div>
+            </div>
+
+            <div class="controls-row">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="search" id="searchInput" class="search-input" placeholder="Rechercher : BSAD, De Quervain, canal carpien, psoas, Morton…" autocomplete="off">
+                    <button id="searchClear" class="search-clear" title="Effacer">✕</button>
+                </div>
+
+                <button id="btnVideosOnly" class="btn-top" title="Afficher uniquement les gestes avec vidéo SIMS">
+                    🎬 Vidéos
+                </button>
+
+                <button id="themeToggle" class="btn-top" title="Basculer entre Papier Clinique et Console Écho">
+                    <span id="themeIcon">🌙</span>
+                    <span id="themeLabel">Console</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Region Filter Pills -->
+        <nav id="catBar" class="cat-bar" aria-label="Filtrer par région anatomique"></nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Quick Clinical Safety Memo -->
+        <section class="clinical-memo" aria-label="Mémo sécurité">
+            <div class="memo-items">
+                <span class="memo-tag">🛡️ <strong>Asepsie :</strong> Bétadine alcoolique 5 temps + protège-sonde stérile + gel stérile</span>
+                <span class="memo-tag">💉 <strong>Tendons & superficiel :</strong> Hydrocortancyl / Célestène (jamais de retard en superficiel)</span>
+                <span class="memo-tag">⚡ <strong>Nerfs :</strong> Jamais d'injection intraneurale (arrêt si paresthésie)</span>
+            </div>
+            <div class="memo-actions">
+                <a href="https://www.sims-asso.org/uploads/consentement/infiltration_echo_guidee.pdf" target="_blank" rel="noopener" class="btn-action">
+                    📄 Fiche Consentement SIMS
+                </a>
+                <a href="https://www.sims-asso.org/uploads/pdfs/gelcontact/20180528095838_gc_10.pdf" target="_blank" rel="noopener" class="btn-action">
+                    📘 Gel Contact N°16 (PDF)
+                </a>
+            </div>
+        </section>
+
+        <!-- Dynamic Procedures Container -->
+        <div id="proceduresRoot"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div>
+            <strong>Guide d'Infiltration sous Échographie</strong> — Contenu scientifique issu de l'espace membre SIMS (<em>Gel Contact N°14 & N°16, Ateliers d'Échographie, Journées d'Imagerie Interventionnelle, Comment je fais ?</em>).
+        </div>
+        <div>
+            Usage médical · Tapp Store
+        </div>
+    </footer>
+
+    <!-- Modal Lightbox (Slides & Videos) -->
+    <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true">
+        <div class="modal-dialog" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <div id="modalTitle" class="modal-title">Détail</div>
+                <button id="modalClose" class="modal-close" aria-label="Fermer">✕</button>
+            </div>
+            <div id="modalBody" class="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Offline Embedded Data -->
+    <script src="data/embedded_data.js"></script>
+    <script>
+        (function () {
+            const DATA = window.GUIDE_DATA || { categories: [], procedures: [] };
+            let activeCategory = 'all';
+            let searchQuery = '';
+            let videosOnly = false;
+
+            const catBar = document.getElementById('catBar');
+            const proceduresRoot = document.getElementById('proceduresRoot');
+            const searchInput = document.getElementById('searchInput');
+            const searchClear = document.getElementById('searchClear');
+            const btnVideosOnly = document.getElementById('btnVideosOnly');
+            const themeToggle = document.getElementById('themeToggle');
+            const themeIcon = document.getElementById('themeIcon');
+            const themeLabel = document.getElementById('themeLabel');
+            const modalBackdrop = document.getElementById('modalBackdrop');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalBody = document.getElementById('modalBody');
+            const modalClose = document.getElementById('modalClose');
+
+            // 1. Theme Management
+            const savedTheme = localStorage.getItem('echo_sims_theme') || 'light';
+            applyTheme(savedTheme);
+
+            function applyTheme(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('echo_sims_theme', theme);
+                if (theme === 'dark') {
+                    themeIcon.textContent = '☀️';
+                    themeLabel.textContent = 'Papier';
+                } else {
+                    themeIcon.textContent = '🌙';
+                    themeLabel.textContent = 'Console';
+                }
+            }
+
+            themeToggle.addEventListener('click', () => {
+                const current = document.documentElement.getAttribute('data-theme');
+                applyTheme(current === 'dark' ? 'light' : 'dark');
+            });
+
+            // 2. Normalize strings for accent-insensitive search
+            function norm(str) {
+                return (str || '')
+                    .toString()
+                    .toLowerCase()
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '');
+            }
+
+            // 3. Render Category Pills
+            function renderCategories() {
+                const totalCount = DATA.procedures.length;
+                let html = `
+                    <button class="cat-pill ${activeCategory === 'all' ? 'active' : ''}" data-cat="all">
+                        <span>📋 Tout</span>
+                        <span class="cat-count">${totalCount}</span>
+                    </button>
+                `;
+
+                DATA.categories.forEach(cat => {
+                    const count = DATA.procedures.filter(p => p.category === cat.id).length;
+                    const isActive = activeCategory === cat.id ? 'active' : '';
+                    html += `
+                        <button class="cat-pill ${isActive}" data-cat="${cat.id}">
+                            <span>${cat.icon} ${cat.label}</span>
+                            <span class="cat-count">${count}</span>
+                        </button>
+                    `;
+                });
+
+                catBar.innerHTML = html;
+                catBar.querySelectorAll('.cat-pill').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        activeCategory = btn.getAttribute('data-cat');
+                        renderCategories();
+                        renderProcedures();
+                    });
+                });
+            }
+
+            // 4. Filter & Render Procedures
+            function matchesProcedure(proc, q) {
+                if (activeCategory !== 'all' && proc.category !== activeCategory) return false;
+                if (videosOnly && (!proc.videos || proc.videos.length === 0)) return false;
+                if (!q) return true;
+                const haystack = norm([
+                    proc.number,
+                    proc.title,
+                    proc.subtitle,
+                    proc.indication,
+                    proc.probe,
+                    proc.position,
+                    proc.approach,
+                    proc.needle,
+                    proc.product,
+                    proc.precautions
+                ].join(' '));
+                return q.split(/\s+/).every(token => haystack.includes(token));
+            }
+
+            function renderProcedures() {
+                const q = norm(searchQuery.trim());
+                const filtered = DATA.procedures.filter(p => matchesProcedure(p, q));
+
+                if (filtered.length === 0) {
+                    proceduresRoot.innerHTML = `
+                        <div class="empty-state">
+                            <p style="font-size:1.05rem;font-weight:600;margin-bottom:6px;">Aucun geste trouvé pour « ${searchQuery} »</p>
+                            <p style="font-size:0.85rem;">Essayez un autre mot-clé (ex. BSAD, gléno-humérale, canal carpien, psoas, Baker, Morton).</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '';
+                DATA.categories.forEach(cat => {
+                    const catProcs = filtered.filter(p => p.category === cat.id);
+                    if (catProcs.length === 0) return;
+
+                    html += `
+                        <section class="region-section" id="sec-${cat.id}">
+                            <div class="region-header">
+                                <h2 class="region-title">
+                                    <span>${cat.icon}</span>
+                                    <span>${cat.label}</span>
+                                </h2>
+                                <span class="region-badge">${catProcs.length} fiche${catProcs.length > 1 ? 's' : ''}</span>
+                            </div>
+                            <div class="cards-grid">
+                                ${catProcs.map(proc => renderCard(proc)).join('')}
+                            </div>
+                        </section>
+                    `;
+                });
+
+                proceduresRoot.innerHTML = html;
+
+                // Attach slide & video handlers
+                proceduresRoot.querySelectorAll('[data-open-slides]').forEach(el => {
+                    el.addEventListener('click', () => {
+                        const procId = el.getAttribute('data-open-slides');
+                        const startIdx = parseInt(el.getAttribute('data-slide-idx') || '0', 10);
+                        openSlidesModal(procId, startIdx);
+                    });
+                });
+
+                proceduresRoot.querySelectorAll('[data-open-videos]').forEach(el => {
+                    el.addEventListener('click', () => {
+                        const procId = el.getAttribute('data-open-videos');
+                        openVideosModal(procId, 0);
+                    });
+                });
+            }
+
+            function renderCard(proc) {
+                const hero = (proc.heroSlides && proc.heroSlides.length > 0)
+                    ? proc.heroSlides.slice(0, 2)
+                    : (proc.allSlides ? proc.allSlides.slice(0, 2) : []);
+                const totalSlides = (proc.allSlides || []).length;
+                const totalVideos = (proc.videos || []).length;
+
+                const heroHtml = hero.length > 0 ? `
+                    <div class="hero-strip ${hero.length === 1 ? 'single-img' : ''}">
+                        ${hero.map((src, idx) => {
+                            const allIdx = Math.max(0, (proc.allSlides || []).indexOf(src));
+                            return `
+                                <div class="slide-thumb" data-open-slides="${proc.id}" data-slide-idx="${allIdx}" title="Agrandir la planche">
+                                    <img src="${src}" alt="${proc.title} — planche ${idx + 1}" loading="lazy">
+                                    <span class="slide-zoom-pill">🔍 ${idx + 1}/${totalSlides}</span>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                ` : '';
+
+                const videoBtn = totalVideos > 0 ? `
+                    <button class="btn-action btn-video" data-open-videos="${proc.id}">
+                        🎬 Vidéo${totalVideos > 1 ? 's' : ''} SIMS (${totalVideos})
+                    </button>
+                ` : '';
+
+                const slidesBtn = totalSlides > 0 ? `
+                    <button class="btn-action btn-slides" data-open-slides="${proc.id}" data-slide-idx="0">
+                        🖼️ Planches (${totalSlides})
+                    </button>
+                ` : '';
+
+                const pdfBtn = proc.consentPdf ? `
+                    <a href="${proc.consentPdf}" target="_blank" rel="noopener" class="btn-action" title="Fiche PDF SIMS">
+                        📄 PDF
+                    </a>
+                ` : '';
+
+                return `
+                    <article class="proc-card" id="card-${proc.id}">
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <span class="proc-num">${proc.number}</span>
+                                <div>
+                                    <h3 class="proc-title">${proc.title}</h3>
+                                    <div class="proc-subtitle">${proc.subtitle || ''}</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${heroHtml}
+
+                        <div class="card-body">
+                            <div class="clinical-row">
+                                <div class="clinical-label">🎯 Indication</div>
+                                <div>${proc.indication}</div>
+                            </div>
+
+                            <div class="clinical-row">
+                                <div class="clinical-label">🛋️ Installation & Sonde</div>
+                                <div><strong>Sonde :</strong> ${proc.probe}<br><strong>Position :</strong> ${proc.position}</div>
+                            </div>
+
+                            <div class="clinical-row needle-box">
+                                <div class="clinical-label">💉 Voie d'abord, Aiguille & Produit</div>
+                                <div>${proc.approach}<br><strong>Aiguille :</strong> ${proc.needle} · <strong>Produit :</strong> ${proc.product}</div>
+                            </div>
+
+                            <div class="clinical-row alert-box">
+                                <div class="clinical-label">⚠️ Points clés & Sécurité</div>
+                                <div>${proc.precautions}</div>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                                ${videoBtn}
+                                ${slidesBtn}
+                            </div>
+                            ${pdfBtn}
+                        </div>
+                    </article>
+                `;
+            }
+
+            // 5. Lightbox Modal for Slides
+            let currentSlideList = [];
+            let currentSlideIndex = 0;
+
+            function openSlidesModal(procId, startIdx) {
+                const proc = DATA.procedures.find(p => p.id === procId);
+                if (!proc || !proc.allSlides || proc.allSlides.length === 0) return;
+
+                currentSlideList = proc.allSlides;
+                currentSlideIndex = Math.min(Math.max(0, startIdx), currentSlideList.length - 1);
+                modalTitle.textContent = `${proc.number}. ${proc.title} — Planches Écho & Anatomie SIMS`;
+                renderSlideModalContent();
+                modalBackdrop.classList.add('open');
+            }
+
+            function renderSlideModalContent() {
+                const src = currentSlideList[currentSlideIndex];
+                const total = currentSlideList.length;
+
+                modalBody.innerHTML = `
+                    <div class="lightbox-stage">
+                        ${total > 1 ? `<button class="lightbox-nav prev" id="slidePrev" aria-label="Précédent">‹</button>` : ''}
+                        <img src="${src}" alt="Planche ${currentSlideIndex + 1}">
+                        ${total > 1 ? `<button class="lightbox-nav next" id="slideNext" aria-label="Suivant">›</button>` : ''}
+                        <div class="lightbox-counter">${currentSlideIndex + 1} / ${total}</div>
+                    </div>
+                    ${total > 1 ? `
+                        <div class="thumbs-strip">
+                            ${currentSlideList.map((s, idx) => `
+                                <div class="thumb-mini ${idx === currentSlideIndex ? 'active' : ''}" data-thumb-idx="${idx}">
+                                    <img src="${s}" alt="Miniature ${idx + 1}" loading="lazy">
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                `;
+
+                const prevBtn = document.getElementById('slidePrev');
+                const nextBtn = document.getElementById('slideNext');
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', () => {
+                        currentSlideIndex = (currentSlideIndex - 1 + total) % total;
+                        renderSlideModalContent();
+                    });
+                }
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', () => {
+                        currentSlideIndex = (currentSlideIndex + 1) % total;
+                        renderSlideModalContent();
+                    });
+                }
+
+                modalBody.querySelectorAll('[data-thumb-idx]').forEach(t => {
+                    t.addEventListener('click', () => {
+                        currentSlideIndex = parseInt(t.getAttribute('data-thumb-idx'), 10);
+                        renderSlideModalContent();
+                    });
+                });
+            }
+
+            // 6. Video Modal (Direct SIMS MP4 & YouTube)
+            function openVideosModal(procId, videoIdx) {
+                const proc = DATA.procedures.find(p => p.id === procId);
+                if (!proc || !proc.videos || proc.videos.length === 0) return;
+
+                const idx = Math.min(Math.max(0, videoIdx), proc.videos.length - 1);
+                const vid = proc.videos[idx];
+                modalTitle.textContent = `🎬 ${proc.number}. ${proc.title} — Vidéos SIMS`;
+
+                const tabsHtml = proc.videos.length > 1 ? `
+                    <div class="video-selector">
+                        ${proc.videos.map((v, i) => `
+                            <button class="video-tab ${i === idx ? 'active' : ''}" data-vid-idx="${i}">
+                                ▶ ${v.title}
+                            </button>
+                        `).join('')}
+                    </div>
+                ` : '';
+
+                const playerHtml = vid.type === 'mp4' ? `
+                    <div class="video-frame-wrap">
+                        <video controls autoplay playsinline preload="metadata" src="${vid.url}"></video>
+                    </div>
+                ` : `
+                    <div class="video-frame-wrap">
+                        <iframe src="${vid.url}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                `;
+
+                modalBody.innerHTML = `
+                    ${tabsHtml}
+                    ${playerHtml}
+                    <div class="video-meta-bar">
+                        <div>
+                            <strong>${vid.title}</strong><br>
+                            <span>👨‍⚕️ ${vid.author || 'SIMS'} · 📚 ${vid.source || 'Espace Membre SIMS'}</span>
+                        </div>
+                        <a href="${vid.url}" target="_blank" rel="noopener" class="btn-action">
+                            ↗ Ouvrir le flux direct
+                        </a>
+                    </div>
+                `;
+
+                modalBody.querySelectorAll('[data-vid-idx]').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        openVideosModal(procId, parseInt(btn.getAttribute('data-vid-idx'), 10));
+                    });
+                });
+
+                modalBackdrop.classList.add('open');
+            }
+
+            function closeModal() {
+                modalBackdrop.classList.remove('open');
+                modalBody.innerHTML = '';
+            }
+
+            modalClose.addEventListener('click', closeModal);
+            modalBackdrop.addEventListener('click', closeModal);
+            document.addEventListener('keydown', (e) => {
+                if (!modalBackdrop.classList.contains('open')) return;
+                if (e.key === 'Escape') closeModal();
+                if (e.key === 'ArrowLeft' && document.getElementById('slidePrev')) {
+                    document.getElementById('slidePrev').click();
+                }
+                if (e.key === 'ArrowRight' && document.getElementById('slideNext')) {
+                    document.getElementById('slideNext').click();
+                }
+            });
+
+            // 7. Search & Video Filter Events
+            searchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value;
+                searchClear.classList.toggle('visible', searchQuery.length > 0);
+                renderProcedures();
+            });
+
+            searchClear.addEventListener('click', () => {
+                searchInput.value = '';
+                searchQuery = '';
+                searchClear.classList.remove('visible');
+                renderProcedures();
+                searchInput.focus();
+            });
+
+            btnVideosOnly.addEventListener('click', () => {
+                videosOnly = !videosOnly;
+                btnVideosOnly.classList.toggle('active-filter', videosOnly);
+                renderProcedures();
+            });
+
+            // 8. Pull-to-Refresh (Touch + Desktop Top Drag) & Auto-Version Check
+            const ptrIndicator = document.getElementById('ptrIndicator');
+            const ptrText = document.getElementById('ptrText');
+            let startY = 0;
+            let pulling = false;
+
+            window.addEventListener('touchstart', (e) => {
+                if (window.scrollY <= 0 && !modalBackdrop.classList.contains('open')) {
+                    startY = e.touches[0].clientY;
+                    pulling = true;
+                }
+            }, { passive: true });
+
+            window.addEventListener('touchmove', (e) => {
+                if (!pulling) return;
+                const dy = e.touches[0].clientY - startY;
+                if (dy > 15 && window.scrollY <= 0) {
+                    const h = Math.min(64, dy * 0.45);
+                    ptrIndicator.style.height = h + 'px';
+                    ptrIndicator.classList.add('visible');
+                    ptrText.textContent = h >= 52 ? 'Relâcher pour actualiser' : 'Tirer pour actualiser…';
+                }
+            }, { passive: true });
+
+            window.addEventListener('touchend', () => {
+                if (!pulling) return;
+                pulling = false;
+                const currentH = parseFloat(ptrIndicator.style.height || '0');
+                if (currentH >= 52) {
+                    ptrIndicator.classList.add('refreshing');
+                    ptrText.textContent = 'Mise à jour SIMS…';
+                    if (navigator.vibrate) navigator.vibrate(15);
+                    setTimeout(() => window.location.reload(), 350);
+                } else {
+                    ptrIndicator.style.height = '0px';
+                    ptrIndicator.classList.remove('visible');
+                }
+            });
+
+            // Auto-check version.json on visibilitychange
+            const CURRENT_VERSION = '2026.11.06.1';
+            async function checkVersion() {
+                try {
+                    const res = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
+                    if (!res.ok) return;
+                    const data = await res.json();
+                    if (data.version && data.version !== CURRENT_VERSION) {
+                        window.location.reload();
+                    }
+                } catch (_) {}
+            }
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'visible') checkVersion();
+            });
+
+            // Initial Render
+            renderCategories();
+            renderProcedures();
+        })();
+    </script>
+</body>
+</html>

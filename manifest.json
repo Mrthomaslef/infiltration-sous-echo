@@ -1,0 +1,17 @@
+{
+  "name": "Infiltrations sous Échographie — Guide SIMS",
+  "short_name": "Écho Infiltrations",
+  "description": "Guide pratique et vidéothèque des infiltrations et gestes interventionnels sous échographie (SIMS · Hôpital Cochin)",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F2EFE9",
+  "theme_color": "#F2EFE9",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

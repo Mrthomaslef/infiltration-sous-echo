@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "gen-guidage-balistique",
+    "number": "01",
+    "category": "generalites",
+    "subregion": "Principes & Balistique",
+    "title": "Guidage Échographique : Dans le plan (« In-Plane »), Hors du plan & Gel Pad",
+    "authors": "Pr N. Sans, Dr F. Lapègue, Dr D. Jacob, Dr H. Guérini (SIMS)",
+    "indication": "Maîtrise de la balistique échoguidée pour tout geste diagnostique ou thérapeutique superficiel ou profond.",
+    "installation": "Échographe face à l'opérateur (alignement yeux – mains – sonde – écran). Sonde linéaire haute fréquence (12–18 MHz) ou sonde « club de golf » (15–22 MHz) pour les extrémités.",
+    "technique": "Abord DANS LE PLAN (grand axe de la sonde) privilégié : visualise tout le trajet et le biseau (« tip » hyperéchogène) d'autant mieux que l'aiguille est parallèle à la sonde. Pour les cibles très superficielles, utiliser un coussinet de gel stérile (« Gel Pad »).",
+    "pointsCles": "Vérifier la position intra-cavitaire par : 1) le tip hyperéchogène du biseau, 2) de petits mouvements de va-et-vient mobilisant les tissus mous, 3) le « test d'ampliation » dès les premières gouttes (mouvements browniens / microbulles), sans résistance au piston.",
+    "heroSlides": [
+      "pages/s110_002.jpg",
+      "pages/s110_010.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_002.jpg",
+      "pages/s110_003.jpg",
+      "pages/s110_010.jpg",
+      "pages/s110_011.jpg",
+      "pages/s110_012.jpg",
+      "pages/s110_013.jpg",
+      "pages/gc16_p06.jpg",
+      "pages/gc16_p07.jpg",
+      "pages/gc16_p09.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment je prépare un geste d'infiltration sans aide ?",
+        "speaker": "Dr H. Guérini (Paris, Cochin)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/4/1.mp4"
+      },
+      {
+        "title": "Démo RE-LIVE 1 : Échographie Interventionnelle SIMS (2025)",
+        "speaker": "SIMS Interventionnel 2025 (62 min)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/89/1.mp4"
+      },
+      {
+        "title": "Démo RE-LIVE 2 : Échographie Interventionnelle SIMS (2025)",
+        "speaker": "SIMS Interventionnel 2025 (72 min)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/93/1.mp4"
+      }
+    ],
+    "pdfs": [
+      {
+        "label": "Dossier SIMS Écho Interventionnelle (Gel Contact N°16)",
+        "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/10/1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "gen-asepsie-kit",
+    "number": "02",
+    "category": "generalites",
+    "subregion": "Asepsie & Sécurité",
+    "title": "Asepsie en 4 Temps, Protection de Sonde Stérile & Prévention du Sepsis",
+    "authors": "Dr H. Guérini, Pr JL. Drapé, Dr P. Chastanet, Pr N. Sans (SIMS)",
+    "indication": "Prévention absolue de l'arthrite septique iatrogène (~1/50 000 à 1/100 000) lors de toute ponction ou infiltration échoguidée.",
+    "installation": "Table d'examen préparée avec champ stérile. Sonde nettoyée aux lingettes désinfectantes, puis recouverte systématiquement d'une housse/poche stérile dédiée et utilisation de gel stérile unidose.",
+    "technique": "Détersion cutanée large en 4 temps (Bétadine alcoolique ou Chlorhexidine alcoolique), gants stériles et masque. Ne jamais traverser une lésion cutanée infectieuse ou inflammatoire.",
+    "pointsCles": "Informer systématiquement le patient (fiche de consentement SIMS) : reconsulter en urgence devant toute douleur croissante ou fièvre après 48h. Ne pas montrer l'aiguille au patient anxieux (prévention du malaise vagal).",
+    "heroSlides": [
+      "pages/s110_006.jpg",
+      "pages/s38_005.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_006.jpg",
+      "pages/s110_007.jpg",
+      "pages/s38_002.jpg",
+      "pages/s38_005.jpg",
+      "pages/s38_006.jpg",
+      "pages/s38_007.jpg",
+      "pages/s38_008.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Gestes guidés par imagerie et infections nosocomiales : Kit de survie",
+        "speaker": "Dr P. Chastanet",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/3/1.mp4"
+      },
+      {
+        "title": "Comment informer le patient pour un geste interventionnel Niveau 1 et 2",
+        "speaker": "Dr R. Campagna (Cochin)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/1/1.mp4"
+      },
+      {
+        "title": "En cas de problème lors d'un geste : comment réagir de façon adaptée ?",
+        "speaker": "Dr C. Gerson",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/2/1.mp4"
+      }
+    ],
+    "pdfs": [
+      {
+        "label": "Fiche Consentement SIMS — Infiltration Articulaire",
+        "url": "https://www.sims-asso.org/uploads/consentement/infiltration_articulaire.pdf"
+      }
+    ]
+  },
+  {
+    "id": "gen-materiel-produits-hemostase",
+    "number": "03",
+    "category": "generalites",
+    "subregion": "Matériel, Produits & Hémostase",
+    "title": "Aiguilles, Corticoïdes, Viscosupplémentation, PRP & Gestion des Anticoagulants",
+    "authors": "Pr R. Guillin, Dr H. Bard, Dr T. Conrozier, Dr B. Dallaudière (SIMS)",
+    "indication": "Choix de l'aiguille, de la molécule injectable et gestion du risque hémorragique selon la cible (intra-articulaire, bourse, gaine tendineuse, enthèse).",
+    "installation": "Repérage Doppler systématique avant ponction pour cartographier les pédicules vasculo-nerveux et la néovascularisation tendineuse/synoviale.",
+    "technique": "• Aiguille orange 25G (0,5×25 mm) : doigts, poignet, pied superficiel.\n• Aiguille bleue 23G (0,6×30 mm) ou verte 21G (0,8×40/50 mm) : épaule, coude, genou, cheville.\n• Aiguille spinale 20G–22G (80–90 mm) : hanche, bassin profond.\n• Trocart 16G–18G : ponction-lavage de calcification ou évacuation d'hématome/kyste épais.",
+    "pointsCles": "Éviter les corticoïdes fluorés retard très atrophiants (Kenacort®) en très superficiel (risque d'atrophie/dépigmentation cutanée) : préférer Hydrocortancyl®, Altim® ou Diprostène® selon le site. Ne jamais injecter de corticoïde en intra-tendineux strict.",
+    "heroSlides": [
+      "pages/s110_009.jpg",
+      "pages/s38_010.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_008.jpg",
+      "pages/s110_009.jpg",
+      "pages/s110_014.jpg",
+      "pages/s110_016.jpg",
+      "pages/s110_019.jpg",
+      "pages/s38_010.jpg",
+      "pages/s38_011.jpg",
+      "pages/s38_012.jpg",
+      "pages/s38_013.jpg",
+      "pages/gc16_p08.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Médicaments modifiant l'hémostase : quelle attitude pour quel geste ?",
+        "speaker": "Pr R. Guillin (Rennes)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/62/1.mp4"
+      },
+      {
+        "title": "Gestes intra et péritendineux : l'embarras du choix",
+        "speaker": "Dr H. Bard (Paris)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/14/1.mp4"
+      },
+      {
+        "title": "Viscosupplémentation : choix du produit, indications et modalités",
+        "speaker": "Dr T. Conrozier",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/25/1.mp4"
+      },
+      {
+        "title": "PRP : Mode de préparation et choisir son kit",
+        "speaker": "Dr B. Dallaudière",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/11/1.mp4"
+      },
+      {
+        "title": "Blocs sensitifs et WALANT en interventionnel MSK",
+        "speaker": "Dr F. Le Saché",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/54/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "epaule-bsad",
+    "number": "04",
+    "category": "epaule",
+    "subregion": "Épaule · Bourse",
+    "title": "Infiltration de la Bourse Sous-Acromio-Deltoïdienne (BSAD)",
+    "authors": "Dr D. Jacob, Pr N. Sans, Dr M. Cohen, Dr L. Pesquer, Dr L. Court (SIMS)",
+    "indication": "Bursite sous-acromio-deltoïdienne, conflit sous-acromial, tendinopathie non rompue de la coiffe des rotateurs.",
+    "installation": "Patient assis ou en décubitus dorsal semi-assis, main sur la fesse (position de Crass modifiée) ou bras le long du corps. Sonde linéaire haute fréquence en coupe coronale oblique ou sagittale antéro-latérale sur le supra-épineux.",
+    "technique": "Abord antéro-latéral ou latéral DANS LE PLAN avec aiguille 21G (verte) ou 23G (bleue). Glisser le biseau tangentiellement entre le fascia profond du deltoïde et la face superficielle du tendon supra-épineux dans le feuillet bursal.",
+    "pointsCles": "Critère de réussite formel : décollement harmonieux en « goutte » des deux feuillets de la BSAD dès les premières gouttes (1 ampoule de Diprostène® ou Altim® + 2 à 3 mL de Xylocaïne® 1% pour test de Neer). En cas de rupture transfixiante de la coiffe, infiltrer la BSAD équivaut à infiltrer la gléno-humérale.",
+    "heroSlides": [
+      "pages/s110_021.jpg",
+      "pages/s110_023.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_021.jpg",
+      "pages/s110_022.jpg",
+      "pages/s110_023.jpg",
+      "pages/s110_024.jpg",
+      "pages/gc16_p10.jpg",
+      "pages/gc14_p24.jpg",
+      "pages/gc14_p25.jpg",
+      "pages/gc14_p26.jpg",
+      "pages/gc14_p27.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Pourquoi j'infiltre la BSAD sous échographie",
+        "speaker": "Dr D. Jacob (Dijon)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/66/1.mp4"
+      },
+      {
+        "title": "Infiltration cortisonée de l'épaule sous échographie",
+        "speaker": "Dr Luc Court",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsateliers/2/1.mp4"
+      },
+      {
+        "title": "Conflits de l'épaule : stratégies d'infiltration",
+        "speaker": "Dr L. Pesquer (Bordeaux)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/8/1.mp4"
+      }
+    ],
+    "pdfs": [
+      {
+        "label": "Article SIMS — Infiltration écho-guidée de la BSAD (Gel Contact N°14)",
+        "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/12/1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "epaule-gleno-humerale",
+    "number": "05",
+    "category": "epaule",
+    "subregion": "Épaule · Articulaire",
+    "title": "Infiltration & Ponction Gléno-Humérale (Voie Postérieure, Antérieure & Voie combinée BSAD+GH de D. Jacob)",
+    "authors": "Dr M. Court-Payen, Dr D. Jacob, Pr N. Sans, Dr M. Cohen (SIMS)",
+    "indication": "Omarthrose en poussée, capsulite rétractile, arthropathie inflammatoire, ponction d'épanchement gléno-huméral, ou double infiltration BSAD + Gléno-Humérale en un seul point de ponction.",
+    "installation": "• Voie postérieure : patient assis ou décubitus latéral opposé, main sur l'épaule controlatérale. Coupe axiale postérieure sous l'épine de la scapula repérant la tête humérale, le labrum postérieur et le tendon infra-épineux.\n• Voie supérieure combinée BSAD + GH (voie de Denis Jacob) : sonde coronale sur l'intervalle des rotateurs / sommet de la tête humérale.",
+    "technique": "• Voie postérieure : aiguille 21G (ou spinale 20G/22G) introduite de dehors en dedans DANS LE PLAN, tangentielle au cartilage huméral jusqu'au récessus capsulaire postérieur.\n• Voie de Denis Jacob (BSAD + GH en 1 piqûre) : traverser la BSAD jusqu'au cartilage supérieur de la tête humérale (injection GH), puis retirer de quelques millimètres dans la BSAD pour la 2e injection.",
+    "pointsCles": "La rotation externe du bras accumule le liquide dans le récessus postérieur. Lors de l'injection intra-articulaire, le liquide fuit immédiatement autour de la tête humérale sans stagner localement.",
+    "heroSlides": [
+      "pages/s110_025.jpg",
+      "pages/s110_028.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_025.jpg",
+      "pages/s110_026.jpg",
+      "pages/s110_027.jpg",
+      "pages/s110_028.jpg",
+      "pages/s110_029.jpg",
+      "pages/s110_030.jpg",
+      "pages/gc16_p10.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment j'infiltre une articulation gléno-humérale sous échographie",
+        "speaker": "Dr M. Court-Payen",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/5/1.mp4"
+      },
+      {
+        "title": "Échographie de l'épaule — Partie I (Comment je fais SIMS)",
+        "speaker": "SIMS",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/CDN2kX3YkZQ"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "epaule-capsulite-arthrodistension",
+    "number": "06",
+    "category": "epaule",
+    "subregion": "Épaule · Capsulite",
+    "title": "Capsulite Rétractile de l'Épaule : Diagnostic Écho & Arthrodistension Échoguidée",
+    "authors": "Pr M. Faruch, Dr D. Jacob, Dr A. Lambert (SIMS)",
+    "indication": "Capsulite rétractile (épaule gelée) avec limitation douloureuse de la rotation externe passive : infiltration intra-articulaire cortisonée + distension capsulaire hydraulique.",
+    "installation": "Décubitus latéral ou assis. Bilan échographique préalable : épaississement hypoéchogène et hyperhémie Doppler de l'intervalle des rotateurs (ligament coraco-huméral > 3 mm) et du récessus axillaire, gaine du long biceps inflammatoire sans rupture de coiffe.",
+    "technique": "Abord gléno-huméral postérieur (ou par l'intervalle des rotateurs en antéro-supérieur) sous contrôle échographique. Injection première d'1 ampoule de corticoïde + Xylocaïne® 1%, suivie d'une distension progressive au sérum physiologique refroidi ou à la Xylocaïne diluée (10 à 20 mL selon tolérance).",
+    "pointsCles": "On visualise en temps réel la distension de la capsule postérieure puis la rupture capsulaire ou la fuite vers la gaine bicipitale. Mobilisation immédiate et kinésithérapie dans l'heure suivant le geste.",
+    "heroSlides": [
+      "pages/s109_001.jpg",
+      "pages/s109_009.jpg"
+    ],
+    "allSlides": [
+      "pages/s109_001.jpg",
+      "pages/s109_003.jpg",
+      "pages/s109_009.jpg",
+      "pages/s109_017.jpg",
+      "pages/s109_019.jpg",
+      "pages/s109_020.jpg",
+      "pages/s109_022.jpg",
+      "pages/s109_024.jpg",
+      "pages/s109_025.jpg",
+      "pages/s109_026.jpg"
+    ],
+    "videos": [
+      {
+        "title": "L'arthrodistension dans le traitement de la capsulite rétractile de l'épaule",
+        "speaker": "Pr M. Faruch (Toulouse)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/24/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "epaule-calcification",
+    "number": "07",
+    "category": "epaule",
+    "subregion": "Épaule · Calcification",
+    "title": "Ponction-Lavage-Aspiration de Calcification de la Coiffe des Rotateurs",
+    "authors": "Dr D. Jacob, Pr N. Sans, Dr F. Lapègue, Dr D. Fournier (SIMS)",
+    "indication": "Tendinopathie calcifiante symptomatique à hydroxyapatite (idéalement type A ou B de la SFA, dense et homogène > 8–10 mm, avec cône d'ombre partiel ou complet).",
+    "installation": "Patient en décubitus dorsal ou semi-assis. Asepsie chirurgicale stricte. Anesthésie locale généreuse des plans sous-cutanés, de la BSAD (2–3 mL de Xylocaïne® 1%) et de la périphérie de la calcification.",
+    "technique": "Aiguille 18G (rose) ou 19G montée sur seringue Luer-Lock de 5 ou 10 mL remplie de sérum physiologique (ou Xylocaïne diluée), introduite DANS LE PLAN au cœur de la calcification. Impulsions répétées de pression-relâchement (« pompe ») entraînant le nuage calcique crayeux dans la seringue (changer de seringue 2 à 3 fois).",
+    "pointsCles": "On observe l'image en « coquille vide » de la loge calcique qui s'affaisse. Terminer impérativement en retirant l'aiguille dans la BSAD pour y injecter 1 ampoule de Diprostène® (prévention de la bursite aiguë réactionnelle à J2–J5 et du rebond douloureux à 6–8 semaines).",
+    "heroSlides": [
+      "pages/s110_046.jpg",
+      "pages/s110_055.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_046.jpg",
+      "pages/s110_052.jpg",
+      "pages/s110_054.jpg",
+      "pages/s110_055.jpg",
+      "pages/s110_056.jpg",
+      "pages/s110_058.jpg",
+      "pages/s110_059.jpg",
+      "pages/s110_060.jpg",
+      "pages/s110_062.jpg",
+      "pages/gc16_p11.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment je lave une calcification de l'épaule sous échographie",
+        "speaker": "Dr D. Jacob (Dijon)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/6/1.mp4"
+      },
+      {
+        "title": "Tendinopathies calcifiantes : stratégie et technique",
+        "speaker": "Dr D. Fournier",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsateliers/10/1.mp4"
+      }
+    ],
+    "pdfs": [
+      {
+        "label": "Fiche Consentement SIMS — Ponction-Lavage de Calcification",
+        "url": "https://www.sims-asso.org/uploads/consentement/ponction_lavage_calcification.pdf"
+      }
+    ]
+  },
+  {
+    "id": "epaule-acromio-claviculaire",
+    "number": "08",
+    "category": "epaule",
+    "subregion": "Épaule · Acromio-Clav.",
+    "title": "Infiltration Acromio-Claviculaire, Sterno-Claviculaire & Abord combiné AC + BSAD",
+    "authors": "Pr N. Sans, Dr F. Lapègue, Dr M. Cohen (SIMS)",
+    "indication": "Arthropathie acromio-claviculaire mécanique ou microtraumatique (ostéolyse distale de la clavicule), arthrite ou arthropathie sterno-claviculaire.",
+    "installation": "Patient assis ou demi-assis. Sonde linéaire haute fréquence posée dans le plan coronal sur l'interligne acromio-claviculaire supérieur.",
+    "technique": "• Voie hors du plan (antéro-supérieure verticale) ou dans le plan (de dedans en dehors ou postéro-supérieure) avec aiguille fine 25G (orange) ou 23G (bleue).\n• Variante combinée AC + BSAD (Pr N. Sans) : par un seul point d'entrée latéral, infiltrer la BSAD puis rediriger l'aiguille en haut et en dedans dans l'interligne acromio-claviculaire.",
+    "pointsCles": "Petit volume articulaire : injecter 0,5 à 1 mL maximum de dérivé cortisoné (Altim® ou Hydrocortancyl®). Visualiser le biseau hyperéchogène entre acromion et clavicule sous la capsule supérieure.",
+    "heroSlides": [
+      "pages/s110_031.jpg",
+      "pages/s110_038.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_031.jpg",
+      "pages/s110_032.jpg",
+      "pages/s110_034.jpg",
+      "pages/s110_036.jpg",
+      "pages/s110_038.jpg",
+      "pages/s110_040.jpg",
+      "pages/s110_042.jpg",
+      "pages/gc16_p11.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Échographie de l'épaule — Partie II (Acromio-claviculaire & Biceps)",
+        "speaker": "SIMS",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/IFWtsTGU-cs"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "epaule-long-biceps",
+    "number": "09",
+    "category": "epaule",
+    "subregion": "Épaule · Long Biceps",
+    "title": "Gaine du Tendon du Long Biceps (Gouttière Bicipitale) & Ténotomie Percutanée",
+    "authors": "Pr N. Sans, Dr F. Lapègue, Dr M. Cohen (SIMS)",
+    "indication": "Ténosynovite du chef long du biceps brachial dans la coulisse bicipitale ; ténotomie percutanée à l'aiguille chez le sujet âgé hyperalgique en échec médical.",
+    "installation": "Patient assis ou en décubitus dorsal, bras en légère rotation externe. Sonde en coupe axiale transverse sur la gouttière intertuberculaire.",
+    "technique": "Abord DANS LE PLAN de dehors en dedans avec aiguille 23G ou 21G. Cibler le récessus synovial bicipital autour du tendon (souvent en regard de la berge médiale ou profonde) sans piquer dans le corps tendineux.",
+    "pointsCles": "Activer systématiquement le Doppler couleur pour repérer et éviter la branche ascendante de l'artère circonflexe humérale antérieure (située sur le bord latéral de la gouttière). Rappel : la gaine communique avec la cavité gléno-humérale.",
+    "heroSlides": [
+      "pages/s110_067.jpg",
+      "pages/gc16_p11.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_067.jpg",
+      "pages/s110_068.jpg",
+      "pages/s110_070.jpg",
+      "pages/gc16_p09.jpg",
+      "pages/gc16_p11.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Échographie de l'épaule — Partie III (Comment je fais SIMS)",
+        "speaker": "SIMS",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/y0JU3L0h958"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "epaule-kyste-spinoglenoidien",
+    "number": "10",
+    "category": "epaule",
+    "subregion": "Épaule · Échancrure",
+    "title": "Ponction-Infiltration de Kyste Spino-Glénoïdien (Paraglénoïdien) & Nerf Supra-Scapulaire",
+    "authors": "Pr N. Sans, Dr F. Lapègue, Dr M. Cohen (SIMS)",
+    "indication": "Kyste mucoïde paraglénoïdien dans l'échancrure spino-glénoïdienne comprimant le nerf supra-scapulaire (amyotrophie de l'infra-épineux).",
+    "installation": "Patient assis, main sur l'épaule opposée. Sonde linéaire (ou convexe si patient corpulent) en coupe axiale postérieure dans la fosse infra-épineuse en regard de l'échancrure spino-glénoïdienne.",
+    "technique": "Aiguille longue 18G ou 20G (spinale) introduite DANS LE PLAN de dehors en dedans à travers le muscle infra-épineux jusqu'au centre du kyste. Aspiration du contenu gélatineux + fenestration de la paroi + injection d'1 ampoule de corticoïde.",
+    "pointsCles": "Repérer au Doppler l'artère et le nerf supra-scapulaires au fond de l'échancrure spino-glénoïdienne pour rester à distance du pédicule vasculo-nerveux.",
+    "heroSlides": [
+      "pages/s110_064.jpg",
+      "pages/s110_065.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_064.jpg",
+      "pages/s110_065.jpg",
+      "pages/s110_066.jpg",
+      "pages/gc16_p11.jpg"
+    ],
+    "videos": [],
+    "pdfs": []
+  },
+  {
+    "id": "coude-articulaire",
+    "number": "11",
+    "category": "coude-poignet-main",
+    "subregion": "Coude · Articulaire",
+    "title": "Ponction-Infiltration Articulaire du Coude (Récessus Olécrânien Postérieur & Voie Latérale)",
+    "authors": "Dr M. Cohen, Dr H. Guérini, Dr JL. Brasseur (SIMS)",
+    "indication": "Arthrite ou poussée congestive du coude, ponction évacuatrice/diagnostique d'épanchement articulaire.",
+    "installation": "• Voie postérieure (récessus olécrânien) : coude fléchi à 90° (ou en extension partielle pour refouler un petit épanchement dans la fosse olécrânienne), sonde en coupe sagittale ou axiale postérieure au-dessus de l'olécrâne.\n• Voie latérale (interligne huméro-radial) : avant-bras en pronation, sonde longitudinale sur l'interligne capitellum – tête radiale.",
+    "technique": "Aiguille 21G ou 23G introduite DANS LE PLAN par voie postéro-latérale (en traversant ou passant sous le triceps jusqu'à la fosse olécrânienne) ou dans l'interligne radio-huméral latéral.",
+    "pointsCles": "Toujours éviter la gouttière épitrochléo-olécrânienne médiale (nerf ulnaire) et vérifier les vaisseaux brachiaux en cas d'abord antérieur.",
+    "heroSlides": [
+      "pages/gc16_p12.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p12.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Échographie du coude : la face postérieure",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/ywwby4fLRcU"
+      },
+      {
+        "title": "Échographie du coude : la face latérale",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/14OHOCmy6Nk"
+      },
+      {
+        "title": "Échographie du coude : la face antérieure",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/xbIyf0Epn5M"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "coude-epicondylite-prp",
+    "number": "12",
+    "category": "coude-poignet-main",
+    "subregion": "Coude · Épicondylite & PRP",
+    "title": "Épicondylite Latérale (CERC) : Infiltration Péri-Tendineuse, Dry-Needling (Peignage) & PRP",
+    "authors": "Dr P. Meyer, Dr A. Silvestre, Dr R. Campagna, Pr P. Peetrons, Dr A. Ponsot (SIMS)",
+    "indication": "Tendinopathie des épicondyliens latéraux (9 fois sur 10 atteinte profonde du Court Extenseur Radial du Carpe — CERC) : phase hyperhémique aiguë (< 3 mois) ou tendinose fissuraire chronique (> 3 mois → Dry-needling / PRP).",
+    "installation": "Patient assis, avant-bras posé sur la table en pronation, coude fléchi à 90°. Sonde linéaire haute fréquence en coupe longitudinale coronale sur l'épicondyle latéral.",
+    "technique": "• Phase inflammatoire (< 3 mois) : injection strictement PÉRI-TENDINEUSE superficielle au CERC (1 mL Diprostène® + Xylocaïne® 1%).\n• Phase chronique fissuraire (> 3 mois, PRP / Dry-needling) : anesthésie du péri-tendon, puis criblage/peignage longitudinal (10–15 passages à l'aiguille 21G) de la zone hypoéchogène fissuraire du CERC + injection intra-fissuraire de 2 à 3 mL de PRP.",
+    "pointsCles": "Attention au risque d'atrophie cutanée et de dépigmentation avec les corticoïdes trop superficiels au coude (prévenir le patient). Après PRP : repos relatif 15 jours, pas d'AINS, protocole de renforcement excentrique de Stanish à partir de S3.",
+    "heroSlides": [
+      "pages/s69_009.jpg",
+      "pages/s69_023.jpg"
+    ],
+    "allSlides": [
+      "pages/s69_001.jpg",
+      "pages/s69_008.jpg",
+      "pages/s69_009.jpg",
+      "pages/s69_010.jpg",
+      "pages/s69_016.jpg",
+      "pages/s69_017.jpg",
+      "pages/s69_018.jpg",
+      "pages/s69_019.jpg",
+      "pages/s69_020.jpg",
+      "pages/s69_022.jpg",
+      "pages/s69_023.jpg",
+      "pages/s69_024.jpg",
+      "pages/s69_028.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Le Dry-Needling : peignage percutané des tendons à l'aiguille",
+        "speaker": "Pr P. Peetrons (Bruxelles)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/12/1.mp4"
+      },
+      {
+        "title": "PRP d'un tendon : technique échoguidée",
+        "speaker": "Dr A. Ponsot, Dr B. Bordet (Lyon)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/15/1.mp4"
+      },
+      {
+        "title": "Pourquoi je fais mes infiltrations de PRP sous anesthésie locale",
+        "speaker": "Dr L. Pesquer (Bordeaux)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/70/1.mp4"
+      }
+    ],
+    "pdfs": [
+      {
+        "label": "Fiche Consentement SIMS — Injection de PRP",
+        "url": "https://www.sims-asso.org/uploads/consentement/injection_prp.pdf"
+      }
+    ]
+  },
+  {
+    "id": "coude-biceps-distal",
+    "number": "13",
+    "category": "coude-poignet-main",
+    "subregion": "Coude · Biceps Distal",
+    "title": "Infiltration de la Bourse Bicipito-Radiale & du Tendon Distal du Biceps au Coude",
+    "authors": "Dr P. Michelin, Dr D. Jacob, Dr JL. Brasseur (SIMS)",
+    "indication": "Bursite bicipito-radiale ou tendinopathie distale d'insertion du biceps brachial sur la tubérosité radiale.",
+    "installation": "Avant-bras en supination maximale (ou position du « Cobra » en pronation par voie dorsale-latérale). Sonde linéaire en coupe axiale sur le pli du coude ou par la fenêtre postéro-latérale.",
+    "technique": "Abord DANS LE PLAN latéro-médial (ou voie postéro-latérale trans-supinateur) avec aiguille 21G de 40–50 mm jusqu'au contact de la bourse bicipito-radiale contre la tubérosité bicipitale du radius.",
+    "pointsCles": "Repérage Doppler impératif de l'artère brachiale/radiale (médiale) et de la branche profonde motrice du nerf radial (nerf interosseux postérieur dans le supinateur) ainsi que de sa branche sensitive.",
+    "heroSlides": [
+      "pages/gc16_p12.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p12.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment j'infiltre le tendon du biceps au coude sous échographie",
+        "speaker": "Dr P. Michelin (Rouen)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/59/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "poignet-de-quervain",
+    "number": "14",
+    "category": "coude-poignet-main",
+    "subregion": "Poignet · De Quervain",
+    "title": "Ténosynovite de De Quervain (1er Compartiment Dorsal — Type 1, Septum Type 2 & Libération 21G)",
+    "authors": "Dr H. Guérini, Pr JL. Drapé, Pr M. Faruch, Dr F. Lapègue, Dr V. Vuillemin (SIMS)",
+    "indication": "Ténosynovite sténosante du 1er compartiment des extenseurs (Long Abducteur APL et Court Extenseur EPB du pouce) avec épaississement du rétinaculum.",
+    "installation": "Poignet posé sur le bord ulnaire (en légère inclinaison ulnaire sur un rouleau), styloïde radiale vers le haut. Sonde « club de golf » ou linéaire haute fréquence en coupe axiale de référence sur la styloïde radiale.",
+    "technique": "• Règle d'or Cochin / SIMS (Dr H. Guérini) : TOUJOURS infiltrer d'abord AUTOUR et au contact superficiel/profond du rétinaculum épaissi (0,5 mL d'Hydrocortancyl® ou Altim®), puis DANS la gaine en cas de ténosynovite.\n• Rechercher systématiquement un SEPTUM INTER-TENDINEUX (De Quervain Type 2, ~30–40 % des cas) isolant le court extenseur (EPB) : si présent, infiltrer sélectivement les 2 sous-compartiments (ou entre les deux tendons) !",
+    "pointsCles": "Repérer en superficie la branche superficielle sensitive du nerf radial (BSNR) et la veine céphalique pour ne jamais les léser. En cas de forme rebelle, possibilité de libération percutanée du rétinaculum à l'aiguille 21G (Pr M. Faruch / Dr F. Lapègue).",
+    "heroSlides": [
+      "pages/s38_017.jpg",
+      "pages/s38_021.jpg"
+    ],
+    "allSlides": [
+      "pages/s38_016.jpg",
+      "pages/s38_017.jpg",
+      "pages/s38_018.jpg",
+      "pages/s38_021.jpg",
+      "pages/s38_023.jpg",
+      "pages/s38_026.jpg",
+      "pages/s38_030.jpg",
+      "pages/s38_031.jpg",
+      "pages/s38_033.jpg",
+      "pages/s38_087.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Ténosynovite sténosante de De Quervain : écho-anatomie & infiltration",
+        "speaker": "Pr M. Faruch, Dr F. Lapègue, Pr N. Sans (Toulouse)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/34/1.mp4"
+      },
+      {
+        "title": "Infiltration et libération du rétinaculum des tendinopathies de De Quervain",
+        "speaker": "Pr M. Faruch (Labo d'Anat SIMS)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/45/1.mp4"
+      },
+      {
+        "title": "Traitement échoguidé des ténosynovites de De Quervain",
+        "speaker": "Dr F. Lapègue (Toulouse)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/52/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "main-doigt-ressaut",
+    "number": "15",
+    "category": "coude-poignet-main",
+    "subregion": "Main · Doigt à Ressaut",
+    "title": "Doigt à Ressaut & Pouce à Ressaut : Infiltration de la Poulie A1 & Libération à l'Aiguille 21G",
+    "authors": "Dr H. Guérini, Dr F. Lapègue, Dr M. Cohen (SIMS)",
+    "indication": "Conflit sténosant entre les tendons fléchisseurs (FCS/FCP ou FPL) et la poulie annulaire A1 épaissie en regard de la tête métacarpienne.",
+    "installation": "Main à plat sur la table, paume vers le haut (supination). Sonde « club de golf » en coupe axiale ou longitudinale sagittale sur la face palmaire de la MCP.",
+    "technique": "• Infiltration cortisonée (aiguille fine 25G orange, abord dans le plan longitudinal distal→proximal ou axial latéral) : 1) infiltrer d'abord AUTOUR et à la face superficielle de la poulie A1 (0,5 mL d'Hydrocortancyl®), 2) puis retirer/rediriger légèrement pour injecter 0,5 mL DANS la gaine synoviale entre poulie A1 et tendon.\n• Libération percutanée de poulie A1 (Dr F. Lapègue) : après anesthésie locale, fenestration/section de la poulie A1 avec le biseau d'une aiguille 21G (verte) jusqu'à disparition du ressaut.",
+    "pointsCles": "Au pouce à ressaut, repérer impérativement les nerfs collatéraux palmaires du pouce qui croisent très près de la poulie A1 en superficie ! Ne jamais forcer contre résistance (signe d'une pointe d'aiguille intra-tendineuse).",
+    "heroSlides": [
+      "pages/s38_037.jpg",
+      "pages/s38_041.jpg"
+    ],
+    "allSlides": [
+      "pages/s38_035.jpg",
+      "pages/s38_037.jpg",
+      "pages/s38_038.jpg",
+      "pages/s38_039.jpg",
+      "pages/s38_041.jpg",
+      "pages/s38_045.jpg",
+      "pages/s38_050.jpg",
+      "pages/s38_051.jpg",
+      "pages/s38_052.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment je fais une libération de doigt à ressaut ou de De Quervain avec une aiguille 21G",
+        "speaker": "Dr F. Lapègue (Toulouse)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/7/1.mp4"
+      },
+      {
+        "title": "Infiltration et Section des Poulies digitales (Labo d'Anat SIMS)",
+        "speaker": "Dr F. Lapègue",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/44/1.mp4"
+      },
+      {
+        "title": "Traitement échoguidé des doigts à ressaut (Démo pratique)",
+        "speaker": "Dr F. Lapègue",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/51/1.mp4"
+      },
+      {
+        "title": "Échographie de la main : appareil fléchisseur et poulies",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/x-N5UhUkHKU"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "poignet-canal-carpien",
+    "number": "16",
+    "category": "coude-poignet-main",
+    "subregion": "Poignet · Canal Carpien",
+    "title": "Canal Carpien : Infiltration Échoguidée, Hydrodissection du Nerf Médian & Échochirurgie",
+    "authors": "Dr T. Jacques, Pr X. Demondion, Dr H. Guérini, Dr D. Petrover, Dr A. Rudel (SIMS)",
+    "indication": "Syndrome du canal carpien idiopathique ou secondaire (ténosynovite des fléchisseurs) : infiltration péri-nerveuse sous le rétinaculum des fléchisseurs.",
+    "installation": "Main en supination, poignet en légère extension sur un billot. Sonde linéaire haute fréquence en coupe axiale transverse à l'entrée du canal carpien (repères : pisiforme en ulnaire, tubercule du scaphoïde en radial).",
+    "technique": "Abord DANS LE PLAN en coupe axiale (le plus souvent par voie ULNAIRE en passant entre l'artère/nerf ulnaire et le pisiforme, ou par voie radiale entre FCR et nerf médian). Glisser l'aiguille 25G ou 23G juste sous le rétinaculum des fléchisseurs au contact ulnaro-superficiel et profond du nerf médian pour réaliser une hydrodissection péri-nerveuse (1 mL d'Hydrocortancyl® ou Altim®).",
+    "pointsCles": "Rechercher systématiquement avant ponction : 1) un nerf médian bifide et une artère médiane persistante au Doppler, 2) la branche motrice thénarienne récurrente (BMNM) et la branche cutanée palmaire du médian.",
+    "heroSlides": [
+      "pages/s38_055.jpg",
+      "pages/s38_058.jpg"
+    ],
+    "allSlides": [
+      "pages/s38_055.jpg",
+      "pages/s38_056.jpg",
+      "pages/s38_057.jpg",
+      "pages/s38_058.jpg",
+      "pages/s38_059.jpg",
+      "pages/s38_060.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltration du canal carpien sous contrôle échographique",
+        "speaker": "Dr T. Jacques, Pr X. Demondion (Lille)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/35/1.mp4"
+      },
+      {
+        "title": "Canal Carpien : Écho-Anatomie détaillée",
+        "speaker": "Dr T. Jacques",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/31/1.mp4"
+      },
+      {
+        "title": "Infiltration du canal carpien (Labo d'Anat SIMS 2022)",
+        "speaker": "Dr A. Hamel-Sénécal",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/47/1.mp4"
+      },
+      {
+        "title": "Échochirurgie du canal carpien : la pratique",
+        "speaker": "Dr D. Petrover (Paris)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/17/1.mp4"
+      },
+      {
+        "title": "Section échoguidée du canal carpien",
+        "speaker": "Dr A. Rudel",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/48/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "main-rhizarthrose-pisotriquetrale",
+    "number": "17",
+    "category": "coude-poignet-main",
+    "subregion": "Main · Rhizarthrose & PT",
+    "title": "Rhizarthrose (Articulation Trapézo-Métacarpienne) & Articulation Piso-Triquétrale",
+    "authors": "Dr H. Guérini, Dr Y. Thouvenin, Dr O. Leluc (SIMS)",
+    "indication": "Rhizarthrose du pouce (arthrose trapézo-métacarpienne — TM) en poussée douloureuse ; arthropathie ou instabilité piso-triquétrale.",
+    "installation": "• Trapézo-métacarpienne (voie palmaire de Cochin — Dr H. Guérini) : main en supination, sonde « club de golf » en coupe sagittale à la base de l'éminence thénar dans l'axe du 2e rayon (M2).\n• Piso-triquétrale : main en supination, sonde sagittale ou axiale sur le pisiforme.",
+    "technique": "• Trapézo-métacarpienne : abord DANS LE PLAN ou hors du plan avec aiguille 25G orange vers l'interligne trapèze–M1 (en évitant les ostéophytes marginaux dans les stades évolués). Injection de 0,5 à 1 mL d'Altim® ou d'acide hyaluronique.\n• Piso-triquétrale : abord latéral ou supérieur sous le pôle du pisiforme à distance du paquet ulnaire (canal de Guyon).",
+    "pointsCles": "En abord dorso-radial de la TM, repérer impérativement au Doppler l'artère radiale au fond de la tabatière anatomique et la branche sensitive du nerf radial ! La voie palmaire thénarienne évite l'artère radiale.",
+    "heroSlides": [
+      "pages/s38_062.jpg",
+      "pages/s38_066.jpg"
+    ],
+    "allSlides": [
+      "pages/s38_062.jpg",
+      "pages/s38_063.jpg",
+      "pages/s38_066.jpg",
+      "pages/s38_067.jpg",
+      "pages/s38_068.jpg",
+      "pages/s38_069.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltration de l'articulation trapézo-métacarpienne et piso-triquétrale",
+        "speaker": "Dr Y. Thouvenin",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/43/1.mp4"
+      },
+      {
+        "title": "Pourquoi je fais mes infiltrations piso-triquétrales sous échoscopie",
+        "speaker": "Dr O. Leluc",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/65/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "main-articulations-mcp-ipp-ipd",
+    "number": "18",
+    "category": "coude-poignet-main",
+    "subregion": "Poignet & Doigts · MCP/IPP/IPD",
+    "title": "Infiltrations Articulaires du Poignet (Radio/Médio-carpienne) et des Doigts (MCP, IPP, IPD)",
+    "authors": "Dr H. Guérini, Dr Y. Thouvenin, Pr X. Demondion (SIMS)",
+    "indication": "Synovites inflammatoires (polyarthrite rhumatoïde, rhumatisme psoriasique) ou poussées d'arthrose digitale (MCP, IPP, IPD) et du carpe.",
+    "installation": "Main posée à plat en pronation sur un coussin. Sonde « club de golf » haute fréquence en coupe sagittale dorsale sur l'interligne articulaire.",
+    "technique": "Abord dorsal DANS LE PLAN (ou oblique latéro-dorsal en passant juste sous la bandelette de l'appareil extenseur) avec aiguille 25G (orange) dans le récessus synovial dorsal de la MCP, de l'IPP ou de l'IPD.",
+    "pointsCles": "Volume maximal dans les petites articulations digitales : 0,3 à 1 mL maximum. Critères de réussite : distension du récessus capsulaire dorsal et mouvements browniens intra-articulaires sans reflux sous-cutané.",
+    "heroSlides": [
+      "pages/s38_073.jpg",
+      "pages/s38_082.jpg"
+    ],
+    "allSlides": [
+      "pages/s38_073.jpg",
+      "pages/s38_077.jpg",
+      "pages/s38_078.jpg",
+      "pages/s38_080.jpg",
+      "pages/s38_082.jpg",
+      "pages/s38_083.jpg",
+      "pages/s38_086.jpg",
+      "pages/s38_088.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltrations échoguidées des articulations des doigts (Labo d'Anat)",
+        "speaker": "Dr Y. Thouvenin",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/32/1.mp4"
+      },
+      {
+        "title": "Les injections articulaires du poignet et de la main",
+        "speaker": "Dr H. Guérini (Paris, Cochin)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/congres/276/1.mp4"
+      },
+      {
+        "title": "Anatomie utile pour les gestes interventionnels au poignet",
+        "speaker": "Pr X. Demondion (Lille)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/33/1.mp4"
+      },
+      {
+        "title": "Échographie de la main : cavité articulaire",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/zErs5U3kzlA"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "poignet-kystes-dupuytren",
+    "number": "19",
+    "category": "coude-poignet-main",
+    "subregion": "Poignet · Kystes & Dupuytren",
+    "title": "Ponction-Évacuation de Kystes Arthrosynoviaux du Poignet (Dorsaux & Gouttière du Pouls) & Dupuytren",
+    "authors": "Dr P. Meyer, Dr G. Favarel, Dr M. Cohen (SIMS)",
+    "indication": "Kyste arthrosynovial (mucoïde) dorsal du carpe (scapho-lunaire) ou palmaire de la gouttière du pouls ; aponévrotomie percutanée à l'aiguille de maladie de Dupuytren sous écho live.",
+    "installation": "Poignet en légère flexion palmaire pour un kyste dorsal, ou en extension pour un kyste palmaire de la gouttière du pouls.",
+    "technique": "Anesthésie locale cutanée, puis ponction DANS LE PLAN avec aiguille de gros calibre 18G (rose) ou 19G en raison de la viscosité du gel synovial. Aspiration complète + fenestration/criblage du collet et de la paroi + injection de 0,5 à 1 mL de corticoïde.",
+    "pointsCles": "Pour les kystes palmaires de la gouttière du pouls : repérer systématiquement au Doppler l'artère radiale qui est souvent accolée voire englobée par le kyste ! Prévenir le patient du taux de récidive (~30 %).",
+    "heroSlides": [
+      "pages/gc16_p12.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p12.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment je traite les kystes dorsaux du carpe sous échographie",
+        "speaker": "Dr P. Meyer (Bordeaux)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/56/1.mp4"
+      },
+      {
+        "title": "Le traitement percutané des kystes arthrosynoviaux",
+        "speaker": "Dr P. Meyer (Bordeaux)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/congres/279/1.mp4"
+      },
+      {
+        "title": "Comment je traite un Dupuytren de la paume de main avec guidage écho live",
+        "speaker": "Dr G. Favarel",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/60/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "hanche-coxofemorale",
+    "number": "20",
+    "category": "hanche-bassin",
+    "subregion": "Hanche · Articulaire",
+    "title": "Ponction-Infiltration Articulaire Coxo-Fémorale (Récessus Antérieur du Col Fémoral)",
+    "authors": "Dr V. Vuillemin, Dr H. Guérini (SIMS · Cochin)",
+    "indication": "Coxarthrose en poussée congestive, coxite inflammatoire, ponction diagnostique d'épanchement de hanche (hanche native ou prothétique).",
+    "installation": "Décubitus dorsal, membre inférieur en extension et légère rotation externe (10–15°). Sonde linéaire (9–12 MHz) ou convexe basse fréquence (3–5 MHz) alignée dans le plan sagittal oblique le long de l'axe du col fémoral.",
+    "technique": "Abord antéro-inférieur ou antéro-latéral DANS LE PLAN avec aiguille spinale 20G ou 22G (80–90 mm). L'aiguille progresse obliquement de bas en haut jusqu'au contact osseux de la jonction tête-col fémoral dans le récessus synovial antérieur.",
+    "pointsCles": "Repérer systématiquement au Doppler le paquet vasculo-nerveux fémoral (médial) et l'artère circonflexe latérale avant de piquer. En cas de liquide aspiré sur PTH, toujours analyser en bactériologie avant toute injection cortisonée différée.",
+    "heroSlides": [
+      "pages/gc16_p13.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p13.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltrations autour de la hanche sous échographie : « les grands classiques »",
+        "speaker": "Dr V. Vuillemin (Paris)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/13/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "hanche-psoas-pth",
+    "number": "21",
+    "category": "hanche-bassin",
+    "subregion": "Hanche · Ilio-Psoas & PTH",
+    "title": "Bourse de l'Ilio-Psoas & Conflit Cupule-Psoas sur Prothèse Totale de Hanche (Test Anesthésique + Infiltration)",
+    "authors": "Dr H. Guérini, Dr V. Vuillemin (SIMS · Cochin)",
+    "indication": "Tendinobursite de l'ilio-psoas, hanche à ressaut antérieur, ou douleur inguinale sur PTH par conflit entre le tendon du psoas et le rebord antérieur débordant de la cupule cotyloïdienne.",
+    "installation": "Décubitus dorsal, hanche en extension et légère rotation externe. Avantage majeur de l'échographie sur le scanner : absence totale d'artéfact métallique permettant de voir le débord antérieur de la cupule prothétique et le tendon de l'ilio-psoas.",
+    "technique": "Abord antérieur ascendant ou antéro-latéral DANS LE PLAN (aiguille spinale 21G/22G) passant en dehors du paquet fémoral jusqu'à l'interface entre la face profonde du tendon ilio-psoas et le rebord antérieur de l'acétabulum / cupule. Injection test de Xylocaïne® 1% + 1 ampoule d'Altim®.",
+    "pointsCles": "Règle absolue sur PTH avec bursite liquidienne du psoas (souvent communicante avec la néo-cavité) : geste en 2 temps — 1er temps ponction bactériologique seule ; 2e temps infiltration cortisonée uniquement après stérilité confirmée des cultures.",
+    "heroSlides": [
+      "pages/gc16_p13.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p13.jpg",
+      "pages/gc16_p14.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltrations autour de la hanche (Psoas, Coxo-fémorale, Moyen glutéal)",
+        "speaker": "Dr V. Vuillemin (Paris)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/13/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "hanche-moyen-gluteal",
+    "number": "22",
+    "category": "hanche-bassin",
+    "subregion": "Hanche · Péri-Trochantérien",
+    "title": "Tendinobursites Péri-Trochantériennes : Bourses des Moyen et Petit Glutéaux",
+    "authors": "Dr H. Guérini, Dr V. Vuillemin (SIMS · Cochin)",
+    "indication": "Douleur latérale de hanche (syndrome douloureux du grand trochanter) par bursite sous-glutéale maximale (superficielle au moyen glutéal) ou bursite profonde du petit/moyen glutéal.",
+    "installation": "Décubitus latéral sur le côté sain, hanches et genoux légèrement fléchis. Sonde linéaire ou convexe en coupe axiale transverse et coronale sur les facettes antérieure (petit glutéal) et latérale/postéro-supérieure (moyen glutéal) du grand trochanter.",
+    "technique": "Abord latéral DANS LE PLAN avec aiguille 21G longue (50 mm) ou spinale 22G selon l'épaisseur adipeuse. Cibler électivement la bourse collectée ou l'espace de glissement superficiel entre le fascia lata et la facette tendineuse atteinte.",
+    "pointsCles": "Adapter la voie d'abord (antéro-latérale pour la bourse du petit glutéal, postéro-latérale pour la bourse profonde du moyen glutéal) selon le schéma des facettes trochantériennes (Fig. 3 Dr H. Guérini).",
+    "heroSlides": [
+      "pages/gc16_p14.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p14.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltrations péri-trochantériennes sous échographie",
+        "speaker": "Dr V. Vuillemin (Paris)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/13/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "bassin-piriforme-alcock-pubalgie",
+    "number": "23",
+    "category": "hanche-bassin",
+    "subregion": "Bassin · Piriforme & Nerfs",
+    "title": "Infiltrations Avancées du Bassin : Muscle Piriforme (Pyramidal), Conflit Ischio-Fémoral & Pubalgie",
+    "authors": "Pr A. Kastler, Dr L. Pesquer (SIMS)",
+    "indication": "Syndrome du muscle piriforme (sciatalgie tronculaire fessière), conflit ischio-fémoral (carré fémoral), névralgies pelviennes / pudendales, symphyse pubienne et enthésopathie des adducteurs.",
+    "installation": "• Piriforme & carré fémoral : procubitus (décubitus ventral), sonde convexe basse fréquence en coupe axiale oblique fessière entre grand trochanter et bord latéral du sacrum / ischion.\n• Pubalgie : décubitus dorsal, cuisse en abduction-rotation externe.",
+    "technique": "Abord DANS LE PLAN de dehors en dedans avec aiguille spinale 20G ou 22G (90 mm) jusqu'au corps musculaire du piriforme (ou dans le plan de glissement piriforme / nerf sciatique pour hydrodissection + test anesthésique / corticoïde ou toxine botulique).",
+    "pointsCles": "Visualisation permanente du nerf sciatique à la face profonde du muscle piriforme et de l'artère glutéale inférieure au Doppler.",
+    "heroSlides": [
+      "pages/gc16_p13.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p13.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Infiltrations autour du bassin : névralgies du petit bassin, pyramidal, conflit ischio-fémoral",
+        "speaker": "Pr A. Kastler",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/23/1.mp4"
+      },
+      {
+        "title": "Échographie et pubalgie — Partie 1 (SIMS Comment je fais)",
+        "speaker": "SIMS",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/h2-EKT_aITQ"
+      }
+    ],
+    "pdfs": [
+      {
+        "label": "Fiche Consentement SIMS — Infiltration du Canal d'Alcock",
+        "url": "https://www.sims-asso.org/uploads/consentement/infiltration_canal_d_alcock.pdf"
+      }
+    ]
+  },
+  {
+    "id": "genou-articulaire-ha-prp",
+    "number": "24",
+    "category": "genou",
+    "subregion": "Genou · Intra-Articulaire",
+    "title": "Infiltration & Ponction Intra-Articulaire du Genou (Récessus Sous-Quadricipital : Corticoïdes, HA & PRP)",
+    "authors": "Dr H. Guérini, Dr D. Jacob, Dr T. Conrozier (SIMS)",
+    "indication": "Gonarthrose en poussée, arthrite inflammatoire, viscosupplémentation (acide hyaluronique) ou injection intra-articulaire de PRP (en particulier sur genou « sec » où l'échoguidage garantit 100 % de précision vs ~75–80 % à l'aveugle).",
+    "installation": "Décubitus dorsal, genou en légère flexion (15–20°) sur un petit rouleau (ou en extension avec contraction quadricipitale pour chasser le liquide dans le récessus suprapatellaire). Sonde linéaire en coupe axiale transverse au-dessus du pôle supérieur de la patella.",
+    "technique": "Abord latéral DANS LE PLAN de dehors en dedans avec aiguille 21G (verte) passant entre le tendon quadricipital en avant et le coussinet adipeux pré-fémoral en arrière, jusque dans le récessus sous-quadricipital.",
+    "pointsCles": "Pour l'acide hyaluronique (HA) et le PRP, vérifier impérativement l'expansion strictement intra-synoviale des premières gouttes (une injection d'HA extra-articulaire dans la graisse est très douloureuse et inefficace).",
+    "heroSlides": [
+      "pages/s102_005.jpg",
+      "pages/s102_015.jpg"
+    ],
+    "allSlides": [
+      "pages/s102_001.jpg",
+      "pages/s102_003.jpg",
+      "pages/s102_004.jpg",
+      "pages/s102_005.jpg",
+      "pages/s102_006.jpg",
+      "pages/s102_010.jpg",
+      "pages/s102_011.jpg",
+      "pages/s102_013.jpg",
+      "pages/s102_015.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment j'infiltre l'articulation du genou sous échographie",
+        "speaker": "Dr H. Guérini (Paris, Cochin)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/61/1.mp4"
+      },
+      {
+        "title": "Échographie du genou : la face antérieure",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/4MToV2pVZn4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "genou-kyste-poplite-meniscal",
+    "number": "25",
+    "category": "genou",
+    "subregion": "Genou · Baker & Kystes",
+    "title": "Kyste Poplité de Baker, Kystes Méniscaux / Paraméniscaux & Kyste de la Tente des Croisés",
+    "authors": "Dr H. Guérini, Dr D. Jacob (SIMS)",
+    "indication": "Kyste poplité de Baker symptomatique sous tension (collet entre semi-membraneux et gastrocnémien médial) ; kyste méniscal ou kyste profond de la tente des ligaments croisés.",
+    "installation": "• Kyste de Baker & tente des croisés : patient en procubitus (décubitus ventral), genou en extension. Sonde linéaire en coupe axiale postéro-médiale de la fosse poplitée.\n• Kyste méniscal : décubitus dorsal ou latéral, sonde sur l'interligne fémoro-tibial médial ou latéral.",
+    "technique": "• Kyste de Baker : abord postéro-médial DANS LE PLAN (aiguille 18G rose pour liquide gélatineux épais) à distance du paquet poplité. Aspiration maximale + fenestration des cloisons + injection d'1 ampoule d'Altim® ou Diprostène®.\n• Kyste de la tente des croisés (Dr H. Guérini) : voie postéro-médiale oblique longeant le condyle médial pour éviter l'artère poplitée.",
+    "pointsCles": "Repérage Doppler systématique de l'artère et de la veine poplitées ainsi que du nerf tibial dans la fosse poplitée. Pour les kystes méniscaux, cribler le collet méniscal et prévenir du risque de récidive lié à la fissure méniscale sous-jacente.",
+    "heroSlides": [
+      "pages/s102_025.jpg",
+      "pages/s102_040.jpg"
+    ],
+    "allSlides": [
+      "pages/s102_017.jpg",
+      "pages/s102_019.jpg",
+      "pages/s102_020.jpg",
+      "pages/s102_021.jpg",
+      "pages/s102_025.jpg",
+      "pages/s102_026.jpg",
+      "pages/s102_040.jpg",
+      "pages/s102_041.jpg",
+      "pages/s102_042.jpg",
+      "pages/gc16_p14.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Échographie de la fosse poplitée du genou (Repères clés SIMS)",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/5iMbo2FTjkg"
+      },
+      {
+        "title": "Échographie du genou : la face postérieure",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/uroCS3JtOTY"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "genou-periarticulaire-bandelette-patte-oie",
+    "number": "26",
+    "category": "genou",
+    "subregion": "Genou · Péri-Articulaire & Nerfs",
+    "title": "Bandelette Ilio-Tibiale (Essuie-Glace), Bursite de la Patte d'Oie, Tendon Patellaire & Nerfs Géniculés",
+    "authors": "Dr D. Jacob, Dr H. Guérini (SIMS)",
+    "indication": "Syndrome de la bandelette ilio-tibiale du coureur (néo-bourse face au condyle latéral), bursite de la patte d'oie, conflit de Hoffa, tendinopathie patellaire proximale (Jumper's knee), et infiltrations/RF des nerfs géniculés.",
+    "installation": "Décubitus dorsal, genou fléchi à 20–30°. Sonde linéaire haute fréquence en coupe coronale sur le condyle fémoral latéral (bandelette ilio-tibiale), antéro-médiale tibiale (patte d'oie) ou sagittale sur le tendon patellaire.",
+    "technique": "• Bandelette ilio-tibiale : abord DANS LE PLAN pour infiltrer la néo-bourse profonde entre le condyle fémoral latéral et la face profonde du tractus ilio-tibial (1 ampoule d'Altim®).\n• Tendon patellaire : dry-needling / PRP dans la zone de tendinose proximale profonde (jamais de corticoïde intra-tendineux) ou hydrodissection de l'interface tendon patellaire – graisse de Hoffa.",
+    "pointsCles": "Pour le syndrome de l'essuie-glace, imposer un repos sportif de 10–15 jours après l'infiltration cortisonée avant reprise progressive de la course.",
+    "heroSlides": [
+      "pages/s102_028.jpg",
+      "pages/s102_036.jpg"
+    ],
+    "allSlides": [
+      "pages/s102_022.jpg",
+      "pages/s102_023.jpg",
+      "pages/s102_024.jpg",
+      "pages/s102_028.jpg",
+      "pages/s102_030.jpg",
+      "pages/s102_033.jpg",
+      "pages/s102_034.jpg",
+      "pages/s102_036.jpg",
+      "pages/s102_037.jpg",
+      "pages/s102_039.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Battles Géniculés : prise en charge interventionnelle des nerfs géniculés",
+        "speaker": "SIMS Interventionnel 2025 (50 min)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/91/1.mp4"
+      },
+      {
+        "title": "Échographie du genou : face latérale et face médiale",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/KmMZmRxVhp8"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "cheville-articulaire-tibiotalienne",
+    "number": "27",
+    "category": "cheville-pied",
+    "subregion": "Cheville & Pied · Articulaires",
+    "title": "Infiltrations Articulaires : Tibio-Talienne (Cheville), Sous-Talienne, Talo-Naviculaire & MTP de l'Hallux",
+    "authors": "Dr W. Khaled, Dr H. Guérini, Pr JL. Drapé, Dr B. Bordet (SIMS)",
+    "indication": "Arthropathie ou conflit antérieur tibio-talien, arthrose talo-naviculaire, sous-talienne, Lisfranc ou hallux rigidus (MTP1).",
+    "installation": "Décubitus dorsal, genou fléchi, plante du pied à plat sur la table en légère flexion plantaire pour ouvrir le récessus capsulaire antérieur de la cheville et l'interligne talo-naviculaire.",
+    "technique": "• Tibio-talienne : coupe sagittale antérieure (entre tibial antérieur et long extenseur de l'hallux) ou coupe axiale antéro-médiale ; abord DANS LE PLAN vers le récessus synovial antérieur au col du talus (aiguille 23G ou 21G).\n• Talo-naviculaire & MTP : coupe sagittale dorsale, abord DANS LE PLAN ou oblique dorsal avec aiguille 25G.",
+    "pointsCles": "Repérer systématiquement au Doppler l'artère dorsale du pied (pédieuse) et le nerf fibulaire profond à la face antérieure de la cheville avant de choisir le point d'entrée médial ou latéral aux tendons extenseurs.",
+    "heroSlides": [
+      "pages/gc16_p14.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p14.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Pourquoi je fais les infiltrations tibio-taliennes sous échographie",
+        "speaker": "Dr W. Khaled",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/69/1.mp4"
+      },
+      {
+        "title": "Table ronde : Radiologie interventionnelle dans le pied",
+        "speaker": "Pr JL. Drapé (Cochin) & Pr P. Teixeira (Nancy)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/congres/357/1.mp4"
+      },
+      {
+        "title": "Échographie de la cheville (Comment je fais SIMS)",
+        "speaker": "SIMS",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/fGX7xuNonsE"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "cheville-gaines-tibial-posterieur-fibulaires",
+    "number": "28",
+    "category": "cheville-pied",
+    "subregion": "Cheville · Gaines Tendineuses",
+    "title": "Infiltration des Gaines Tendineuses : Tendon Tibial Postérieur & Tendons Fibulaires",
+    "authors": "Dr H. Guérini, Pr JL. Drapé (SIMS · Cochin)",
+    "indication": "Ténosynovite exsudative ou sténosante du tendon tibial postérieur (rétro/sous-malléolaire médiale) ou de la gaine des tendons court et long fibulaires (rétro/sous-malléolaire latérale).",
+    "installation": "Décubitus latéral ou dorsal avec pied tourné exposant la malléole médiale (tibial postérieur) ou latérale (fibulaires). Sonde « club de golf » haute fréquence en coupe axiale petit axe ou longitudinale sous-malléolaire.",
+    "technique": "Aiguille fine 25G (orange longue) introduite DANS LE PLAN soit dans l'axe longitudinal sous-malléolaire (en visant la lame d'épanchement de la gaine), soit en coupe axiale transversale sous le rétinaculum pour entourer le(s) tendon(s) (0,5 à 1 mL d'Hydrocortancyl® ou Altim®).",
+    "pointsCles": "Avertir le patient du risque de rupture tendineuse secondaire en cas de tendinopathie fissuraire évoluée du tibial postérieur : réserver l'infiltration aux échecs du traitement médical, injecter strictement dans la gaine synoviale et prévoir une mise au repos / orthèse.",
+    "heroSlides": [
+      "pages/gc16_p15.jpg",
+      "pages/s38_010.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p15.jpg",
+      "pages/s38_010.jpg",
+      "pages/s38_011.jpg",
+      "pages/s38_012.jpg"
+    ],
+    "videos": [],
+    "pdfs": []
+  },
+  {
+    "id": "cheville-achille-bursite-haut-volume",
+    "number": "29",
+    "category": "cheville-pied",
+    "subregion": "Cheville · Tendon d'Achille",
+    "title": "Tendon d'Achille : Bursite Pré-Achilléenne (Rétro-Calcanéenne) & Injection « Haut Volume » (Hydrodissection)",
+    "authors": "Dr H. Guérini, Dr M. Rossier (SIMS)",
+    "indication": "Bursite rétro-calcanéenne (pré-achilléenne) dans le cadre d'une maladie de Haglund ou d'une spondyloarthrite ; tendinopathie corporéale chronique hypervascularisée du tendon d'Achille (hydrodissection « haut volume » de l'espace de Kager).",
+    "installation": "Patient en procubitus (décubitus ventral), pieds dépassant de la table d'examen en position neutre.",
+    "technique": "• Bursite pré-achilléenne (Fig. 7 Dr H. Guérini) : sonde posée en coupe AXIALE à la face postérieure du tendon d'Achille ; abord LATÉRAL DANS LE PLAN juste en avant du tendon d'Achille dans la bourse rétro-calcanéenne.\n• Injection de « Haut Volume » (Dr M. Rossier) : aiguille 21G placée à l'interface antérieure entre la face profonde du tendon d'Achille et la graisse de Kager pour décoller la néovascularisation et les néo-nerfs (10 mL de Xylocaïne® diluée + 20 à 30 mL de sérum physiologique).",
+    "pointsCles": "Interdiction formelle d'injecter des corticoïdes dans le corps du tendon d'Achille ou en péri-tendineux superficiel (risque majeur de rupture totale du tendon d'Achille). Seule la bourse pré-achilléenne profonde authentifiée ou un rhumatisme inflammatoire relève d'une prudente injection intra-bursale.",
+    "heroSlides": [
+      "pages/gc16_p16.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p15.jpg",
+      "pages/gc16_p16.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Injection de « haut volume » dans le traitement des tendinopathies du tendon d'Achille",
+        "speaker": "Dr M. Rossier",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/10/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "pied-aponevrosite-plantaire",
+    "number": "30",
+    "category": "cheville-pied",
+    "subregion": "Pied · Aponévrose Plantaire",
+    "title": "Infiltration d'une Aponévrosite Plantaire (Fasciite Plantaire — Voie Médiale en Coupe Frontale)",
+    "authors": "Dr H. Guérini, Dr O. Fantino, Dr B. Bordet, Dr A. Ponsot (SIMS)",
+    "indication": "Aponévrosite (fasciite) plantaire proximale d'insertion calcanéenne rebelle au traitement médical et aux ondes de choc (épaississement > 4 mm).",
+    "installation": "Patient en procubitus ou décubitus latéral exposant la face médiale du talon. Sonde linéaire haute fréquence positionnée à la plante du pied en COUPE FRONTALE (coronale) passant par l'insertion calcanéenne de la corde centrale.",
+    "technique": "Voie d'abord MÉDIALE DANS LE PLAN (évitant de piquer à travers la peau épaisse et hyperalgique de la plante du pied !). Anesthésie locale traçante avec aiguille 21G (verte) jusqu'à la face superficielle de l'aponévrose plantaire, puis dépôt d'1 ampoule d'Altim® juste en superficie de l'aponévrose (ou PRP intra-fissuraire en cas de fissure chronique).",
+    "pointsCles": "Ne jamais injecter de corticoïde en plein corps de la corde centrale de l'aponévrose plantaire (risque de rupture aiguë de l'aponévrose plantaire avec affaissement de l'arche médiale).",
+    "heroSlides": [
+      "pages/gc16_p16.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p15.jpg",
+      "pages/gc16_p16.jpg"
+    ],
+    "videos": [],
+    "pdfs": []
+  },
+  {
+    "id": "pied-nevrome-morton",
+    "number": "31",
+    "category": "cheville-pied",
+    "subregion": "Pied · Névrome de Morton",
+    "title": "Névrome de Morton & Bursite Inter-Capito-Métatarsienne (Voie Dorsale, Test Anesthésique & Alcoolisation)",
+    "authors": "Dr H. Guérini, Dr G. Morvan, Dr B. Bordet (SIMS)",
+    "indication": "Métatarsalgies neuropathiques par névrome de Morton (3e ou 2e espace inter-capito-métatarsien) et/ou bursite inter-métatarsienne associée.",
+    "installation": "Décubitus dorsal, genou fléchi ou jambe allongée. Sonde positionnée en coupe sagittale plantaire (ou dorsale) dans l'espace inter-métatarsien en exerçant une pression digitale plantaire/Manœuvre de Mulder.",
+    "technique": "Voie d'abord DORSALE inter-métatarsienne (peau fine, beaucoup moins douloureuse et sans risque d'atrophie du capiton plantaire) avec aiguille 23G ou 25G longue suivie en coupe sagittale plantaire jusqu'au pôle supérieur du névrome et dans la bourse inter-capito-métatarsienne (1 mL d'Altim® ou Diprostène® + Xylocaïne® 1%).",
+    "pointsCles": "En cas de récidive ou d'échec, possibilité d'alcoolisation échoguidée (3 à 4 séances à 15 jours d'intervalle) ou de cryoneurolyse.",
+    "heroSlides": [
+      "pages/gc16_p16.jpg",
+      "pages/gc16_p17.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p16.jpg",
+      "pages/gc16_p17.jpg"
+    ],
+    "videos": [],
+    "pdfs": []
+  },
+  {
+    "id": "cheville-tunnel-tarsien-petits-nerfs",
+    "number": "32",
+    "category": "cheville-pied",
+    "subregion": "Cheville & Pied · Tunnel Tarsien & Nerfs",
+    "title": "Tunnel Tarsien, Nerf de Baxter & Petits Nerfs de la Cheville et du Pied (Hydrodissection & Infiltration)",
+    "authors": "Dr O. Fantino, Dr F. Lapègue (SIMS)",
+    "indication": "Syndrome du tunnel tarsien postéro-médial (nerf tibial, nerf plantaire médial/latéral, nerf de Baxter / 1re branche calcanéenne inférieure), kyste intraneural/extraneural, syndrome des nerfs fibulaire superficiel, fibulaire profond ou sural.",
+    "installation": "Décubitus latéral ou dorsal selon le nerf exploré. Sonde « club de golf » ou linéaire haute fréquence en coupe axiale transverse sur le trajet nerveux (« technique de l'ascenseur »).",
+    "technique": "Abord DANS LE PLAN en coupe axiale du nerf avec aiguille 25G ou 23G. Réaliser un test anesthésique sélectif (1 mL de Xylocaïne® 1%) et une hydrodissection circonférentielle péri-nerveuse dans le fascia (corticoïde non particulaire ou sérum glucosé 5%).",
+    "pointsCles": "Dans 85 % des cas de syndrome du tunnel tarsien, une cause locale est identifiable à l'échographie (varices plantaires 33 %, kyste mucoïde d'origine sous-talienne, muscle long fléchisseur accessoire des orteils). Toujours activer le Doppler couleur avant d'avancer l'aiguille.",
+    "heroSlides": [
+      "pages/s117_039.jpg",
+      "pages/s117_111.jpg"
+    ],
+    "allSlides": [
+      "pages/s117_001.jpg",
+      "pages/s117_037.jpg",
+      "pages/s117_039.jpg",
+      "pages/s117_048.jpg",
+      "pages/s117_057.jpg",
+      "pages/s117_066.jpg",
+      "pages/s117_068.jpg",
+      "pages/s117_101.jpg",
+      "pages/s117_102.jpg",
+      "pages/s117_103.jpg",
+      "pages/s117_111.jpg",
+      "pages/s117_112.jpg",
+      "pages/s117_113.jpg",
+      "pages/s117_114.jpg",
+      "pages/s117_127.jpg",
+      "pages/s117_133.jpg",
+      "pages/s117_134.jpg",
+      "pages/s117_135.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Comment j'infiltre le tunnel tarsien sous échographie",
+        "speaker": "Dr O. Fantino (Lyon)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/57/1.mp4"
+      },
+      {
+        "title": "Échographie des nerfs superficiels de la jambe et du pied : les repères clés !",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/U3tYdL0zmQI"
+      },
+      {
+        "title": "Échographie des nerfs du membre inférieur : le nerf tibial",
+        "speaker": "SIMS Comment je fais",
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/beqaED0K5QE"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "muscles-hematome-tennis-leg",
+    "number": "33",
+    "category": "parties-molles",
+    "subregion": "Muscles · Hématomes & Séromes",
+    "title": "Ponction-Évacuation d'Hématome Musculaire (Tennis-Leg, Quadriceps) & Épanchement de Morel-Lavallée",
+    "authors": "Pr N. Sans, Dr H. Guérini, Dr JL. Brasseur (SIMS)",
+    "indication": "Hématome musculaire collecté et liquéfié (notamment décollement myo-aponévrotique du gastrocnémien médial « Tennis-leg » ou hématome du quadriceps à partir de J7–J10) ou sérome de Morel-Lavallée.",
+    "installation": "Installation exposant la zone déclive de la collection. Vérifier au préalable la phase liquide mobilisable à la sonde (compression échoscopique) et l'absence de faux anévrisme au Doppler couleur.",
+    "technique": "Asepsie chirurgicale stricte (un hématome incomplètement évacué est un milieu de culture bactérien). Anesthésie locale traçante, puis ponction DANS LE PLAN au pôle déclive avec trocart 18G ou 16G jusqu'à affaissement complet des parois de la cavité.",
+    "pointsCles": "Appliquer immédiatement en fin de ponction un pansement compressif et une contention élastique adaptée (sans effet garrot) pour accoler les feuillets aponévrotiques et prévenir la récidive.",
+    "heroSlides": [
+      "pages/s110_043.jpg",
+      "pages/s110_045.jpg"
+    ],
+    "allSlides": [
+      "pages/s110_043.jpg",
+      "pages/s110_044.jpg",
+      "pages/s110_045.jpg",
+      "pages/gc16_p17.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Interventionnel en échographie : « Muscles » (Hématomes, PRP, Cicatrisation)",
+        "speaker": "SIMS Interventionnel 2025 (30 min)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/92/1.mp4"
+      },
+      {
+        "title": "Classification des lésions musculaires en échographie",
+        "speaker": "Dr JL. Brasseur (Paris)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsateliers/18/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "parties-molles-corps-etranger-harpon",
+    "number": "34",
+    "category": "parties-molles",
+    "subregion": "Parties Molles · Corps Étranger",
+    "title": "Extraction Échoguidée de Corps Étranger Périphérique & Pose de Harpon Pré-Opératoire",
+    "authors": "Pr R. Guillin, Dr H. Guérini, Dr R. Campagna (SIMS)",
+    "indication": "Extraction percutanée d'un corps étranger superficiel ou profond des parties molles (écharde de bois radiotransparente, épine végétale, éclat de verre ou métallique) ; pose de harpon de repérage chirurgical d'une petite lésion non palpable (ex: petit schwannome).",
+    "installation": "Repérage échographique minutieux en 2 plans orthogonaux (corps étranger hyperéchogène avec cône d'ombre postérieur ou artéfact en queue de comète entouré d'un halo hypoéchogène granulomateux) et cartographie Doppler des nerfs et vaisseaux adjacents.",
+    "technique": "Anesthésie locale suivie d'une HYDRODISSECTION généreuse autour du corps étranger pour le décoller des tissus fibreux. Moucheture cutanée au bistouri n°11 au point d'entrée, puis introduction DANS LE PLAN d'une pince de Halsted fine (ou pince crocodile) guidée en temps réel jusqu'à saisir l'extrémité du corps étranger dans son grand axe.",
+    "pointsCles": "Toujours vérifier en fin de geste l'absence de fragment résiduel dans la loge d'extraction et la validité de la prophylaxie antitétanique.",
+    "heroSlides": [
+      "pages/gc16_p17.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p17.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Extraction de corps étranger sous échographie : matériel et technique",
+        "speaker": "Pr R. Guillin (Rennes)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/9/1.mp4"
+      }
+    ],
+    "pdfs": []
+  },
+  {
+    "id": "parties-molles-biopsie-tumeur",
+    "number": "35",
+    "category": "parties-molles",
+    "subregion": "Parties Molles · Biopsie",
+    "title": "Biopsie Percutanée Échoguidée d'une Tumeur des Parties Molles (Technique Coaxiale & Règles Carcinologiques)",
+    "authors": "Dr F. Thévenin, Dr H. Guérini, Dr D. Jacob (SIMS · Cochin)",
+    "indication": "Masse des parties molles indéterminée, profonde (> 5 cm, sous-fasciale) ou suspecte de sarcome après IRM.",
+    "installation": "Indication et voie d'abord OBLIGATOIREMENT validées en RCP Sarcome avec le chirurgien orthopédiste oncologue qui opérera le patient (le trajet de biopsie sera réséqué en monobloc lors de la chirurgie).",
+    "technique": "• Règles carcinologiques strictes : ne traverser qu'UN SEUL compartiment anatomique, rester à distance des paquets vasculo-nerveux et des articulations, assurer une hémostase rigoureuse.\n• Technique COAXIALE : mise en place d'un introducteur coaxial au contact de la portion charnue rehaussée / vascularisée au Doppler (éviter la nécrose centrale), puis prélèvements multiples (4 à 6 carottes) au pistolet automatique 14G ou 16G.",
+    "pointsCles": "Tatouer ou repérer le point d'entrée cutané si nécessaire et comprimer longuement en fin de procédure pour éviter tout hématome disséquant inter-compartimental.",
+    "heroSlides": [
+      "pages/gc16_p17.jpg"
+    ],
+    "allSlides": [
+      "pages/gc16_p17.jpg"
+    ],
+    "videos": [
+      {
+        "title": "Biopsie échoguidée d'une tumeur des parties molles",
+        "speaker": "Dr F. Thévenin (Paris, Cochin)",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/16/1.mp4"
+      },
+      {
+        "title": "Geste Niveau 2 : Interventionnel et Oncologie",
+        "speaker": "SIMS Interventionnel",
+        "type": "mp4",
+        "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/42/1.mp4"
+      }
+    ],
+    "pdfs": []
+  }
+]
