@@ -49,15 +49,15 @@
       "technique": "Abord antéro-latéral ou latéral DANS LE PLAN avec aiguille 21G (verte) ou 23G (bleue). Glisser le biseau tangentiellement entre le fascia profond du deltoïde et la face superficielle du tendon supra-épineux dans le feuillet bursal.",
       "pointsCles": "Critère de réussite formel : décollement harmonieux en « goutte » des deux feuillets de la BSAD dès les premières gouttes (1 ampoule de Diprostène® ou Altim® + 2 à 3 mL de Xylocaïne® 1% pour test de Neer). En cas de rupture transfixiante de la coiffe, infiltrer la BSAD équivaut à infiltrer la gléno-humérale.",
       "heroSlides": [
-        "pages/s110_022.jpg",
-        "pages/s110_023.jpg"
+        "assets/figs/gc20_p40_f0.jpg",
+        "assets/figs/s110_022.jpg"
       ],
       "allSlides": [
-        "pages/s110_022.jpg",
-        "pages/s110_023.jpg",
-        "pages/s110_024.jpg",
-        "pages/gc14_p27.jpg",
-        "pages/gc16_p10.jpg"
+        "assets/figs/gc20_p40_f0.jpg",
+        "assets/figs/s110_022.jpg",
+        "assets/figs/gc21_p38_f1.jpg",
+        "assets/figs/gc14_p26_f0.jpg",
+        "assets/figs/gc16_p10_f1.jpg"
       ],
       "videos": [
         {
@@ -92,6 +92,13 @@
           "label": "Gel Contact N°23 (2014) — Spécial Épaule & Interventionnel",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/18/1.pdf"
         }
+      ],
+      "legends": [
+        "Infiltration de la BSAD : position de la sonde, trajet de l'aiguille et schéma de la bourse (B) entre deltoïde et tendon (T).",
+        "Coupe cible : BSAD (liseré orange) entre le deltoïde et le supra-épineux.",
+        "Fig. 2 : bursopathie sous acromiodeltoïdienne . Mise en place de l’aiguille (flèches bleues droites) par voie antéro-latérale au sein de l’épanchement intra-bursal (flèche bleue courbe)",
+        "Fig. 2 : Voie latérale : 2a visualisation de l’aiguille (flèche) et de son extrémité (tête de flèche) 2b : Absence d’épanchement liquidien dans la BSAD. L’injection d’un peu d’air (têtes de flèche) permet de matérialiser la lumière de la bourse pour poursuivre l’injection",
+        "Fig. 2 : Injection dans la BSAD — ampliation de la bourse séparant ses deux feuillets (flèches)."
       ]
     },
     {
@@ -106,14 +113,14 @@
       "technique": "• Voie postérieure : aiguille 21G (ou spinale 20G/22G) introduite de dehors en dedans DANS LE PLAN, tangentielle au cartilage huméral jusqu'au récessus capsulaire postérieur.\n• Voie de Denis Jacob (BSAD + GH en 1 piqûre) : traverser la BSAD jusqu'au cartilage supérieur de la tête humérale (injection GH), puis retirer de quelques millimètres dans la BSAD pour la 2e injection.",
       "pointsCles": "La rotation externe du bras accumule le liquide dans le récessus postérieur. Lors de l'injection intra-articulaire, le liquide fuit immédiatement autour de la tête humérale sans stagner localement.",
       "heroSlides": [
-        "pages/s110_026.jpg",
-        "pages/s110_028.jpg"
+        "assets/figs/s110_028.jpg",
+        "assets/figs/gc16_p10_f2.jpg"
       ],
       "allSlides": [
-        "pages/s110_026.jpg",
-        "pages/s110_027.jpg",
-        "pages/s110_028.jpg",
-        "pages/gc16_p10.jpg"
+        "assets/figs/s110_028.jpg",
+        "assets/figs/gc16_p10_f2.jpg",
+        "assets/figs/gc21_p40_f1.jpg",
+        "assets/figs/s110_027.jpg"
       ],
       "videos": [
         {
@@ -129,7 +136,13 @@
           "url": "https://www.youtube.com/embed/CDN2kX3YkZQ"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Voie combinée BSAD + gléno-humérale (voie de D. Jacob) : trajet de l'aiguille sur la coupe axiale.",
+        "Fig. 3 : Gléno-humérale par voie postérieure — épanchement du récessus postérieur (*), cible de la ponction.",
+        "Fig. 8 : infiltration intra-articulaire glénohumérale par voie antéro-latérale dans le récessus bicipital. A : mise en place de l’aiguille (flèches bleues droites) dans le récessus en évitant le tendon du long biceps (flèche bleue courbe).",
+        "Coupe écho cible : BSAD (jaune) et récessus gléno-huméral (cerclé)."
+      ]
     },
     {
       "id": "epaule-capsulite-arthrodistension",
@@ -143,14 +156,14 @@
       "technique": "Abord gléno-huméral postérieur (ou par l'intervalle des rotateurs en antéro-supérieur) sous contrôle échographique. Injection première d'1 ampoule de corticoïde + Xylocaïne® 1%, suivie d'une distension progressive au sérum physiologique refroidi ou à la Xylocaïne diluée (10 à 20 mL selon tolérance).",
       "pointsCles": "On visualise en temps réel la distension de la capsule postérieure puis la rupture capsulaire ou la fuite vers la gaine bicipitale. Mobilisation immédiate et kinésithérapie dans l'heure suivant le geste.",
       "heroSlides": [
-        "pages/s109_009.jpg",
-        "pages/s109_024.jpg"
+        "assets/figs/s109_009.jpg",
+        "assets/figs/s109_017.jpg"
       ],
       "allSlides": [
-        "pages/s109_009.jpg",
-        "pages/s109_017.jpg",
-        "pages/s109_024.jpg",
-        "pages/s109_025.jpg"
+        "assets/figs/s109_009.jpg",
+        "assets/figs/s109_017.jpg",
+        "assets/figs/gc21_p41_f0.jpg",
+        "assets/figs/s109_024.jpg"
       ],
       "videos": [
         {
@@ -160,7 +173,13 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/24/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Intervalle des rotateurs normal : cible de l'infiltration (LB et ligament coraco-huméral).",
+        "Récessus axillaire : épaississement capsulaire de la capsulite.",
+        "Fig. 9 : infiltration intra-articulaire. Abord sagittal du compartiment intra-articulaire (flèche bleue courbe) avec bonne visualisation de l’aiguille (flèches bleues droites)",
+        "Abord de l'intervalle des rotateurs : trajet de l'aiguille (ligne échogène oblique)."
+      ]
     },
     {
       "id": "epaule-calcification",
@@ -174,14 +193,16 @@
       "technique": "Aiguille 18G (rose) ou 19G montée sur seringue Luer-Lock de 5 ou 10 mL remplie de sérum physiologique (ou Xylocaïne diluée), introduite DANS LE PLAN au cœur de la calcification. Impulsions répétées de pression-relâchement (« pompe ») entraînant le nuage calcique crayeux dans la seringue (changer de seringue 2 à 3 fois).",
       "pointsCles": "On observe l'image en « coquille vide » de la loge calcique qui s'affaisse. Terminer impérativement en retirant l'aiguille dans la BSAD pour y injecter 1 ampoule de Diprostène® (prévention de la bursite aiguë réactionnelle à J2–J5 et du rebond douloureux à 6–8 semaines).",
       "heroSlides": [
-        "pages/s110_055.jpg",
-        "pages/s110_056.jpg"
+        "assets/figs/s110_055.jpg",
+        "assets/figs/gc21_p39_f1.jpg"
       ],
       "allSlides": [
-        "pages/s110_055.jpg",
-        "pages/s110_056.jpg",
-        "pages/s110_060.jpg",
-        "pages/gc16_p11.jpg"
+        "assets/figs/s110_055.jpg",
+        "assets/figs/gc21_p39_f1.jpg",
+        "assets/figs/gc21_p39_f0.jpg",
+        "assets/figs/s110_056.jpg",
+        "assets/figs/s110_060.jpg",
+        "assets/figs/gc32_p11_f0.jpg"
       ],
       "videos": [
         {
@@ -202,6 +223,14 @@
           "label": "Fiche Consentement SIMS — Ponction-Lavage de Calcification",
           "url": "https://www.sims-asso.org/uploads/consentement/ponction_lavage_calcification.pdf"
         }
+      ],
+      "legends": [
+        "Mise en pression de la calcification : cavitation à la pointe de l'aiguille (« cœur qui bat »).",
+        "Fig. 4 : tendinopathie calcifiante. Mise en place de l’aiguille (flèches bleues droites) au sein de la calcification peu atténuante du tendon supraépineux (flèches rouges droites)",
+        "Fig. 5 : tendinopathie calcifiante. Distension et modification du contenu de la calcification (flèches rouges droites ) par mouvements de ponction/aspiration",
+        "Lavage : position de la sonde et de l'aiguille, aller-retour de la seringue.",
+        "Quelles calcifications ? Hyperéchogène avec cône d'ombre partiel — confronter à la radio du jour.",
+        "Fig. 10 : Évolution radio-échographique après ponction-lavage d’une calcification d’apatite du tendon supra-épineux. (A, B) Aspect pré-thérapeutique de la calcification, apparaissant dense, homogène en radiographie et fortement atténuante en échographie. (C) Ponction-aspiration sous contrôle scopique. (D, E) Aspect radio-échographique post-geste immédiat, avec fragmentation de la calcification. (F, G) Aspect à 3 mois, avec disparition de la calcification intratendineuse, laissant place à des microcalcifications linéaires au sein de la bourse sous-acromio-deltoïdienne sur la radiographie, et une synovite échographique, traduisant la résorption intra-bursale de la calcification."
       ]
     },
     {
@@ -216,15 +245,14 @@
       "technique": "• Voie hors du plan (antéro-supérieure verticale) ou dans le plan (de dedans en dehors ou postéro-supérieure) avec aiguille fine 25G (orange) ou 23G (bleue).\n• Variante combinée AC + BSAD (Pr N. Sans) : par un seul point d'entrée latéral, infiltrer la BSAD puis rediriger l'aiguille en haut et en dedans dans l'interligne acromio-claviculaire.",
       "pointsCles": "Petit volume articulaire : injecter 0,5 à 1 mL maximum de dérivé cortisoné (Altim® ou Hydrocortancyl®). Visualiser le biseau hyperéchogène entre acromion et clavicule sous la capsule supérieure.",
       "heroSlides": [
-        "pages/s110_032.jpg",
-        "pages/s110_036.jpg"
+        "assets/figs/s110_034.jpg",
+        "assets/figs/s110_036.jpg"
       ],
       "allSlides": [
-        "pages/s110_032.jpg",
-        "pages/s110_034.jpg",
-        "pages/s110_036.jpg",
-        "pages/s110_040.jpg",
-        "pages/gc21_p41.jpg"
+        "assets/figs/s110_034.jpg",
+        "assets/figs/s110_036.jpg",
+        "assets/figs/gc16_p11_f0.jpg",
+        "assets/figs/s110_040.jpg"
       ],
       "videos": [
         {
@@ -234,7 +262,13 @@
           "url": "https://www.youtube.com/embed/IFWtsTGU-cs"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Acromio-claviculaire : position de la sonde (coupe coronale) et image écho de l'interligne.",
+        "Interligne AC en écho : cible de l'aiguille.",
+        "Fig. 4 : Infiltration acromio-claviculaire — pointe de l'aiguille avec son ombre acoustique (flèche).",
+        "Variante : abord combiné acromio-claviculaire + BSAD."
+      ]
     },
     {
       "id": "epaule-long-biceps",
@@ -248,13 +282,14 @@
       "technique": "Abord DANS LE PLAN de dehors en dedans avec aiguille 23G ou 21G. Cibler le récessus synovial bicipital autour du tendon (souvent en regard de la berge médiale ou profonde) sans piquer dans le corps tendineux.",
       "pointsCles": "Activer systématiquement le Doppler couleur pour repérer et éviter la branche ascendante de l'artère circonflexe humérale antérieure (située sur le bord latéral de la gouttière). Rappel : la gaine communique avec la cavité gléno-humérale.",
       "heroSlides": [
-        "pages/gc16_p09.jpg",
-        "pages/s110_070.jpg"
+        "assets/figs/gc23_p53_f0.jpg",
+        "assets/figs/gc23_p53_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p09.jpg",
-        "pages/gc16_p11.jpg",
-        "pages/s110_070.jpg"
+        "assets/figs/gc23_p53_f0.jpg",
+        "assets/figs/gc23_p53_f1.jpg",
+        "assets/figs/gc16_p11_f1.jpg",
+        "assets/figs/s110_070.jpg"
       ],
       "videos": [
         {
@@ -264,7 +299,13 @@
           "url": "https://www.youtube.com/embed/y0JU3L0h958"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Abord antérieur de la gouttière bicipitale : sonde axiale, aiguille dans le plan.",
+        "Aiguille au contact du tendon du long biceps, dans sa gaine.",
+        "Fig. 5 : Ponction sélective de la gaine du long biceps dans la gouttière bicipitale (coupe axiale, Doppler).",
+        "Ténotomie du long biceps à l'aiguille."
+      ]
     },
     {
       "id": "epaule-kyste-spinoglenoidien",
@@ -278,17 +319,23 @@
       "technique": "Aiguille longue 18G ou 20G (spinale) introduite DANS LE PLAN de dehors en dedans à travers le muscle infra-épineux jusqu'au centre du kyste. Aspiration du contenu gélatineux + fenestration de la paroi + injection d'1 ampoule de corticoïde.",
       "pointsCles": "Repérer au Doppler l'artère et le nerf supra-scapulaires au fond de l'échancrure spino-glénoïdienne pour rester à distance du pédicule vasculo-nerveux.",
       "heroSlides": [
-        "pages/s110_065.jpg",
-        "pages/s110_066.jpg"
+        "assets/figs/s110_066.jpg",
+        "assets/figs/gc21_p40_f0.jpg"
       ],
       "allSlides": [
-        "pages/s110_065.jpg",
-        "pages/s110_066.jpg",
-        "pages/gc21_p40.jpg",
-        "pages/gc23_p55.jpg"
+        "assets/figs/s110_066.jpg",
+        "assets/figs/gc21_p40_f0.jpg",
+        "assets/figs/s110_065.jpg",
+        "assets/figs/gc16_p11_f2.jpg"
       ],
       "videos": [],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Échancrure spino-glénoïdienne : position de la sonde (abord postérieur) et coupe écho cible.",
+        "Fig. 7 : kyste de l’échancrure spinoglénoïdienne. Modification de l’échostructure (flèche bleue courbe) par infiltration échoguidée du kyste (flèches rouges droites)",
+        "Rapports avec le nerf supra-scapulaire (anatomie, écho, IRM).",
+        "Fig. 6 : Kyste para-glénoïdien anéchogène, cible de la ponction échoguidée."
+      ]
     },
     {
       "id": "coude-articulaire",
@@ -302,12 +349,10 @@
       "technique": "Aiguille 21G ou 23G introduite DANS LE PLAN par voie postéro-latérale (en traversant ou passant sous le triceps jusqu'à la fosse olécrânienne) ou dans l'interligne radio-huméral latéral.",
       "pointsCles": "Toujours éviter la gouttière épitrochléo-olécrânienne médiale (nerf ulnaire) et vérifier les vaisseaux brachiaux en cas d'abord antérieur.",
       "heroSlides": [
-        "pages/gc16_p12.jpg",
-        "pages/gc20_p50.jpg"
+        "assets/figs/gc16_p12_f0.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p12.jpg",
-        "pages/gc20_p50.jpg"
+        "assets/figs/gc16_p12_f0.jpg"
       ],
       "videos": [
         {
@@ -329,7 +374,10 @@
           "url": "https://www.youtube.com/embed/xbIyf0Epn5M"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 7 : Coude — épanchement du récessus olécrânien postérieur, accumulé en extension (flèche) : cible de la ponction."
+      ]
     },
     {
       "id": "coude-epicondylite-prp",
@@ -343,14 +391,14 @@
       "technique": "• Phase inflammatoire (< 3 mois) : injection strictement PÉRI-TENDINEUSE superficielle au CERC (1 mL Diprostène® + Xylocaïne® 1%).\n• Phase chronique fissuraire (> 3 mois, PRP / Dry-needling) : anesthésie du péri-tendon, puis criblage/peignage longitudinal (10–15 passages à l'aiguille 21G) de la zone hypoéchogène fissuraire du CERC + injection intra-fissuraire de 2 à 3 mL de PRP.",
       "pointsCles": "Attention au risque d'atrophie cutanée et de dépigmentation avec les corticoïdes trop superficiels au coude (prévenir le patient). Après PRP : repos relatif 15 jours, pas d'AINS, protocole de renforcement excentrique de Stanish à partir de S3.",
       "heroSlides": [
-        "pages/s69_009.jpg",
-        "pages/s69_023.jpg"
+        "assets/figs/s69_010.jpg",
+        "assets/figs/s69_009.jpg"
       ],
       "allSlides": [
-        "pages/s69_009.jpg",
-        "pages/s69_010.jpg",
-        "pages/s69_018.jpg",
-        "pages/s69_023.jpg"
+        "assets/figs/s69_010.jpg",
+        "assets/figs/s69_009.jpg",
+        "assets/figs/s69_018.jpg",
+        "assets/figs/s69_023.jpg"
       ],
       "videos": [
         {
@@ -377,6 +425,12 @@
           "label": "Fiche Consentement SIMS — Injection de PRP",
           "url": "https://www.sims-asso.org/uploads/consentement/injection_prp.pdf"
         }
+      ],
+      "legends": [
+        "Court extenseur radial du carpe (CERC) : position du coude et de la sonde, coupe cible.",
+        "Coupe écho de référence : CERC (vert), ECD, EUC.",
+        "Dérivé cortisoné : injection péri-tendineuse sous contrôle écho.",
+        "PRP : criblage de la zone de tendinose puis injection."
       ]
     },
     {
@@ -391,10 +445,12 @@
       "technique": "Abord DANS LE PLAN latéro-médial (ou voie postéro-latérale trans-supinateur) avec aiguille 21G de 40–50 mm jusqu'au contact de la bourse bicipito-radiale contre la tubérosité bicipitale du radius.",
       "pointsCles": "Repérage Doppler impératif de l'artère brachiale/radiale (médiale) et de la branche profonde motrice du nerf radial (nerf interosseux postérieur dans le supinateur) ainsi que de sa branche sensitive.",
       "heroSlides": [
-        "pages/gc16_p12.jpg"
+        "assets/figs/gc19_p24_f0.jpg",
+        "assets/figs/gc20_p30_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p12.jpg"
+        "assets/figs/gc19_p24_f0.jpg",
+        "assets/figs/gc20_p30_f1.jpg"
       ],
       "videos": [
         {
@@ -404,7 +460,11 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/59/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 1 : Coupe transversale du tendon du biceps en regard de son enthèse A : Position de la sonde échographique, parallèle { l’axe de l’avant-bras B : Position de la sonde échographique (repère jaune) par rapport à la tubérosité radiale sur une reconstruction TDM sagittale 3D (vue médiale) C : Image échographique transversale du tendon du biceps (flèches) recouvrant la tubérosité radiale.",
+        "Fig. 26 : Bursite bicipitoradiale ; tuméfaction partiellement liquidienne entourant l’extrémité du tendon en regard de sa zone d’insertion."
+      ]
     },
     {
       "id": "poignet-de-quervain",
@@ -418,17 +478,16 @@
       "technique": "• Règle d'or Cochin / SIMS (Dr H. Guérini) : TOUJOURS infiltrer d'abord AUTOUR et au contact superficiel/profond du rétinaculum épaissi (0,5 mL d'Hydrocortancyl® ou Altim®), puis DANS la gaine en cas de ténosynovite.\n• Rechercher systématiquement un SEPTUM INTER-TENDINEUX (De Quervain Type 2, ~30–40 % des cas) isolant le court extenseur (EPB) : si présent, infiltrer sélectivement les 2 sous-compartiments (ou entre les deux tendons) !",
       "pointsCles": "Repérer en superficie la branche superficielle sensitive du nerf radial (BSNR) et la veine céphalique pour ne jamais les léser. En cas de forme rebelle, possibilité de libération percutanée du rétinaculum à l'aiguille 21G (Pr M. Faruch / Dr F. Lapègue).",
       "heroSlides": [
-        "pages/s38_017.jpg",
-        "pages/s38_023.jpg"
+        "assets/figs/gc22_p60_f0.jpg",
+        "assets/figs/gc22_p60_f1.jpg"
       ],
       "allSlides": [
-        "pages/s38_017.jpg",
-        "pages/s38_018.jpg",
-        "pages/s38_023.jpg",
-        "pages/s38_026.jpg",
-        "pages/s38_031.jpg",
-        "pages/gc25_p51.jpg",
-        "pages/gc25_p52.jpg"
+        "assets/figs/gc22_p60_f0.jpg",
+        "assets/figs/gc22_p60_f1.jpg",
+        "assets/figs/s38_018.jpg",
+        "assets/figs/s38_023.jpg",
+        "assets/figs/gc19_p28_f3.jpg",
+        "assets/figs/s38_031.jpg"
       ],
       "videos": [
         {
@@ -463,6 +522,14 @@
           "label": "Gel Contact N°31 (2022) — Spécial Poignet & Main",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/40/1.pdf"
         }
+      ],
+      "legends": [
+        "Fig. 8 : Infiltration d’une ténosynovite de De Quervain selon le grand axe des tendons aLe bord ulnaire de la main est posé sur la table ou sur un tube de gel pour majorer l’inclinaison ulnaire bune coupe axiale transverse permet de montrer l’absence de cloison intra tendineuse entre le court extenseur (CE) et le long abducteur du pouce (LA), ce qui garantit une bonne diffusion du produit dans la gaine des deux tendons; le rétinaculum de ce compartiment est très épais (double flèche) et présente une hyperhémie en mode Doppler ctrajet théorique de l’aiguille dans un plan longitudinal, la pointe doit être positionnée au contact des tendons et de la partie distale du rétinaculum (double flèche) d-cette voie d’abord permet de visualiser en temps réel la diffusion du dérivé cortisoné dans la gaine des tendons (**)",
+        "Fig. 9 : Infiltration d’une ténosynovite de De Quervain selon un plan axial transverse a-position du patient et de l’opérateur (simulation) b-c-cette voie d’abord est recommandée en cas de ténosynovite de type II de De Quervain caractérisée par une cloison fibreuse entre les tendons extenseurs du premier compartiment (LA=long abducteur, CE=court extenseur); la position idéale de l’aiguille est simulée par une ligne en pointillés; cette orientation permet de traverser la cloison fibreuse sans traverser les tendons et d’injecter soit dans la gaine d’ un seul tendon, soit dans celle des deux tendons en mobilisant discrètement l’aiguille; la technique du gel pad (GP) permettra d’éviter la branche sensitive du nerf radial (flèche) qui s’interpose souvent sur le trajet théorique; la ligne courbe blanche située au dessus de l’aiguille sur l’image (c) correspond au protège sonde stérile.",
+        "Coupe de référence : premier compartiment, position de la sonde.",
+        "Injection : ½ mL d'hydrocortancyl, toujours autour du rétinaculum.",
+        "Fig. 7 : infiltration sous guidage échographique d’une ténosynovite de De Quervain. L’aiguille (flèches) est mise en place sous le rétinaculum épaissi.",
+        "De Quervain type 2 : septum séparant le premier compartiment."
       ]
     },
     {
@@ -477,15 +544,14 @@
       "technique": "• Infiltration cortisonée (aiguille fine 25G orange, abord dans le plan longitudinal distal→proximal ou axial latéral) : 1) infiltrer d'abord AUTOUR et à la face superficielle de la poulie A1 (0,5 mL d'Hydrocortancyl®), 2) puis retirer/rediriger légèrement pour injecter 0,5 mL DANS la gaine synoviale entre poulie A1 et tendon.\n• Libération percutanée de poulie A1 (Dr F. Lapègue) : après anesthésie locale, fenestration/section de la poulie A1 avec le biseau d'une aiguille 21G (verte) jusqu'à disparition du ressaut.",
       "pointsCles": "Au pouce à ressaut, repérer impérativement les nerfs collatéraux palmaires du pouce qui croisent très près de la poulie A1 en superficie ! Ne jamais forcer contre résistance (signe d'une pointe d'aiguille intra-tendineuse).",
       "heroSlides": [
-        "pages/s38_038.jpg",
-        "pages/s38_041.jpg"
+        "assets/figs/s38_039.jpg",
+        "assets/figs/s38_041.jpg"
       ],
       "allSlides": [
-        "pages/s38_038.jpg",
-        "pages/s38_039.jpg",
-        "pages/s38_041.jpg",
-        "pages/s38_051.jpg",
-        "pages/gc25_p56.jpg"
+        "assets/figs/s38_039.jpg",
+        "assets/figs/s38_041.jpg",
+        "assets/figs/gc16_p12_f2.jpg",
+        "assets/figs/s38_051.jpg"
       ],
       "videos": [
         {
@@ -513,7 +579,13 @@
           "url": "https://www.youtube.com/embed/x-N5UhUkHKU"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Doigt à ressaut : position de la sonde et de l'aiguille, injection autour du rétinaculum (poulie A1).",
+        "Puis injection dans la gaine en cas de tendinopathie / ténosynovite.",
+        "Fig. 8 : Doigt à ressaut en coupe axiale, abord latéral — injection dans la gaine puis au contact superficiel de la poulie (flèches).",
+        "Dry-needling / libération à l'aiguille 21G sous anesthésie locale."
+      ]
     },
     {
       "id": "poignet-canal-carpien",
@@ -527,14 +599,15 @@
       "technique": "Abord DANS LE PLAN en coupe axiale (le plus souvent par voie ULNAIRE en passant entre l'artère/nerf ulnaire et le pisiforme, ou par voie radiale entre FCR et nerf médian). Glisser l'aiguille 25G ou 23G juste sous le rétinaculum des fléchisseurs au contact ulnaro-superficiel et profond du nerf médian pour réaliser une hydrodissection péri-nerveuse (1 mL d'Hydrocortancyl® ou Altim®).",
       "pointsCles": "Rechercher systématiquement avant ponction : 1) un nerf médian bifide et une artère médiane persistante au Doppler, 2) la branche motrice thénarienne récurrente (BMNM) et la branche cutanée palmaire du médian.",
       "heroSlides": [
-        "pages/s38_055.jpg",
-        "pages/s38_058.jpg"
+        "assets/figs/gc22_p61_f0.jpg",
+        "assets/figs/s38_056.jpg"
       ],
       "allSlides": [
-        "pages/s38_055.jpg",
-        "pages/s38_056.jpg",
-        "pages/s38_058.jpg",
-        "pages/gc25_p54.jpg"
+        "assets/figs/gc22_p61_f0.jpg",
+        "assets/figs/s38_056.jpg",
+        "assets/figs/gc22_p57_f0.jpg",
+        "assets/figs/s38_055.jpg",
+        "assets/figs/gc30_p69_f0.jpg"
       ],
       "videos": [
         {
@@ -568,7 +641,14 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/48/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 10 : Infiltration du canal carpien sous échographie. a position utilisée (simulation). b en utilisant la technique du gel pad (GP) on prévoit un trajet (ligne en pointillés) passant en avant du fléchisseur radial du carpe et se terminant juste en arrière du nerf médian (NM).",
+        "Coupe axiale du canal carpien : trajet de l'aiguille 21G (schéma et écho).",
+        "Fig. 4 : Un « truc personnel », le « gel pad » a-position utilisée pour infiltrer un canal carpien (simulation) b-un matelas de gel stérile (« gel pad » GP) triangulaire est positionné proximalement, et l’aiguille de calibre 25G est introduite dans le gel; le nerf médian (NM) et le tendon du fléchisseur radial du carpe (FRC) sont repérés c-l’aiguille est orientée dce repérage avec « visée » permet de diriger parfaitement l’aiguille, sans hésitation ni tâtonnement, vers la cible (face profonde du nerf médian)",
+        "Voie d'abord 21G : position de la main et de l'aiguille.",
+        "Fig. 3 : Section du LCT sous échographie sur cadavre. (a) Distension par l’anesthésique de l’espace de sécurité entre le nerf médian (flèche épaisse) et l’artère ulnaire (tête de flèche). La flèche fine montre la pointe de l’aiguille 21G. (b) Introduction du scalpel à crochet (flèche fine). (c) Traction palmaire du LCT (flèche courbe) avec le scalpel à crochet tourné à 90 ° (flèche fine). (d) Section rétrograde sous contrôle échographique en temps réel du LCT (flèche courbe) en vue longitudinale. Scalpel à crochet (flèche fine)."
+      ]
     },
     {
       "id": "main-rhizarthrose-pisotriquetrale",
@@ -582,14 +662,14 @@
       "technique": "• Trapézo-métacarpienne : abord DANS LE PLAN ou hors du plan avec aiguille 25G orange vers l'interligne trapèze–M1 (en évitant les ostéophytes marginaux dans les stades évolués). Injection de 0,5 à 1 mL d'Altim® ou d'acide hyaluronique.\n• Piso-triquétrale : abord latéral ou supérieur sous le pôle du pisiforme à distance du paquet ulnaire (canal de Guyon).",
       "pointsCles": "En abord dorso-radial de la TM, repérer impérativement au Doppler l'artère radiale au fond de la tabatière anatomique et la branche sensitive du nerf radial ! La voie palmaire thénarienne évite l'artère radiale.",
       "heroSlides": [
-        "pages/s38_062.jpg",
-        "pages/s38_066.jpg"
+        "assets/figs/gc22_p59_f0.jpg",
+        "assets/figs/s38_066.jpg"
       ],
       "allSlides": [
-        "pages/s38_062.jpg",
-        "pages/s38_066.jpg",
-        "pages/s38_068.jpg",
-        "pages/gc25_p53.jpg"
+        "assets/figs/gc22_p59_f0.jpg",
+        "assets/figs/s38_066.jpg",
+        "assets/figs/s38_062.jpg",
+        "assets/figs/s38_068.jpg"
       ],
       "videos": [
         {
@@ -605,7 +685,13 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/65/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 7 : Infiltration d’un rhizarthrose sous contrôle échographique a-simulation de la voie d’abord sur une radiographie de profil, l’aiguille (trait en pointillé) est placée selon une orientation sagittale oblique ascendante b-la technique du gel pad (GP) permet d’orienter l’aiguille dans la bonne direction celle est alors introduite dans la cavité articulaire entre les ostéophytes du trapèze (Tz) et de la base du premier métacarpien (M1) et sa bonne position est vérifiée par l’injection de quelques gouttes de xylocaïne permettant de distendre la synoviale (**)",
+        "Rhizarthrose : coupe sagittale à la base de l'éminence thénar, dans l'axe du 2e rayon.",
+        "Voie d'abord palmaire : repérage « axe commissure ou M2 ».",
+        "Critère de réussite : distension synoviale, mouvements browniens."
+      ]
     },
     {
       "id": "main-articulations-mcp-ipp-ipd",
@@ -619,14 +705,14 @@
       "technique": "Abord dorsal DANS LE PLAN (ou oblique latéro-dorsal en passant juste sous la bandelette de l'appareil extenseur) avec aiguille 25G (orange) dans le récessus synovial dorsal de la MCP, de l'IPP ou de l'IPD.",
       "pointsCles": "Volume maximal dans les petites articulations digitales : 0,3 à 1 mL maximum. Critères de réussite : distension du récessus capsulaire dorsal et mouvements browniens intra-articulaires sans reflux sous-cutané.",
       "heroSlides": [
-        "pages/s38_077.jpg",
-        "pages/s38_082.jpg"
+        "assets/figs/s38_077.jpg",
+        "assets/figs/s38_078.jpg"
       ],
       "allSlides": [
-        "pages/s38_077.jpg",
-        "pages/s38_078.jpg",
-        "pages/s38_080.jpg",
-        "pages/s38_082.jpg"
+        "assets/figs/s38_077.jpg",
+        "assets/figs/s38_078.jpg",
+        "assets/figs/s38_080.jpg",
+        "assets/figs/s38_082.jpg"
       ],
       "videos": [
         {
@@ -654,7 +740,13 @@
           "url": "https://www.youtube.com/embed/zErs5U3kzlA"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "MCP : coupe sagittale dorsale cible.",
+        "MCP : diffusion du produit dans le récessus (contour vert).",
+        "IPP : coupe sagittale cible.",
+        "IPP / IPD : coupe sagittale cible."
+      ]
     },
     {
       "id": "poignet-kystes-dupuytren",
@@ -668,13 +760,14 @@
       "technique": "Anesthésie locale cutanée, puis ponction DANS LE PLAN avec aiguille de gros calibre 18G (rose) ou 19G en raison de la viscosité du gel synovial. Aspiration complète + fenestration/criblage du collet et de la paroi + injection de 0,5 à 1 mL de corticoïde.",
       "pointsCles": "Pour les kystes palmaires de la gouttière du pouls : repérer systématiquement au Doppler l'artère radiale qui est souvent accolée voire englobée par le kyste ! Prévenir le patient du taux de récidive (~30 %).",
       "heroSlides": [
-        "pages/gc25_p55.jpg",
-        "pages/gc22_p62.jpg"
+        "assets/figs/gc22_p62_f0.jpg",
+        "assets/figs/gc22_p62_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc25_p55.jpg",
-        "pages/gc22_p62.jpg",
-        "pages/gc16_p12.jpg"
+        "assets/figs/gc22_p62_f0.jpg",
+        "assets/figs/gc22_p62_f1.jpg",
+        "assets/figs/gc31_p106_f0.jpg",
+        "assets/figs/gc31_p75_f0.jpg"
       ],
       "videos": [
         {
@@ -696,7 +789,13 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/60/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 11 : Ponction infiltration d’un kyste occulte dorsal du carpe. a-bCes petits kystes (flèches) prennent leur origine en arrière du faisceau dorsal du ligament scapho-lunaire (lu=lunatum; sca=scaphoïde), ils sont en hypersigal T2 (a); la séquence injectée en T1 gado Fat sat (b) montre la prise de contraste des parois du kyste et des éléments capsulo-ligamentaires environnant expliquant la symptomatologie douloureuse. c-le kyste est très bien repéré en échographie (flèches) .",
+        "Fig. 12 : Ponction d’un kyste infiltrant la branche sensitive du nerf radial au poignet. a-b: kyste mucoïde intraneural (k) en coupe sagittale (a) et en coupe axiale transverse (b) ; un fascicule nerveux est repéré par une flèche. c-d le kyste est ponctionné par voie sagittale en prenant soin d’éviter les fascicules nerveux (c) au moyen d’une aiguille de calibre 22G (aaa), en fin de procédure injection de quelques gouttes d’Altim; sur la coupe axiale de contrôle après la procédure le kyste a disparu, seuls persistent les fascicules nerveux (flèches)",
+        "Fig. 9 : Coupe sagittale. a : kyste (K) apposé à la face superficielle de la poulie A2 du fléchisseur (flèches rouges). b : Affaissement complet du kyste après ponction aspiration sous contrôle échographique.",
+        "Fig. 8 : L’aponévrotomie percutanée à l’aiguille (flèches) se réalise avec des aiguilles fines comportant un biseau à deux pans tranchants. Nous la réalisons sous contrôle échographique afin de ne pas léser les tendons (têtes de flèche) et les pédicules neurovasculaires. L’aiguille sert à l’injection d’un mélange d‘anesthésiant et de stéroïde, puis à sectionner les cordes fibreuses et à disséquer les nodules (astérisque). En fin de procédure, on étend le doigt traité afin de rompre les fibres restantes."
+      ]
     },
     {
       "id": "hanche-coxofemorale",
@@ -710,12 +809,12 @@
       "technique": "Abord antéro-inférieur ou antéro-latéral DANS LE PLAN avec aiguille spinale 20G ou 22G (80–90 mm). L'aiguille progresse obliquement de bas en haut jusqu'au contact osseux de la jonction tête-col fémoral dans le récessus synovial antérieur.",
       "pointsCles": "Repérer systématiquement au Doppler le paquet vasculo-nerveux fémoral (médial) et l'artère circonflexe latérale avant de piquer. En cas de liquide aspiré sur PTH, toujours analyser en bactériologie avant toute injection cortisonée différée.",
       "heroSlides": [
-        "pages/gc16_p13.jpg",
-        "pages/gc15_p14.jpg"
+        "assets/figs/gc16_p13_f0.jpg",
+        "assets/figs/gc21_p53_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p13.jpg",
-        "pages/gc15_p14.jpg"
+        "assets/figs/gc16_p13_f0.jpg",
+        "assets/figs/gc21_p53_f1.jpg"
       ],
       "videos": [
         {
@@ -730,6 +829,10 @@
           "label": "Gel Contact N°15 (2006) — Hanche douloureuse de l'adulte",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/11/1.pdf"
         }
+      ],
+      "legends": [
+        "Fig. 1 : Ponction infiltration d’une coxarthrose en poussée. Remarquez le trajet et le « tip » de l’aiguille au sein de la synoviale épaissie (têtes de flèches).",
+        "Fig. 3 : coupe échographique axiale dans l’axe du col. Epanchement intra-articulaire. Ponction échoguidée : liquide citrin. Pas d’infection"
       ]
     },
     {
@@ -744,13 +847,13 @@
       "technique": "Abord antérieur ascendant ou antéro-latéral DANS LE PLAN (aiguille spinale 21G/22G) passant en dehors du paquet fémoral jusqu'à l'interface entre la face profonde du tendon ilio-psoas et le rebord antérieur de l'acétabulum / cupule. Injection test de Xylocaïne® 1% + 1 ampoule d'Altim®.",
       "pointsCles": "Règle absolue sur PTH avec bursite liquidienne du psoas (souvent communicante avec la néo-cavité) : geste en 2 temps — 1er temps ponction bactériologique seule ; 2e temps infiltration cortisonée uniquement après stérilité confirmée des cultures.",
       "heroSlides": [
-        "pages/gc16_p13.jpg",
-        "pages/gc26_p22.jpg"
+        "assets/figs/gc16_p13_f1.jpg",
+        "assets/figs/gc26_p22_f0.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p13.jpg",
-        "pages/gc26_p22.jpg",
-        "pages/gc21_p56.jpg"
+        "assets/figs/gc16_p13_f1.jpg",
+        "assets/figs/gc26_p22_f0.jpg",
+        "assets/figs/gc21_p56_f0.jpg"
       ],
       "videos": [
         {
@@ -765,6 +868,11 @@
           "label": "Gel Contact N°26 (2017) — Infiltration bourse ilio-psoas & muscles MI",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/23/1.pdf"
         }
+      ],
+      "legends": [
+        "Fig. 2 : Infiltration et test anesthésique par voie antérieure (coupe sagittale d’échographie) au contact d’une cupule cotyloïdienne supposée conflictuelle avec le psoas.",
+        "Fig. 10 : Coupe axiale — trajectoire de l'aiguille lors de l'infiltration de la bourse ilio-psoas, au contact d'un débord antérieur de cupule (flèches).",
+        "Fig. 12 : double conflit PTH-iliopsoas. Cotyle saillant avec une vis intrapsoïque (flèches) (A-D). Les deux sont visibles en échographie (E, F). Infiltration échoguidée du conflit entre le psoas et la vis, pourtant située immédiatement sous les vaisseaux iliaques (F)"
       ]
     },
     {
@@ -779,12 +887,12 @@
       "technique": "Abord latéral DANS LE PLAN avec aiguille 21G longue (50 mm) ou spinale 22G selon l'épaisseur adipeuse. Cibler électivement la bourse collectée ou l'espace de glissement superficiel entre le fascia lata et la facette tendineuse atteinte.",
       "pointsCles": "Adapter la voie d'abord (antéro-latérale pour la bourse du petit glutéal, postéro-latérale pour la bourse profonde du moyen glutéal) selon le schéma des facettes trochantériennes (Fig. 3 Dr H. Guérini).",
       "heroSlides": [
-        "pages/gc16_p14.jpg",
-        "pages/gc15_p12.jpg"
+        "assets/figs/gc16_p14_f0.jpg",
+        "assets/figs/gc21_p57_f0.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p14.jpg",
-        "pages/gc15_p12.jpg"
+        "assets/figs/gc16_p14_f0.jpg",
+        "assets/figs/gc21_p57_f0.jpg"
       ],
       "videos": [
         {
@@ -794,7 +902,11 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/13/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 3 : Ponction-infiltration péri-trochantérienne par voie latérale, selon la localisation superficielle (A) ou profonde (B) de la bursite ; C : aiguille dans la bursite.",
+        "Fig. 14 : A, B : rupture de la lame latérale du moyen glutéal. C,D : bursopathie trochantérienne superficielle. Ponction, opacification et infiltration"
+      ]
     },
     {
       "id": "bassin-piriforme-alcock-pubalgie",
@@ -807,14 +919,8 @@
       "installation": "• Piriforme & carré fémoral : procubitus (décubitus ventral), sonde convexe basse fréquence en coupe axiale oblique fessière entre grand trochanter et bord latéral du sacrum / ischion.\n• Pubalgie : décubitus dorsal, cuisse en abduction-rotation externe.",
       "technique": "Abord DANS LE PLAN de dehors en dedans avec aiguille spinale 20G ou 22G (90 mm) jusqu'au corps musculaire du piriforme (ou dans le plan de glissement piriforme / nerf sciatique pour hydrodissection + test anesthésique / corticoïde ou toxine botulique).",
       "pointsCles": "Visualisation permanente du nerf sciatique à la face profonde du muscle piriforme et de l'artère glutéale inférieure au Doppler.",
-      "heroSlides": [
-        "pages/gc16_p13.jpg",
-        "pages/gc20_p50.jpg"
-      ],
-      "allSlides": [
-        "pages/gc16_p13.jpg",
-        "pages/gc20_p50.jpg"
-      ],
+      "heroSlides": [],
+      "allSlides": [],
       "videos": [
         {
           "title": "Infiltrations autour du bassin : névralgies du petit bassin, pyramidal, conflit ischio-fémoral",
@@ -834,7 +940,8 @@
           "label": "Fiche Consentement SIMS — Infiltration du Canal d'Alcock",
           "url": "https://www.sims-asso.org/uploads/consentement/infiltration_canal_d_alcock.pdf"
         }
-      ]
+      ],
+      "legends": []
     },
     {
       "id": "rachis-hydrodissection-lombaire-esp",
@@ -848,14 +955,13 @@
       "technique": "• Hydrodissection interfasciale paraspinal / Erector Spinae Plane (ESP, Gel Contact N°33) : abord DANS LE PLAN crânio-caudal ou latéro-médial avec aiguille spinale 21G/22G jusqu'au plan interfascial superficiel ou profond (au contact de l'extrémité du processus transverse). Injection de 10 à 20 mL de sérum glucosé 5% ou lidocaïne diluée 0,2% + corticoïde décollant les feuillets aponévrotiques.\n• Articulation Sacro-Iliaque (Gel Contact N°20) : coupe axiale transverse sacrée repérant le 1er et le 2e foramen sacré postérieur et la fente sacro-iliaque caudale ; aiguille spinale 22G dirigée de dedans en dehors dans le tiers inférieur synovial de l'interligne sous contrôle Doppler.",
       "pointsCles": "Visualiser en temps réel le décollement linéaire hypoéchogène (« ouverture du plan fascial ») séparant le fascia thoraco-lombaire de l'épimysium des muscles érecteurs du rachis. Ne jamais piquer dans un foramen sacré (racines sacrées).",
       "heroSlides": [
-        "pages/gc33_p24.jpg",
-        "pages/gc33_p25.jpg"
+        "assets/figs/gc33_p27_f0.jpg",
+        "assets/figs/gc33_p25_f0.jpg"
       ],
       "allSlides": [
-        "pages/gc33_p24.jpg",
-        "pages/gc33_p25.jpg",
-        "pages/gc33_p26.jpg",
-        "pages/gc33_p27.jpg"
+        "assets/figs/gc33_p27_f0.jpg",
+        "assets/figs/gc33_p25_f0.jpg",
+        "assets/figs/gc33_p24_f0.jpg"
       ],
       "videos": [],
       "pdfs": [
@@ -867,6 +973,11 @@
           "label": "Gel Contact N°20 (Juin 2011) — Infiltration échoguidée sacro-iliaque",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/6/1.pdf"
         }
+      ],
+      "legends": [
+        "Hydrodissection ESP au niveau du processus transverse : sonde convexe longitudinale à 3–5 cm de la ligne médiane, aiguille dans le plan.",
+        "Hydrodissection des plans interfasciaux paraspinaux (multifidus, longissimus) en balayage transversal.",
+        "Balayage axial lombaire (sonde convexe transversale sur la ligne médiane) : muscles paraspinaux et fascia thoraco-lombaire."
       ]
     },
     {
@@ -881,13 +992,13 @@
       "technique": "Abord latéral DANS LE PLAN de dehors en dedans avec aiguille 21G (verte) passant entre le tendon quadricipital en avant et le coussinet adipeux pré-fémoral en arrière, jusque dans le récessus sous-quadricipital.",
       "pointsCles": "Pour l'acide hyaluronique (HA) et le PRP, vérifier impérativement l'expansion strictement intra-synoviale des premières gouttes (une injection d'HA extra-articulaire dans la graisse est très douloureuse et inefficace).",
       "heroSlides": [
-        "pages/s102_004.jpg",
-        "pages/s102_005.jpg"
+        "assets/figs/s102_004.jpg",
+        "assets/figs/s102_005.jpg"
       ],
       "allSlides": [
-        "pages/s102_004.jpg",
-        "pages/s102_005.jpg",
-        "pages/s102_006.jpg"
+        "assets/figs/s102_004.jpg",
+        "assets/figs/s102_005.jpg",
+        "assets/figs/s102_006.jpg"
       ],
       "videos": [
         {
@@ -903,7 +1014,12 @@
           "url": "https://www.youtube.com/embed/4MToV2pVZn4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Position : genou fléchi ~30°, sonde transversale sur le récessus sous-quadricipital.",
+        "Coupe cible : récessus sous-quadricipital.",
+        "Aiguille dans le récessus sous-quadricipital."
+      ]
     },
     {
       "id": "genou-kyste-poplite-meniscal",
@@ -917,16 +1033,14 @@
       "technique": "• Kyste de Baker : abord postéro-médial DANS LE PLAN (aiguille 18G rose pour liquide gélatineux épais) à distance du paquet poplité. Aspiration maximale + fenestration des cloisons + injection d'1 ampoule d'Altim® ou Diprostène®.\n• Kyste de la tente des croisés (Dr H. Guérini) : voie postéro-médiale oblique longeant le condyle médial pour éviter l'artère poplitée.",
       "pointsCles": "Repérage Doppler systématique de l'artère et de la veine poplitées ainsi que du nerf tibial dans la fosse poplitée. Pour les kystes méniscaux, cribler le collet méniscal et prévenir du risque de récidive lié à la fissure méniscale sous-jacente.",
       "heroSlides": [
-        "pages/s102_026.jpg",
-        "pages/s102_041.jpg"
+        "assets/figs/s102_026.jpg",
+        "assets/figs/s102_041.jpg"
       ],
       "allSlides": [
-        "pages/s102_019.jpg",
-        "pages/s102_020.jpg",
-        "pages/s102_026.jpg",
-        "pages/s102_041.jpg",
-        "pages/s102_042.jpg",
-        "pages/gc16_p14.jpg"
+        "assets/figs/s102_026.jpg",
+        "assets/figs/s102_041.jpg",
+        "assets/figs/s102_044.jpg",
+        "assets/figs/s102_042.jpg"
       ],
       "videos": [
         {
@@ -942,7 +1056,13 @@
           "url": "https://www.youtube.com/embed/uroCS3JtOTY"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Kyste poplité (Baker) : cible de l'aspiration / fenestration (cathlon 18G).",
+        "Kyste méniscal : trajet de l'aiguille (pointillés).",
+        "Ponction du kyste : aiguille (flèches).",
+        "Kyste para-articulaire avant ponction."
+      ]
     },
     {
       "id": "genou-periarticulaire-bandelette-patte-oie",
@@ -956,15 +1076,13 @@
       "technique": "• Bandelette ilio-tibiale : abord DANS LE PLAN pour infiltrer la néo-bourse profonde entre le condyle fémoral latéral et la face profonde du tractus ilio-tibial (1 ampoule d'Altim®).\n• Tendon patellaire : dry-needling / PRP dans la zone de tendinose proximale profonde (jamais de corticoïde intra-tendineux) ou hydrodissection de l'interface tendon patellaire – graisse de Hoffa.",
       "pointsCles": "Pour le syndrome de l'essuie-glace, imposer un repos sportif de 10–15 jours après l'infiltration cortisonée avant reprise progressive de la course.",
       "heroSlides": [
-        "pages/s102_030.jpg",
-        "pages/s102_037.jpg"
+        "assets/figs/s102_030.jpg",
+        "assets/figs/s102_024.jpg"
       ],
       "allSlides": [
-        "pages/s102_024.jpg",
-        "pages/s102_030.jpg",
-        "pages/s102_034.jpg",
-        "pages/s102_037.jpg",
-        "pages/gc30_p121.jpg"
+        "assets/figs/s102_030.jpg",
+        "assets/figs/s102_024.jpg",
+        "assets/figs/gc30_p121_f1.jpg"
       ],
       "videos": [
         {
@@ -980,7 +1098,12 @@
           "url": "https://www.youtube.com/embed/KmMZmRxVhp8"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Bursite de la patte d'oie : coupe cible (flèche) en regard du plateau tibial interne.",
+        "Injections échoguidées péri-patellaires : trajet de l'aiguille.",
+        "Fig. 6 : Injection échoguidée de PRP dans la partie postérieure du tendon patellaire proximal, aiguille dans le plan (A-B) ; position (C)."
+      ]
     },
     {
       "id": "cheville-articulaire-tibiotalienne",
@@ -994,10 +1117,12 @@
       "technique": "• Tibio-talienne : coupe sagittale antérieure (entre tibial antérieur et long extenseur de l'hallux) ou coupe axiale antéro-médiale ; abord DANS LE PLAN vers le récessus synovial antérieur au col du talus (aiguille 23G ou 21G).\n• Talo-naviculaire & MTP : coupe sagittale dorsale, abord DANS LE PLAN ou oblique dorsal avec aiguille 25G.",
       "pointsCles": "Repérer systématiquement au Doppler l'artère dorsale du pied (pédieuse) et le nerf fibulaire profond à la face antérieure de la cheville avant de choisir le point d'entrée médial ou latéral aux tendons extenseurs.",
       "heroSlides": [
-        "pages/gc16_p14.jpg"
+        "assets/figs/gc24_p13_f1.jpg",
+        "assets/figs/gc30_p129_f4.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p14.jpg"
+        "assets/figs/gc24_p13_f1.jpg",
+        "assets/figs/gc30_p129_f4.jpg"
       ],
       "videos": [
         {
@@ -1019,7 +1144,11 @@
           "url": "https://www.youtube.com/embed/fGX7xuNonsE"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 14 : Infiltration d’un conflit antérolatéral. a-Persistance 6 mois après une entorse latérale de la cheville d’une réaction cicatricielle hypertrophique hypervascularisée en Doppler du ligament talofibulaire antérieur (double flèche) ; ML=malléole latérale. b-Mise en place sous contrôle échographique, en utilisant la technique du gel pad (**), d’une aiguille de calibre 25G au contact du ligament talofibulaire antérieur en prenant soin d’éviter le petit pédicule vasculonerveux souvent présent en superficie de ce dernier. Quelques gouttes de corticoïde retard (Altim) et 1 cm3 de xylocaïne sont injectés. cdDans cet autre dossier de douleurs chroniques et raideur articulaire 6 mois après entorse chez un jeune militaire, voici une variante technique personnelle permettant de réaliser dans le même geste une infiltration intra-articulaire et péri-ligamentaire : en utilisant la technique du gel pad (**) , la pointe de l’’aiguille (tête de flèche) est positionnée sous le TFA dans le récessus articulaire (c); Une demi ampoule de corticoïde retard est injectée en intra-articulaire par cette voie, puis l’aiguille est reculée au contact de la face superficielle du ligament (d) pour injecter quelques gouttes de corticoïde et de xylocaïne.",
+        "Fig. 5 : Injection guidée par l’US chez un patient souffrant de synovite d’une articulation du tarse. On visualise l’aiguille placée correctement dans la synoviale épaissie."
+      ]
     },
     {
       "id": "cheville-gaines-tibial-posterieur-fibulaires",
@@ -1033,16 +1162,23 @@
       "technique": "Aiguille fine 25G (orange longue) introduite DANS LE PLAN soit dans l'axe longitudinal sous-malléolaire (en visant la lame d'épanchement de la gaine), soit en coupe axiale transversale sous le rétinaculum pour entourer le(s) tendon(s) (0,5 à 1 mL d'Hydrocortancyl® ou Altim®).",
       "pointsCles": "Avertir le patient du risque de rupture tendineuse secondaire en cas de tendinopathie fissuraire évoluée du tibial postérieur : réserver l'infiltration aux échecs du traitement médical, injecter strictement dans la gaine synoviale et prévoir une mise au repos / orthèse.",
       "heroSlides": [
-        "pages/gc16_p15.jpg",
-        "pages/s38_010.jpg"
+        "assets/figs/gc16_p15_f0.jpg",
+        "assets/figs/gc16_p15_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p15.jpg",
-        "pages/s38_010.jpg",
-        "pages/s38_011.jpg"
+        "assets/figs/gc16_p15_f0.jpg",
+        "assets/figs/gc16_p15_f1.jpg",
+        "assets/figs/gc20_p41_f1.jpg",
+        "assets/figs/s38_011.jpg"
       ],
       "videos": [],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 4 : a et b : Infiltration de la gaine d’un tendon tibial postérieur (tendinopathie avec ténosynovite) selon l’axe longitudinal du tendon. La figure 6a est une simulation de voie d’abord sans les mesures d’asepsies habituellement utilisées.",
+        "Fig. 5 : a et b : Infiltration de la gaine d’un tendon tibial postérieur (tendinopathie avec ténosynovite) selon l’axe transversal du tendon. La figure 7a est une simulation de voie d’abord sans les mesures d’asepsies habituellement utilisées.",
+        "Fig. 3 : infiltration de la gaine du tibial postérieur",
+        "Critère de réussite : diffusion du produit dans la gaine synoviale du tibial postérieur."
+      ]
     },
     {
       "id": "cheville-achille-bursite-haut-volume",
@@ -1056,13 +1192,13 @@
       "technique": "• Bursite pré-achilléenne (Fig. 7 Dr H. Guérini) : sonde posée en coupe AXIALE à la face postérieure du tendon d'Achille ; abord LATÉRAL DANS LE PLAN juste en avant du tendon d'Achille dans la bourse rétro-calcanéenne.\n• Injection de « Haut Volume » (Dr M. Rossier) : aiguille 21G placée à l'interface antérieure entre la face profonde du tendon d'Achille et la graisse de Kager pour décoller la néovascularisation et les néo-nerfs (10 mL de Xylocaïne® diluée + 20 à 30 mL de sérum physiologique).",
       "pointsCles": "Interdiction formelle d'injecter des corticoïdes dans le corps du tendon d'Achille ou en péri-tendineux superficiel (risque majeur de rupture totale du tendon d'Achille). Seule la bourse pré-achilléenne profonde authentifiée ou un rhumatisme inflammatoire relève d'une prudente injection intra-bursale.",
       "heroSlides": [
-        "pages/gc16_p16.jpg",
-        "pages/gc30_p122.jpg"
+        "assets/figs/gc20_p42_f1.jpg",
+        "assets/figs/gc16_p16_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p16.jpg",
-        "pages/gc20_p42.jpg",
-        "pages/gc30_p122.jpg"
+        "assets/figs/gc20_p42_f1.jpg",
+        "assets/figs/gc16_p16_f1.jpg",
+        "assets/figs/gc30_p123_f0.jpg"
       ],
       "videos": [
         {
@@ -1072,7 +1208,12 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/10/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 5 : infiltration de la bourse rétro-calcanéenne",
+        "Fig. 7 : Ponction d'une bursite pré-achilléenne. A) Voie d'abord latérale avec contrôle de l'aiguille en coupe axiale rétro-achilléenne. B) Aiguille dans la bursite.",
+        "Fig. 8 : Injection échoguidée de PRP dans le tendon d'Achille, approche latérale vers médiale en coupe transversale ; position de la sonde."
+      ]
     },
     {
       "id": "pied-aponevrosite-plantaire",
@@ -1086,14 +1227,14 @@
       "technique": "Voie d'abord MÉDIALE DANS LE PLAN (évitant de piquer à travers la peau épaisse et hyperalgique de la plante du pied !). Anesthésie locale traçante avec aiguille 21G (verte) jusqu'à la face superficielle de l'aponévrose plantaire, puis dépôt d'1 ampoule d'Altim® juste en superficie de l'aponévrose (ou PRP intra-fissuraire en cas de fissure chronique).",
       "pointsCles": "Ne jamais injecter de corticoïde en plein corps de la corde centrale de l'aponévrose plantaire (risque de rupture aiguë de l'aponévrose plantaire avec affaissement de l'arche médiale).",
       "heroSlides": [
-        "pages/gc16_p16.jpg",
-        "pages/gc33_p83.jpg"
+        "assets/figs/gc16_p16_f0.jpg",
+        "assets/figs/gc20_p42_f0.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p16.jpg",
-        "pages/gc20_p42.jpg",
-        "pages/gc30_p123.jpg",
-        "pages/gc33_p83.jpg"
+        "assets/figs/gc16_p16_f0.jpg",
+        "assets/figs/gc20_p42_f0.jpg",
+        "assets/figs/gc33_p83_f0.jpg",
+        "assets/figs/gc33_p83_f1.jpg"
       ],
       "videos": [],
       "pdfs": [
@@ -1101,6 +1242,12 @@
           "label": "Gel Contact N°33 (2025) — Bloc tibial & PRP Aponévrose plantaire",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/44/1.pdf"
         }
+      ],
+      "legends": [
+        "Fig. 6 : Infiltration d’une aponévrosite plantaire : a) simulation de la voie d’abord médiale (sans les mesures d’asepsies habituellement utilisées). b) Explication de la voie d’abord (flèche longue) et de la coupe de référence passant par l’insertion de l’aponévrose plantaire centrale (flèche courte) c) Ponction sous échoscopie selon la coupe frontale correspondant à l’IRM montrant parfaitement le trajet de l’aiguille en superficie de l’aponévrose plantaire (flèche) où sera déposé le dérivé cortisoné.",
+        "Fig. 4 : infiltration de l’aponévrose plantaire",
+        "Fig. 11 : Infiltration de l'aponévrose plantaire (pied gauche) : positionnement de la sonde et de l'aiguille.",
+        "Fig. 12 : Coupe sagittale correspondante, sans (a) et avec (b) annotations : aiguille au contact de l'aponévrose, calcanéus."
       ]
     },
     {
@@ -1115,15 +1262,21 @@
       "technique": "Voie d'abord DORSALE inter-métatarsienne (peau fine, beaucoup moins douloureuse et sans risque d'atrophie du capiton plantaire) avec aiguille 23G ou 25G longue suivie en coupe sagittale plantaire jusqu'au pôle supérieur du névrome et dans la bourse inter-capito-métatarsienne (1 mL d'Altim® ou Diprostène® + Xylocaïne® 1%).",
       "pointsCles": "En cas de récidive ou d'échec, possibilité d'alcoolisation échoguidée (3 à 4 séances à 15 jours d'intervalle) ou de cryoneurolyse.",
       "heroSlides": [
-        "pages/gc16_p16.jpg",
-        "pages/gc16_p17.jpg"
+        "assets/figs/gc30_p99_f1.jpg",
+        "assets/figs/gc21_p77_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p16.jpg",
-        "pages/gc16_p17.jpg"
+        "assets/figs/gc30_p99_f1.jpg",
+        "assets/figs/gc21_p77_f1.jpg",
+        "assets/figs/gc30_p100_f0.jpg"
       ],
       "videos": [],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 8 : Femme de 48 ans présentant un névrome de Morton douloureux du 3e espace intermétatarsien. En (A), on observe une dissection cadavérique du versant plantaire du 3e espace intermétatarsien permettant de visualiser le complexe névromebourse (têtes de flèches). Schéma en (B) et image échographique longitudinale correspondante du 3e espace intermétatarsien (D) montrant le névrome interdigital et la bourse intermétatarsienne (têtes de flèche). Noter combien la pression dorsale directe du pouce (flèche) déplace le complexe névrome-bourse dorsalement et donc le rend plus visible en échographie. Observer en (E) une vue longitudinale et en (F) une vue axiale du névrome par voie plantaire. Par voie plantaire, en explorant l’espace intermétatarsien en coupe axiale, on comprime l’avant-pied en regard des têtes métatarsiennes ce qui déplace en situation plus plantaire le névrome interdigital et facilite sa mise en évidence têtes de flèches en F). Le signe de Mulder est positif quand le névrome interdigital produit un « click » en se déplaçant vers la plante en compression des têtes métatarsiennes.",
+        "Fig. 6 : Névrome de Morton : coupe échographique sagittale (a) et coronale (b) du 3ème espace inter-métatarsien. Nerf interdigital plantaire commun (flèches)",
+        "Fig. 9 : Femme de 56 ans atteinte de poly-arthrite rhumatoïde et porteuse d’une bursopathie intermétatarsienne. Coupes échographiques longitudinale (A) et axiale (B) par voie dorsale qui objectivent l’épaississement de la paroi synoviale de la bourse qui est remplie de liquide épais. En (C), coupe axiale échographique avec Doppler par voie plantaire qui montre une bursopathie intermétatarsienne du 1er espace et le pannus de deux espaces qui s’est insinué dans le ligament transverse métatarsien profond et dans la graisse plantaire (flèches courbes)."
+      ]
     },
     {
       "id": "cheville-tunnel-tarsien-petits-nerfs",
@@ -1137,15 +1290,14 @@
       "technique": "Abord DANS LE PLAN en coupe axiale du nerf avec aiguille 25G ou 23G. Réaliser un test anesthésique sélectif (1 mL de Xylocaïne® 1%) et une hydrodissection circonférentielle péri-nerveuse dans le fascia (corticoïde non particulaire ou sérum glucosé 5%).",
       "pointsCles": "Dans 85 % des cas de syndrome du tunnel tarsien, une cause locale est identifiable à l'échographie (varices plantaires 33 %, kyste mucoïde d'origine sous-talienne, muscle long fléchisseur accessoire des orteils). Toujours activer le Doppler couleur avant d'avancer l'aiguille.",
       "heroSlides": [
-        "pages/s117_111.jpg",
-        "pages/s117_135.jpg"
+        "assets/figs/s117_031.jpg",
+        "assets/figs/s117_032.jpg"
       ],
       "allSlides": [
-        "pages/s117_101.jpg",
-        "pages/s117_111.jpg",
-        "pages/s117_112.jpg",
-        "pages/s117_113.jpg",
-        "pages/s117_135.jpg"
+        "assets/figs/s117_031.jpg",
+        "assets/figs/s117_032.jpg",
+        "assets/figs/s117_135.jpg",
+        "assets/figs/s117_101.jpg"
       ],
       "videos": [
         {
@@ -1167,7 +1319,13 @@
           "url": "https://www.youtube.com/embed/beqaED0K5QE"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Tunnel tarsien, approche postéro-médiale : position de la sonde et de l'aiguille.",
+        "Image cible : aiguille dans le tunnel tarsien (technique au gel pad).",
+        "Nerf plantaire médial propre de l'hallux (névrome de Joplin) : infiltration.",
+        "Nerf fibulaire superficiel : test anesthésique + infiltration."
+      ]
     },
     {
       "id": "cheville-bloc-nerf-tibial-supra-malleolaire",
@@ -1181,14 +1339,15 @@
       "technique": "Point d'entrée POSTÉRO-MÉDIAL en dedans du tendon calcanéen (Achille) avec une aiguille 21G orientée légèrement obliquement DANS LE PLAN vers le nerf tibial (situé immédiatement en arrière de l'artère et des veines tibiales postérieures). Injection péri-nerveuse circonférentielle de 5 à 8 mL de chlorhydrate de lidocaïne à 1 % de part et d'autre du nerf tibial.",
       "pointsCles": "Analgésie plantaire obtenue en 5 à 10 minutes, permettant un passage trans-plantaire de l'aiguille totalement indolore (peut être complété par MEOPA). Attention : bloc moteur transitoire des fléchisseurs des orteils pendant 1 à 2 h → interdiction de conduire au décours immédiat et prescription de béquilles pour 24–48 h.",
       "heroSlides": [
-        "pages/gc33_p80.jpg",
-        "pages/gc33_p82.jpg"
+        "assets/figs/gc33_p80_f0.jpg",
+        "assets/figs/gc33_p80_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc33_p80.jpg",
-        "pages/gc33_p81.jpg",
-        "pages/gc33_p82.jpg",
-        "pages/gc33_p83.jpg"
+        "assets/figs/gc33_p80_f0.jpg",
+        "assets/figs/gc33_p80_f1.jpg",
+        "assets/figs/gc33_p81_f1.jpg",
+        "assets/figs/gc33_p82_f0.jpg",
+        "assets/figs/gc33_p82_f1.jpg"
       ],
       "videos": [],
       "pdfs": [
@@ -1196,6 +1355,13 @@
           "label": "Gel Contact N°33 (Déc. 2025) — Comment faire en pratique un bloc du nerf tibial",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/44/1.pdf"
         }
+      ],
+      "legends": [
+        "Fig. 5 : Positionnement du patient et de la sonde d’échographie (cheville gauche). (a) Patient en procubitus, avec un cal sous le tibia et la cheville en flexion plantaire. (b) Positionnement transversal supra-malléolaire de la sonde d’échographie, environ 5 cm au-dessus de la proéminence de la malléole médiale (astérisque).",
+        "Fig. 6 : Coupe échographique axiale de référence de l’abord supra-malléolaire médiale d’une cheville gauche sans (a) et avec (b) annotations.",
+        "Fig. 8 : Point d’entrée postéro-médial de l’aiguille (cheville gauche), en dedans du tendon calcanéen (TC), avec une orientation légèrement oblique par rapport à la sonde d’échographie.",
+        "Fig. 9 : Coupe échographique axiale supra-malléolaire médiale d’une cheville gauche, sans (a) et avec (b) annotations. Injection de chlorhydrate de lidocaïne à 1 % (contour vert) autour du nerf tibial (contour jaune). L’artère tibiale postérieure (contour rouge) est visible en avant du nerf tibial.",
+        "Fig. 10 : Coupe échographique axiale supra-malléolaire médiale d’une cheville gauche, sans (a) et avec annotations (b). Poursuite de l’injection de chlorhydrate de lidocaïne à 1 %, initiée à la figure 9, afin de répartir l’anesthésique de part et d’autre (contour vert) du nerf tibial (contour jaune)."
       ]
     },
     {
@@ -1210,14 +1376,14 @@
       "technique": "Asepsie chirurgicale stricte (un hématome incomplètement évacué est un milieu de culture bactérien). Anesthésie locale traçante, puis ponction DANS LE PLAN au pôle déclive avec trocart 18G ou 16G jusqu'à affaissement complet des parois de la cavité.",
       "pointsCles": "Appliquer immédiatement en fin de ponction un pansement compressif et une contention élastique adaptée (sans effet garrot) pour accoler les feuillets aponévrotiques et prévenir la récidive.",
       "heroSlides": [
-        "pages/s110_044.jpg",
-        "pages/s110_045.jpg"
+        "assets/figs/s110_045.jpg",
+        "assets/figs/gc14_p07_f0.jpg"
       ],
       "allSlides": [
-        "pages/s110_044.jpg",
-        "pages/s110_045.jpg",
-        "pages/gc26_p55.jpg",
-        "pages/gc29_p36.jpg"
+        "assets/figs/s110_045.jpg",
+        "assets/figs/gc14_p07_f0.jpg",
+        "assets/figs/gc29_p28_f1.jpg",
+        "assets/figs/gc26_p55_f1.jpg"
       ],
       "videos": [
         {
@@ -1238,6 +1404,12 @@
           "label": "Gel Contact N°29 (2020) — Fascias, aponévroses & ponction d'hématomes",
           "url": "https://www.sims-asso.org/uploads/pdfs/gelcontact/28/1.pdf"
         }
+      ],
+      "legends": [
+        "Ponction-évacuation d'un hématome musculaire : collection ponctionnable, puis ponction.",
+        "Fig. 1 : et 2 : Ponction d’un hématome sous contrôle échographique : images avant, pendant et après ponction.",
+        "Fig. 49 : Même lésion avant et après ponction/évacuation démontrant que le saignement intervient pour une grande part dans l’aspect de l’image.",
+        "Collection inter-aponévrotique liquidienne, compressible sous la sonde : toujours ponctionner un hématome aigu."
       ]
     },
     {
@@ -1252,10 +1424,13 @@
       "technique": "Anesthésie locale suivie d'une HYDRODISSECTION généreuse autour du corps étranger pour le décoller des tissus fibreux. Moucheture cutanée au bistouri n°11 au point d'entrée, puis introduction DANS LE PLAN d'une pince de Halsted fine (ou pince crocodile) guidée en temps réel jusqu'à saisir l'extrémité du corps étranger dans son grand axe.",
       "pointsCles": "Toujours vérifier en fin de geste l'absence de fragment résiduel dans la loge d'extraction et la validité de la prophylaxie antitétanique.",
       "heroSlides": [
-        "pages/gc16_p17.jpg"
+        "assets/figs/gc30_p110_f0.jpg",
+        "assets/figs/gc30_p111_f0.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p17.jpg"
+        "assets/figs/gc30_p110_f0.jpg",
+        "assets/figs/gc30_p111_f0.jpg",
+        "assets/figs/gc16_p17_f0.jpg"
       ],
       "videos": [
         {
@@ -1265,7 +1440,12 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/9/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 1 : a : Exérèse de corps étranger sous échographie — la pince est introduite à travers la peau, guidée par la sonde jusqu'au corps étranger.",
+        "Fig. 3 : a : Épine de palmier dans les parties molles de la jambe — corps étranger linéaire échogène, cible de l'extraction à la pince.",
+        "Fig. 8 : Pose d’un harpon (flèche) au sein d’un petit schwanome non palpable du muscle vaste latéral. L’exérèse a été effectuée sans difficulté en suivant le fil."
+      ]
     },
     {
       "id": "parties-molles-biopsie-tumeur",
@@ -1279,12 +1459,10 @@
       "technique": "• Règles carcinologiques strictes : ne traverser qu'UN SEUL compartiment anatomique, rester à distance des paquets vasculo-nerveux et des articulations, assurer une hémostase rigoureuse.\n• Technique COAXIALE : mise en place d'un introducteur coaxial au contact de la portion charnue rehaussée / vascularisée au Doppler (éviter la nécrose centrale), puis prélèvements multiples (4 à 6 carottes) au pistolet automatique 14G ou 16G.",
       "pointsCles": "Tatouer ou repérer le point d'entrée cutané si nécessaire et comprimer longuement en fin de procédure pour éviter tout hématome disséquant inter-compartimental.",
       "heroSlides": [
-        "pages/gc16_p17.jpg",
-        "pages/gc23_p53.jpg"
+        "assets/figs/gc30_p101_f1.jpg"
       ],
       "allSlides": [
-        "pages/gc16_p17.jpg",
-        "pages/gc23_p53.jpg"
+        "assets/figs/gc30_p101_f1.jpg"
       ],
       "videos": [
         {
@@ -1300,7 +1478,10 @@
           "url": "https://www.sims-asso.org/uploads/videos/interventionsjourneesinter/42/1.mp4"
         }
       ],
-      "pdfs": []
+      "pdfs": [],
+      "legends": [
+        "Fig. 12 : Homme de 43 ans présentant une masse du 2e espace intermétatarsien. La biopsie a mis en évidence un schwannome. Les coupes échographiques longitudinale (A) et axiale (C) par voie plantaire objectivent une masse solide homogène hypoéchogène qui comble le 2e espace. La corrélation en IRM avec injection intraveineuse de gadolinium (B et D) montre une masse rehaussée au sein du 2e espace. Noter en coupe échographique axiale et en coupe coronale en IRM que le schwannome a une situation plus plantaire dans l’espace puisque le nerf interdigital siège en profondeur du ligament transverse métatarsien profond."
+      ]
     }
   ],
   "gelContactIssues": [

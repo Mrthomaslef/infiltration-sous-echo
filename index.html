@@ -578,6 +578,32 @@
             grid-template-columns: 1fr;
         }
 
+        .hero-fig {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            min-width: 0;
+        }
+        .fig-legend {
+            font-size: 0.78rem;
+            line-height: 1.35;
+            color: var(--text-secondary, #475569);
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .lightbox-legend {
+            margin: 10px auto 0;
+            max-width: 900px;
+            font-size: 0.9rem;
+            line-height: 1.45;
+            color: var(--text-primary);
+            text-align: left;
+            padding: 0 12px;
+        }
+
         .slide-thumb {
             position: relative;
             aspect-ratio: 4 / 3;
@@ -1137,7 +1163,7 @@
     </div>
 
     <!-- Offline Embedded Data -->
-    <script src="data/embedded_data.js?v=3"></script>
+    <script src="data/embedded_data.js?v=4"></script>
     <script>
         (function () {
             const DEFAULT_CATEGORIES = [
@@ -1387,14 +1413,15 @@
                     <div class="hero-strip ${hero.length === 1 ? 'single-img' : ''}">
                         ${hero.map((src, idx) => {
                             const allIdx = Math.max(0, (proc.allSlides || []).indexOf(src));
-                            const badgeText = hero.length > 1
-                                ? (idx === 0 ? '1. Position sonde / Coupe' : '2. Image écho cible')
-                                : 'Sonde & Image écho cible';
+                            const legend = (proc.legends || [])[allIdx] || '';
                             return `
-                                <div class="slide-thumb" data-open-slides="${proc.id}" data-slide-idx="${allIdx}" title="Agrandir : ${badgeText}">
-                                    <img src="${src}" alt="${proc.title} — ${badgeText}" loading="lazy">
-                                    <span class="slide-zoom-pill">🔍 ${badgeText} (${idx + 1}/${totalSlides})</span>
-                                </div>
+                                <figure class="hero-fig">
+                                    <div class="slide-thumb" data-open-slides="${proc.id}" data-slide-idx="${allIdx}" title="Agrandir">
+                                        <img src="${src}" alt="${escapeAttr(legend || proc.title)}" loading="lazy">
+                                        <span class="slide-zoom-pill">🔍 ${allIdx + 1}/${totalSlides}</span>
+                                    </div>
+                                    ${legend ? `<figcaption class="fig-legend">${legend}</figcaption>` : ''}
+                                </figure>
                             `;
                         }).join('')}
                     </div>
@@ -1408,7 +1435,7 @@
 
                 const slidesBtn = totalSlides > 0 ? `
                     <button class="btn-action btn-slides" data-open-slides="${proc.id}" data-slide-idx="0">
-                        🖼️ Sonde & Écho (${totalSlides})
+                        🖼️ Images & légendes (${totalSlides})
                     </button>
                 ` : '';
 
@@ -1498,15 +1525,21 @@
 
             // 5. Lightbox Modal for Slides
             let currentSlideList = [];
+            let currentLegendList = [];
             let currentSlideIndex = 0;
+
+            function escapeAttr(t) {
+                return String(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+            }
 
             function openSlidesModal(procId, startIdx) {
                 const proc = PROCEDURES.find(p => p.id === procId);
                 if (!proc || !proc.allSlides || proc.allSlides.length === 0) return;
 
                 currentSlideList = proc.allSlides;
+                currentLegendList = proc.legends || [];
                 currentSlideIndex = Math.min(Math.max(0, startIdx), currentSlideList.length - 1);
-                modalTitle.textContent = `${proc.number}. ${proc.title} — Planches Écho & Gel Contact SIMS`;
+                modalTitle.textContent = `${proc.number}. ${proc.title} — Images & légendes SIMS`;
                 renderSlideModalContent();
                 modalBackdrop.classList.add('open');
             }
@@ -1516,6 +1549,7 @@
                 if (!issue || !issue.interventionalSlides || issue.interventionalSlides.length === 0) return;
 
                 currentSlideList = issue.interventionalSlides;
+                currentLegendList = [];
                 currentSlideIndex = 0;
                 modalTitle.textContent = `Gel Contact N°${issue.number} (${issue.date}) — ${issue.theme}`;
                 renderSlideModalContent();
@@ -1533,6 +1567,7 @@
                         ${total > 1 ? `<button class="lightbox-nav next" id="slideNext" aria-label="Suivant">›</button>` : ''}
                         <div class="lightbox-counter">${currentSlideIndex + 1} / ${total}</div>
                     </div>
+                    ${currentLegendList[currentSlideIndex] ? `<p class="lightbox-legend">${currentLegendList[currentSlideIndex]}</p>` : ''}
                     ${total > 1 ? `
                         <div class="thumbs-strip">
                             ${currentSlideList.map((s, idx) => `
