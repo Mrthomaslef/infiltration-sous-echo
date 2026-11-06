@@ -195,11 +195,14 @@ def trim(im):
 
 def tidy(t):
     t = re.sub(r"\s+", " ", t or "").replace("­", "").strip()
-    t = re.sub(r"^(F[Ii]g(?:ure)?\.?\s*)(\d+)\s*[:\.]?\s*", r"Fig. \2 : ", t)
+    t = re.sub(r"^(F[Ii]g(?:ure)?\.?\s*)(\d+[a-dA-D]?(?:\s*\([^)]+\))?)\s*[:\.]?\s*", r"Fig. \2 : ", t)
     t = re.sub(r"(\s+[a-dA-D]){1,4}$", "", t)          # lettres de panneaux orphelines
     if len(t) >= 340 and not re.search(r"[.)»!]$", t):                 # légende coupée : on s'arrête à la dernière phrase complète
         cut = t.rfind(". ")
         t = t[:cut + 1] if cut > 40 else t.rstrip(" ,;:") + "…"
+    t = re.sub(r"\s+([.,)])", r"\1", t)
+    if t and not re.search(r"[.)»!…]$", t):
+        t += "."
     return t
 
 # Recadrages d'anonymisation (bandeaux IRM, visage) — coordonnées dans l'image source

@@ -99,8 +99,8 @@
         "Infiltration de la BSAD : position de la sonde, trajet de l'aiguille et schéma de la bourse (B) entre deltoïde et tendon (T).",
         "Coupe cible : BSAD (liseré orange) entre le deltoïde et le supra-épineux.",
         "Aiguille (flèches) entre les feuillets de la BSAD non distendue (flèche courbe).",
-        "Fig. 2 : bursopathie sous acromiodeltoïdienne . Mise en place de l’aiguille (flèches bleues droites) par voie antéro-latérale au sein de l’épanchement intra-bursal (flèche bleue courbe)",
-        "Fig. 2 : Voie latérale : 2a visualisation de l’aiguille (flèche) et de son extrémité (tête de flèche) 2b : Absence d’épanchement liquidien dans la BSAD. L’injection d’un peu d’air (têtes de flèche) permet de matérialiser la lumière de la bourse pour poursuivre l’injection"
+        "Fig. 2 : bursopathie sous acromiodeltoïdienne. Mise en place de l’aiguille (flèches bleues droites) par voie antéro-latérale au sein de l’épanchement intra-bursal (flèche bleue courbe)",
+        "Fig. 2 : Voie latérale : 2a visualisation de l’aiguille (flèche) et de son extrémité (tête de flèche) 2b : Absence d’épanchement liquidien dans la BSAD. L’injection d’un peu d’air (têtes de flèche) permet de matérialiser la lumière de la bourse pour poursuivre l’injection."
       ]
     },
     {
@@ -225,7 +225,7 @@
       "legends": [
         "Lavage de calcification : position de la sonde et de l'aiguille ; mise en pression avec cavitation à la pointe (« cœur qui bat »).",
         "Fig. 4 : tendinopathie calcifiante. Mise en place de l’aiguille (flèches bleues droites) au sein de la calcification peu atténuante du tendon supraépineux (flèches rouges droites)",
-        "Fig. 5 : tendinopathie calcifiante. Distension et modification du contenu de la calcification (flèches rouges droites ) par mouvements de ponction/aspiration",
+        "Fig. 5 : tendinopathie calcifiante. Distension et modification du contenu de la calcification (flèches rouges droites) par mouvements de ponction/aspiration.",
         "Fig. 10 : Évolution radio-échographique après ponction-lavage d'une calcification du supra-épineux (aspect avant, puis résorption)."
       ]
     },
@@ -800,8 +800,8 @@
       ],
       "pdfs": [],
       "legends": [
-        "Fig. 9 : (panneaux a et c) : kyste scapho-lunaire dorsal (flèches), en superficie des extenseurs (têtes de flèche). a – approche du cathlon 18G (flèche creuse) par voie dorsale ; c – aspiration.",
-        "Fig. 9 : (panneaux b et d) : b – aiguille retirée, cathéter (flèche creuse) laissé dans le kyste ; d – kyste affaissé en fin de geste.",
+        "Fig. 9 (panneaux a et c) : kyste scapho-lunaire dorsal (flèches), en superficie des extenseurs (têtes de flèche). a – approche du cathlon 18G (flèche creuse) par voie dorsale ; c – aspiration.",
+        "Fig. 9 (panneaux b et d) : b – aiguille retirée, cathéter (flèche creuse) laissé dans le kyste ; d – kyste affaissé en fin de geste.",
         "Fig. 11 : Kyste occulte dorsal du carpe, né en arrière du faisceau dorsal du ligament scapho-lunaire (lu, sca). a-b – IRM ; c – repérage écho du kyste (flèches) ; d – aiguille dans le kyste.",
         "Fig. 12 : Ponction d’un kyste infiltrant la branche sensitive du nerf radial au poignet. a-b: kyste mucoïde intraneural (k) en coupe sagittale (a) et en coupe axiale transverse (b) ; un fascicule nerveux est repéré par une flèche. c-d le kyste est ponctionné par voie sagittale en prenant soin d’éviter les fascicules nerveux (c) au moyen d’une aiguille de calibre 22G (aaa), en fin de procédure injection de quelques gouttes d’Altim; sur la coupe axiale de contrôle après la procédure le kyste a disparu, seuls persistent les fascicules nerveux (flèches)",
         "Fig. 8 : L’aponévrotomie percutanée à l’aiguille (flèches) se réalise avec des aiguilles fines comportant un biseau à deux pans tranchants. Nous la réalisons sous contrôle échographique afin de ne pas léser les tendons (têtes de flèche) et les pédicules neurovasculaires. L’aiguille sert à l’injection d’un mélange d‘anesthésiant et de stéroïde, puis à sectionner les cordes fibreuses et à disséquer les nodules (astérisque). En fin de procédure, on étend le doigt traité afin de rompre les fibres restantes."
@@ -913,9 +913,9 @@
       ],
       "pdfs": [],
       "legends": [
-        "Fig. 3 : B : Ponction-infiltration péri-trochantérienne par voie latérale : position de la sonde et trajet de l'aiguille vers une bursite superficielle.",
-        "Fig. 3 : C : Coupe écho coronale : aiguille (têtes de flèche) dans la bursite (flèche), en superficie du moyen glutéal et du grand trochanter (TROCH).",
-        "Fig. 3 : A : Variante pour une bursite profonde (sous le tendon du moyen glutéal) : trajet de l'aiguille.",
+        "Fig. 3B : Ponction-infiltration péri-trochantérienne par voie latérale : position de la sonde et trajet de l'aiguille vers une bursite superficielle.",
+        "Fig. 3C : Coupe écho coronale : aiguille (têtes de flèche) dans la bursite (flèche), en superficie du moyen glutéal et du grand trochanter (TROCH).",
+        "Fig. 3A : Variante pour une bursite profonde (sous le tendon du moyen glutéal) : trajet de l'aiguille.",
         "Fig. 14 : Moyen glutéal : rupture de la lame latérale (A, B) ; bursopathie trochantérienne superficielle en coupe axiale avec trajet de ponction-infiltration (C, D)."
       ]
     },
@@ -1216,9 +1216,9 @@
       ],
       "pdfs": [],
       "legends": [
-        "Fig. 7 : A : Bursite pré-achilléenne : sonde en coupe axiale rétro-achilléenne, aiguille introduite par voie latérale.",
-        "Fig. 7 : B : Coupe axiale cible : aiguille (tête de flèche) dans la bursite, en avant du tendon d'Achille.",
-        "Fig. 5 : infiltration de la bourse rétro-calcanéenne",
+        "Fig. 7A : Bursite pré-achilléenne : sonde en coupe axiale rétro-achilléenne, aiguille introduite par voie latérale.",
+        "Fig. 7B : Coupe axiale cible : aiguille (tête de flèche) dans la bursite, en avant du tendon d'Achille.",
+        "Fig. 5 : infiltration de la bourse rétro-calcanéenne.",
         "Fig. 8 : Injection de PRP intratendineuse dans le tendon d'Achille (approche latérale vers médiale, coupe transversale) ; position de la sonde."
       ]
     },
@@ -1282,7 +1282,7 @@
         "Nerfs interdigitaux : position de la sonde sur l'espace inter-métatarsien et coupe correspondante.",
         "Infiltration du pseudo-névrome de Morton : aiguille (trait blanc) au contact du névrome (bleu), nerf interdigital (jaune).",
         "Bursite inter-capito-métatarsienne, coupe longitudinale par voie dorsale : A – bourse épaissie (têtes de flèche) ; B – infiltration échoguidée, aiguille (flèches).",
-        "Fig. 6 : b : Névrome de Morton, coupe coronale du 3e espace inter-métatarsien (M3–M4) : nerf interdigital plantaire commun (flèches)."
+        "Fig. 6b : Névrome de Morton, coupe coronale du 3e espace inter-métatarsien (M3–M4) : nerf interdigital plantaire commun (flèches)."
       ]
     },
     {
@@ -1449,10 +1449,10 @@
       ],
       "pdfs": [],
       "legends": [
-        "Fig. 1 : a : Exérèse de corps étranger sous échographie — la pince est introduite à travers la peau, guidée par la sonde jusqu'au corps étranger.",
-        "Fig. 3 : c : Extraction d'une épine de palmier : pince (flèches) guidée jusqu'au corps étranger échogène (tête de flèche).",
-        "Fig. 3 : a : Épine de palmier dans les parties molles de la jambe — corps étranger linéaire échogène, cible de l'extraction.",
-        "Fig. 1 : b : Exérèse à la pince sous sonde type « club de golf ».",
+        "Fig. 1a : Exérèse de corps étranger sous échographie — la pince est introduite à travers la peau, guidée par la sonde jusqu'au corps étranger.",
+        "Fig. 3c : Extraction d'une épine de palmier : pince (flèches) guidée jusqu'au corps étranger échogène (tête de flèche).",
+        "Fig. 3a : Épine de palmier dans les parties molles de la jambe — corps étranger linéaire échogène, cible de l'extraction.",
+        "Fig. 1b : Exérèse à la pince sous sonde type « club de golf ».",
         "Fig. 8 : Pose d’un harpon (flèche) au sein d’un petit schwanome non palpable du muscle vaste latéral. L’exérèse a été effectuée sans difficulté en suivant le fil."
       ]
     },
