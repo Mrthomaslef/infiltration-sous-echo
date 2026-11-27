@@ -98,7 +98,11 @@
             -webkit-font-smoothing: antialiased;
             transition: background-color 0.2s ease, color 0.2s ease;
             overflow-x: hidden;
-            overscroll-behavior-y: contain;
+        }
+
+        /* Anti-rebond seulement au tactile : le scroll trackpad du Mac reste libre */
+        @media (hover: none) and (pointer: coarse) {
+            html, body { overscroll-behavior-y: contain; }
         }
 
         button, a, input, [role="button"], .cat-pill, .slide-thumb, .btn-action {
@@ -1734,7 +1738,7 @@
             });
 
             // Auto-check version.json on visibilitychange
-            const CURRENT_VERSION = '2026.11.06.3';
+            const CURRENT_VERSION = '2026.11.27.1'; // doit rester identique à version.json
             async function checkVersion() {
                 try {
                     const res = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
